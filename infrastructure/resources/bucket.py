@@ -4,7 +4,6 @@ from aws_cdk import core
 
 class Bucket(s3.Bucket):
     def __init__(self, stack: core.Stack, *, bucket_name: str) -> None:
-
         super().__init__(
             stack,
             "bucket",

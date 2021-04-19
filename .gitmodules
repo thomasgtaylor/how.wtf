@@ -1,0 +1,3 @@
+[submodule "themes/brutalist"]
+	path = themes/brutalist
+	url = git@github.com:t-h-o/brutalist.git
