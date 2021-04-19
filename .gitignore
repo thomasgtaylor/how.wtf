@@ -55,3 +55,8 @@ blog.code-workspace
 *.o
 *.so
 plugins/category_order
+
+# CDK Context & Staging files
+cdk.context.json
+.cdk.staging/
+cdk.out/
