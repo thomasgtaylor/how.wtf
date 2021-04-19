@@ -1,0 +1,7 @@
+aws-cdk.aws_s3
+aws-cdk.aws_cloudfront
+aws-cdk.core
+black
+boto3
+Markdown
+pelican
