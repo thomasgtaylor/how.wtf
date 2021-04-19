@@ -8,6 +8,10 @@ from aws_cdk import core
 
 
 class Distribution(cloudfront.CloudFrontWebDistribution):
+
+    ERROR_RESPONSE_PATH = "/error.html"
+    DOMAIN_NAME = "how.wtf"
+
     def __init__(
         self, stack: core.Stack, *, bucket: s3.Bucket, domain_names: List[str]
     ) -> None:
@@ -22,7 +26,7 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
             error_configurations=[
                 {
                     "errorCode": s,
-                    "responsePagePath": "/error.html",
+                    "responsePagePath": Distribution.ERROR_RESPONSE_PATH,
                     "responseCode": 404,
                 }
                 for s in [400, 403, 404, 405, 414]
@@ -52,6 +56,10 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
         )
         certificates: List[Dict] = response["CertificateSummaryList"]
         certificate_arn: str = next(
-            (c["CertificateArn"] for c in certificates if c["DomainName"] == "how.wtf")
+            (
+                c["CertificateArn"]
+                for c in certificates
+                if c["DomainName"] == Distribution.DOMAIN_NAME
+            )
         )
         return certificate_arn
