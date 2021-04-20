@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: latest
+    commands:
+      pip3 install -r requirements.txt
+  build:
+    commands:
+      make
