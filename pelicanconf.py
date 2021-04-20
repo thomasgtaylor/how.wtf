@@ -1,26 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+# General
 AUTHOR = "Thomas Taylor"
-SITENAME = "How? WTF?!"
+SITENAME = "how.wtf"
 SITEURL = "https://how.wtf"
-
 PATH = "content"
 ARTICLE_PATHS = ["blog"]
-
 TIMEZONE = "America/New_York"
-
 DEFAULT_LANG = "en"
 
-# Feed generation is usually not desired when developing
+# Feed
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
+# Relative URLs for development
 RELATIVE_URLS = True
 
 #################
@@ -28,13 +22,9 @@ RELATIVE_URLS = True
 #################
 
 THEME = "themes/brutalist"
-SITEIMAGE = "site-cover.jpg"
-SITEDESCRIPTION = "A simple, accessible, content-first Pelican theme inspired by David Bryant Copeland's https://brutalist-web.design/"
+SITEIMAGE = "cover.png"
+SITEDESCRIPTION = 'A blog focused on providing how-to articles & updates about various development languages and cloud technologies. The "How! WTF?!" moments'
 FAVICON = "icon.png"
 LOGO = "icon.png"
 GOOGLE_ANALYTICS = "G-0W6GZ3EH9R"
 ATTRIBUTION = False
-
-##################
-# Plugin Configs #
-##################
