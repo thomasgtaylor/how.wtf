@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.1 (2021-04-21)
+### Fix
+* **semantic-release:** Remove build command ([`3152483`](https://github.com/t-h-o/how.wtf/commit/315248305ce48d0feb6a3f46a92e21fe85dff595))
+
 ## v1.1.0 (2021-04-21)
 ### Feature
 * **semantic-release:** Add semantic-release ([`9985bda`](https://github.com/t-h-o/how.wtf/commit/9985bdae176b51d137aa7ca280cab72dc3ea1d6f))
