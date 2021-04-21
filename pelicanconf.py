@@ -5,7 +5,7 @@
 AUTHOR = "Thomas Taylor"
 SITENAME = "how.wtf"
 SITEURL = "https://how.wtf"
-PATH = "content"
+PATH = "how.wtf/content"
 ARTICLE_PATHS = ["blog"]
 TIMEZONE = "America/New_York"
 DEFAULT_LANG = "en"
@@ -21,7 +21,7 @@ RELATIVE_URLS = True
 # Theme Configs #
 #################
 
-THEME = "themes/brutalist"
+THEME = "how.wtf/themes/brutalist"
 FAVICON = "icon.png"
 LOGO = "icon.png"
 SITEIMAGE = "cover.png"
