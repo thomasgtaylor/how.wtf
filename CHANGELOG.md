@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.2 (2021-04-21)
+### Fix
+* **semantic-release:** Add upload_to_release = false ([`6d2a045`](https://github.com/t-h-o/how.wtf/commit/6d2a04594f32c3def59f533f3cc62d1a948e5e0c))
+* **semantic-release:** Remove dist_path ([`20c1a3e`](https://github.com/t-h-o/how.wtf/commit/20c1a3eaab0b180767a9c03f678be6e55bb2f62d))
+
 ## v1.1.1 (2021-04-21)
 ### Fix
 * **semantic-release:** Remove build command ([`3152483`](https://github.com/t-h-o/how.wtf/commit/315248305ce48d0feb6a3f46a92e21fe85dff595))
