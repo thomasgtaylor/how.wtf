@@ -1,4 +1,8 @@
 version: 0.2
+env:
+  variables:
+    SEMANTIC_RELEASE_USER_NAME: "semantic-release-bot"
+    SEMANTIC_RELEASE_USER_EMAIL: "semantic-release-bot@martynus.net"
 phases:
   install:
     runtime-versions:
@@ -7,6 +11,7 @@ phases:
     commands:
       - npm install -g aws-cdk
       - pip3 install -r requirements.txt
+      - pip3 install python-semantic-release
   pre_build:
     commands:
       - make lint
@@ -18,3 +23,6 @@ phases:
     commands:
       - make sync
       - make invalidate
+      - git config --global user.name ${SEMANTIC_RELEASE_USER_NAME}
+      - git config --global user.email ${SEMANTIC_RELEASE_USER_EMAIL}
+      - semantic-release publish
