@@ -7,6 +7,14 @@ phases:
     commands:
       - npm install -g aws-cdk
       - pip3 install -r requirements.txt
+  pre_build:
+    commands:
+      - make lint
   build:
     commands:
-      - make
+      - make deploy
+      - make publish
+  post_build:
+    commands:
+      - make sync
+      - make invalidate
