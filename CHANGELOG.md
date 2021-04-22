@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.2.0 (2021-04-22)
+### Feature
+* Add '3 Ways to Format Strings in Python' article ([`1b7e11d`](https://github.com/t-h-o/how.wtf/commit/1b7e11d7e765c877ceebfe7469ab1745d52dfc32))
+
 ## v1.1.2 (2021-04-21)
 ### Fix
 * **semantic-release:** Add upload_to_release = false ([`6d2a045`](https://github.com/t-h-o/how.wtf/commit/6d2a04594f32c3def59f533f3cc62d1a948e5e0c))
