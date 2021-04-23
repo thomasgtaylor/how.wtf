@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-# General
+##################
+# General Config #
+##################
+
 AUTHOR = "Thomas Taylor"
 SITENAME = "how.wtf"
 SITEURL = "https://how.wtf"
@@ -18,9 +21,9 @@ RELATIVE_URLS = True
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 
-#################
-# Theme Configs #
-#################
+################
+# Theme Config #
+################
 
 THEME = "how.wtf/themes/brutalist"
 FAVICON = "icon.png"
@@ -29,3 +32,15 @@ SITEIMAGE = "cover.png"
 SITEDESCRIPTION = "A blog focused on providing how-to articles & updates about various development languages and cloud technologies."
 GOOGLE_ANALYTICS = "G-0W6GZ3EH9R"
 ATTRIBUTION = False
+GITHUB = "https://github.com/t-h-o/how.wtf"
+MENUITEMS=[('Tags', 'tags.html')]
+
+#################
+# Plugin Config #
+#################
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {"articles": 0.99, "pages": 0.75, "indexes": 0.5},
+    "changefreqs": {"articles": "daily", "pages": "daily", "indexes": "daily"},
+}
