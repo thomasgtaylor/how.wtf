@@ -1,5 +1,5 @@
 Title: Try-Catch in AWS Step Functions
-Date: 2021-04-22 17:00
+Date: 2021-04-22 23:30
 Category: AWS
 Tags: Step Functions, Serverless
 Authors: Thomas Taylor
