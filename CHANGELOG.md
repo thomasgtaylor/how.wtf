@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.3.0 (2021-04-23)
+### Feature
+* New article ([`8443e58`](https://github.com/t-h-o/how.wtf/commit/8443e5838665df40aba06ba028a12d7af71bfc2b))
+* Add pelican-graphviz plugin ([`460169e`](https://github.com/t-h-o/how.wtf/commit/460169eb513777c6229f5372f694df4481308312))
+* Modify blog url path & delete output dir ([`18d1b1d`](https://github.com/t-h-o/how.wtf/commit/18d1b1d378be69eb1dc63a3d488b7e62cd79473d))
+* Add graphviz support ([`b46a03e`](https://github.com/t-h-o/how.wtf/commit/b46a03eacc7b447fd676d062b63db337b97e2112))
+
 ## v1.2.0 (2021-04-22)
 ### Feature
 * Add '3 Ways to Format Strings in Python' article ([`1b7e11d`](https://github.com/t-h-o/how.wtf/commit/1b7e11d7e765c877ceebfe7469ab1745d52dfc32))
