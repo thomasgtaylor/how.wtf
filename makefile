@@ -39,3 +39,7 @@ invalidate:
 		--paths "/*.html" \
 		--query "Invalidation.Id" \
 		--output text
+
+html:
+	@echo " 🔣 Generating local website using Pelican... 🔣 "
+	$(PELICAN)

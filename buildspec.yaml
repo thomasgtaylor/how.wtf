@@ -9,6 +9,7 @@ phases:
       nodejs: latest
       python: latest
     commands:
+      - yum -y install graphviz
       - npm install -g aws-cdk
       - pip3 install -r requirements.txt
       - pip3 install python-semantic-release
