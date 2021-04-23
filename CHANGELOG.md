@@ -2,6 +2,15 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.0 (2021-04-23)
+### Feature
+* **error:** Add error.html page ([`e02590c`](https://github.com/t-h-o/how.wtf/commit/e02590c89adb8214491ee01542b940416bd7cec7))
+* **plugin:** Add sitemap plugin ([`1cfaf97`](https://github.com/t-h-o/how.wtf/commit/1cfaf9753216937685630a115c4b6702ef381454))
+
+### Fix
+* **pelicanconf:** Run black ([`6a6d088`](https://github.com/t-h-o/how.wtf/commit/6a6d0886707826336670c299ed4c014bd9a10426))
+* **try-catch-in-aws-stepfunctions:** Correct publish date ([`7cab49e`](https://github.com/t-h-o/how.wtf/commit/7cab49ea575b97d4e0a1260b21cb9baba5a006c1))
+
 ## v1.3.0 (2021-04-23)
 ### Feature
 * New article ([`8443e58`](https://github.com/t-h-o/how.wtf/commit/8443e5838665df40aba06ba028a12d7af71bfc2b))
