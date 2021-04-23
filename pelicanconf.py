@@ -33,7 +33,7 @@ SITEDESCRIPTION = "A blog focused on providing how-to articles & updates about v
 GOOGLE_ANALYTICS = "G-0W6GZ3EH9R"
 ATTRIBUTION = False
 GITHUB = "https://github.com/t-h-o/how.wtf"
-MENUITEMS=[('Tags', 'tags.html')]
+MENUITEMS = [("Tags", "tags.html")]
 
 #################
 # Plugin Config #
