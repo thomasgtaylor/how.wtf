@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.1 (2021-04-24)
+### Fix
+* **aws-cli-query-examples:** Correct publish date ([`2918040`](https://github.com/t-h-o/how.wtf/commit/2918040e07599d86bc9b3262c3b57c2a713028c6))
+
 ## v1.6.0 (2021-04-24)
 ### Feature
 * **aws-cli-query-examples:** Create new article ([`b2f2aea`](https://github.com/t-h-o/how.wtf/commit/b2f2aea951e8dcaad5db78fe6b7f0f59dba0970d))
