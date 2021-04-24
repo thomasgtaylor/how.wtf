@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.5.1 (2021-04-24)
+### Fix
+* Modify rss menu item ([`752df10`](https://github.com/t-h-o/how.wtf/commit/752df107517a9df175174c1542f5d08b0edf89cd))
+
 ## v1.5.0 (2021-04-24)
 ### Feature
 * Create new category ([`c033f04`](https://github.com/t-h-o/how.wtf/commit/c033f04a657fef9526f7bd163250865c7dc89d36))
