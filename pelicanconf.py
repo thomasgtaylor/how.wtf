@@ -18,8 +18,8 @@ DELETE_OUTPUT_DIRECTORY = True
 RELATIVE_URLS = True
 
 # Feed
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = "feeds/all.atom.xml"
+FEED_ALL_RSS = "feeds/all.rss.xml"
 
 ################
 # Theme Config #
@@ -33,7 +33,7 @@ SITEDESCRIPTION = "A blog focused on providing how-to articles & updates about v
 GOOGLE_ANALYTICS = "G-0W6GZ3EH9R"
 ATTRIBUTION = False
 GITHUB = "https://github.com/t-h-o/how.wtf"
-MENUITEMS = [("Tags", "tags.html")]
+RSS = "feeds/all.rss.xml"
 
 #################
 # Plugin Config #
