@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.5.0 (2021-04-24)
+### Feature
+* Create new category ([`c033f04`](https://github.com/t-h-o/how.wtf/commit/c033f04a657fef9526f7bd163250865c7dc89d36))
+
 ## v1.4.0 (2021-04-23)
 ### Feature
 * **error:** Add error.html page ([`e02590c`](https://github.com/t-h-o/how.wtf/commit/e02590c89adb8214491ee01542b940416bd7cec7))
