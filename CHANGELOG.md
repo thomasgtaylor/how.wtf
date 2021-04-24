@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.0 (2021-04-24)
+### Feature
+* **aws-cli-query-examples:** Create new article ([`b2f2aea`](https://github.com/t-h-o/how.wtf/commit/b2f2aea951e8dcaad5db78fe6b7f0f59dba0970d))
+
 ## v1.5.1 (2021-04-24)
 ### Fix
 * Modify rss menu item ([`752df10`](https://github.com/t-h-o/how.wtf/commit/752df107517a9df175174c1542f5d08b0edf89cd))
