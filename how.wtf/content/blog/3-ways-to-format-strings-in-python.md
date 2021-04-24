@@ -1,6 +1,7 @@
 Title: 3 Ways to Format Strings in Python
 Date: 2021-04-21 1:25
-Category: Python
+Category: Programming
+Tags: Python
 Authors: Thomas Taylor
 Description: There are several methods to answer the question: "How to format strings in Python?"
 
