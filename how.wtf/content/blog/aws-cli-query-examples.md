@@ -1,5 +1,5 @@
 Title: AWS CLI Query Examples
-Date: 2021-04-24 1:25
+Date: 2021-04-24 3:30
 Category: AWS
 Tags: AWS CLI
 Authors: Thomas Taylor
