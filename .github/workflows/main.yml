@@ -1,0 +1,91 @@
+name: how.wtf CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          sudo apt-get install graphviz
+          pip3 install -r requirements.txt
+      - name: Lint
+        run: make lint
+      - name: Generate HTML
+        run: make publish
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifact
+          path: ${{ github.workspace }}
+  
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: artifact
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Install dependencies
+        run: |
+          sudo apt-get install zip unzip curl
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" \
+            -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+          npm install -g aws-cdk
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Deploy infrastructure
+        run: make deploy
+      - name: Sync files with AWS
+        run: make sync
+      - name: Invalidate cloudfront files
+        run: make invalidate
+
+  release:
+    runs-on: ubuntu-latest
+    needs: deploy
+    env:
+      SEMANTIC_RELEASE_USER_NAME: "semantic-release-bot"
+      SEMANTIC_RELEASE_USER_EMAIL: "semantic-release-bot@martynus.net"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: pip3 install python-semantic-release
+      - name: Semantic release
+        run: |
+          export GH_TOKEN=${{ secrets.GH_TOKEN }}
+          git config --global user.name ${{ env.SEMANTIC_RELEASE_USER_NAME }}
+          git config --global user.email ${{ env.SEMANTIC_RELEASE_USER_EMAIL }}
+          semantic-release publish
