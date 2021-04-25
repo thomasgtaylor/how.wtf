@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.3 (2021-04-25)
+### Fix
+* **actions:** Add semantic-release specific action ([`6cc0218`](https://github.com/t-h-o/how.wtf/commit/6cc0218519e010a2585f2f56d829e0147e28b6f3))
+* **readme:** Replace codebuild badge with github actions ([`47510aa`](https://github.com/t-h-o/how.wtf/commit/47510aa61c5ac313406ee3454e9fb452a514e7fc))
+* **actions:** Reorder pip install ([`e05331f`](https://github.com/t-h-o/how.wtf/commit/e05331f2cfae6bd3cec5973d61f45b667197305a))
+
 ## v1.6.2 (2021-04-25)
 ### Fix
 * **actions:** Add black to dependencies ([`7863703`](https://github.com/t-h-o/how.wtf/commit/78637034c03750882df7c8fe39455bb5d0495e08))
