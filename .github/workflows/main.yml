@@ -37,9 +37,9 @@ jobs:
           aws-region: us-east-1
       - name: Deploy infrastructure
         run: make deploy
-      - name: Sync files with AWS
+      - name: Sync files with S3 bucket
         run: make sync
-      - name: Invalidate cloudfront files
+      - name: Invalidate Cloudfront files
         run: make invalidate
 
   release:
@@ -60,9 +60,12 @@ jobs:
           python-version: 3.8
       - name: Install dependencies
         run: pip3 install python-semantic-release
+      - name: Lint code
+        run: make lint
       - name: Semantic release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          export GH_TOKEN=${{ secrets.GH_TOKEN }}
           git config --global user.name ${{ env.SEMANTIC_RELEASE_USER_NAME }}
           git config --global user.email ${{ env.SEMANTIC_RELEASE_USER_EMAIL }}
           semantic-release publish
