@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.4 (2021-04-25)
+### Fix
+* **actions:** Remove unnecessary steps ([`28f38e4`](https://github.com/t-h-o/how.wtf/commit/28f38e43ac57060563a7d7c5dab7e8860bb48ea2))
+
 ## v1.6.3 (2021-04-25)
 ### Fix
 * **actions:** Add semantic-release specific action ([`6cc0218`](https://github.com/t-h-o/how.wtf/commit/6cc0218519e010a2585f2f56d829e0147e28b6f3))
