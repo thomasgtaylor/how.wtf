@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.2 (2021-04-25)
+### Fix
+* **actions:** Add black to dependencies ([`7863703`](https://github.com/t-h-o/how.wtf/commit/78637034c03750882df7c8fe39455bb5d0495e08))
+
 ## v1.6.1 (2021-04-24)
 ### Fix
 * **aws-cli-query-examples:** Correct publish date ([`2918040`](https://github.com/t-h-o/how.wtf/commit/2918040e07599d86bc9b3262c3b57c2a713028c6))
