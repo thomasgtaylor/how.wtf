@@ -45,13 +45,7 @@ jobs:
         with:
           node-version: 14
       - name: Install dependencies
-        run: |
-          sudo apt-get install zip unzip curl
-          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" \
-            -o "awscliv2.zip"
-          unzip awscliv2.zip
-          sudo ./aws/install
-          npm install -g aws-cdk
+        run: npm install -g aws-cdk
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
