@@ -54,18 +54,16 @@ jobs:
         with:
           submodules: true
           token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: pip3 install black python-semantic-release
+        run: pip3 install black
       - name: Lint code
         run: make lint
-      - name: Semantic release
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config --global user.name ${{ env.SEMANTIC_RELEASE_USER_NAME }}
-          git config --global user.email ${{ env.SEMANTIC_RELEASE_USER_EMAIL }}
-          semantic-release publish
+      - name: Semantic Release
+        uses: relekang/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
