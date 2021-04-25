@@ -45,9 +45,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: deploy
-    env:
-      SEMANTIC_RELEASE_USER_NAME: "semantic-release-bot"
-      SEMANTIC_RELEASE_USER_EMAIL: "semantic-release-bot@martynus.net"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -55,14 +52,6 @@ jobs:
           submodules: true
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: Install dependencies
-        run: pip3 install black
-      - name: Lint code
-        run: make lint
       - name: Semantic Release
         uses: relekang/python-semantic-release@master
         with:
