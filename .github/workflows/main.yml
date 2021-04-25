@@ -59,7 +59,7 @@ jobs:
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: pip3 install python-semantic-release
+        run: pip3 install python-semantic-release black
       - name: Lint code
         run: make lint
       - name: Semantic release
