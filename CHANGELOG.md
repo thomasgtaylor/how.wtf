@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.0 (2021-04-26)
+### Feature
+* **comments:** Enable comments ([`2e3d1ee`](https://github.com/t-h-o/how.wtf/commit/2e3d1ee5c09410aaed95f6e2a62a5de4a9f46856))
+
 ## v1.7.0 (2021-04-26)
 ### Feature
 * **comments:** Add comments ([`7e262e3`](https://github.com/t-h-o/how.wtf/commit/7e262e3fcd700d8b13970b8e42839df7280a76bb))
