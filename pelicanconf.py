@@ -35,6 +35,7 @@ GOOGLE_ANALYTICS = "G-0W6GZ3EH9R"
 ATTRIBUTION = False
 GITHUB = "https://github.com/t-h-o/how.wtf"
 RSS = "/feeds/all.rss.xml"
+UTTERANCES = {"repo": "t-h-o/how.wtf"}
 
 #################
 # Plugin Config #
