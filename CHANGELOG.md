@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.3 (2021-04-27)
+### Fix
+* **comments:** Add label ([`164efba`](https://github.com/t-h-o/how.wtf/commit/164efbae26139abb614188670f1e1a3614d47d52))
+
 ## v1.8.2 (2021-04-27)
 ### Fix
 * **comments:** Change pathname -> url for comment ([`c709363`](https://github.com/t-h-o/how.wtf/commit/c709363a1eb4f2de3749960744c666505b9d4e73))
