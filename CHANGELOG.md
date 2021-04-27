@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.2 (2021-04-27)
+### Fix
+* **comments:** Change pathname -> url for comment ([`c709363`](https://github.com/t-h-o/how.wtf/commit/c709363a1eb4f2de3749960744c666505b9d4e73))
+
 ## v1.8.1 (2021-04-27)
 ### Fix
 * **comments:** Change url -> pathname ([`c44beb5`](https://github.com/t-h-o/how.wtf/commit/c44beb5ad4bb7cbeb93282c5b6169c2096c6bd33))
