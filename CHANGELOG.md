@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.0 (2021-04-28)
+### Feature
+* **spread-operator-in-python:** Add new article ([`0a2f13b`](https://github.com/t-h-o/how.wtf/commit/0a2f13bcd48737c7bcb34875b1e3dc56753b4718))
+
 ## v1.8.3 (2021-04-27)
 ### Fix
 * **comments:** Add label ([`164efba`](https://github.com/t-h-o/how.wtf/commit/164efbae26139abb614188670f1e1a3614d47d52))
