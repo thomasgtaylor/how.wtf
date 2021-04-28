@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.2 (2021-04-28)
+### Fix
+* **theme:** Fix titles on pages ([`d8536da`](https://github.com/t-h-o/how.wtf/commit/d8536dacea0e453f5d59e265d09cdf1639e660d8))
+
 ## v1.9.1 (2021-04-28)
 ### Fix
 * **about:** Change paragraph wording ([`ad28de2`](https://github.com/t-h-o/how.wtf/commit/ad28de2acd7de72c53dbd60a6ea4c82bee70c11c))
