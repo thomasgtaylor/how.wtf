@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.1 (2021-04-28)
+### Fix
+* **about:** Change paragraph wording ([`ad28de2`](https://github.com/t-h-o/how.wtf/commit/ad28de2acd7de72c53dbd60a6ea4c82bee70c11c))
+
 ## v1.9.0 (2021-04-28)
 ### Feature
 * **spread-operator-in-python:** Add new article ([`0a2f13b`](https://github.com/t-h-o/how.wtf/commit/0a2f13bcd48737c7bcb34875b1e3dc56753b4718))
