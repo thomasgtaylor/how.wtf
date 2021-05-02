@@ -6,6 +6,8 @@ from aws_cdk import aws_iam as iam
 from aws_cdk import aws_s3 as s3
 from aws_cdk import core
 
+from .edge import EdgeFunction
+
 
 class Distribution(cloudfront.CloudFrontWebDistribution):
 
@@ -13,7 +15,12 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
     DOMAIN_NAME = "how.wtf"
 
     def __init__(
-        self, stack: core.Stack, *, bucket: s3.Bucket, domain_names: List[str]
+        self,
+        stack: core.Stack,
+        *,
+        bucket: s3.Bucket,
+        domain_names: List[str],
+        edge_functions: Dict[str, EdgeFunction],
     ) -> None:
 
         origin_access_identity: cloudfront.OriginAccessIdentity = (
@@ -43,7 +50,20 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
                         s3_bucket_source=bucket,
                         origin_access_identity=origin_access_identity,
                     ),
-                    behaviors=[cloudfront.Behavior(is_default_behavior=True)],
+                    behaviors=[
+                        cloudfront.Behavior(is_default_behavior=True),
+                        cloudfront.Behavior(
+                            path_pattern="*",
+                            lambda_function_associations=[
+                                cloudfront.LambdaFunctionAssociation(
+                                    event_type=cloudfront.LambdaEdgeEventType.ORIGIN_RESPONSE,
+                                    lambda_function=edge_functions[
+                                        "headers"
+                                    ].current_version,
+                                ),
+                            ],
+                        ),
+                    ],
                 )
             ],
         )
@@ -51,10 +71,10 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
 
     def get_acm_certificate(self, stack: core.Stack) -> str:
         acm: boto3.client = boto3.client("acm")
-        response: Dict[str, List[Dict]] = acm.list_certificates(
+        response: Dict[str, List[Dict[str, str]]] = acm.list_certificates(
             CertificateStatuses=["ISSUED"]
         )
-        certificates: List[Dict] = response["CertificateSummaryList"]
+        certificates: List[Dict[str, str]] = response["CertificateSummaryList"]
         certificate_arn: str = next(
             (
                 c["CertificateArn"]
