@@ -1,5 +1,6 @@
-aws-cdk.aws_s3
 aws-cdk.aws_cloudfront
+aws-cdk.aws_lambda
+aws-cdk.aws_s3
 aws-cdk.core
 black
 boto3
