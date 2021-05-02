@@ -7,18 +7,21 @@ Description: Many languages support a ternary operator: a short-form if/else sta
 
 The ternary operator is a form of syntactic sugar for an in-line if/else statement. Many languages natively support the operator:
 
+JavaScript:
 ```javascript
 const color = 'blue';
 console.log(color === 'blue' ? '🟦' : '🟩');
 // Output: 🟦
 ```
 
+Python:
 ```python
 color = "blue"
 print("🟦" if color == "blue" else "🟩")
 # Output: 🟦
 ```
 
+C:
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -41,10 +44,9 @@ color="blue"
 # Output: 🟦
 ```
 
-Scenario:
+`[[ "$color" == "blue" ]]` has an exit status of **0**, so it evaluates the right expression of the `&&` and echoes the blue emoji.
 
-1. `[[ "$color" == "blue" ]]` has an exit status of **0**, so it evaluates the right expression of the `&&` and echoes the blue emoji.
-2. If `color="green"`, the `[[ "$color" == "blue" ]]` expression would have a nonzero exit status, so it evaluates the next logical statement (`||`) and echos the green emoji.
+Similarly, if `color="green"`, the `[[ "$color" == "blue" ]]` expression would have a nonzero exit status, so it evaluates the next logical statement (`||`) and echos the green emoji.
 
 ## Saving to a variable
 
