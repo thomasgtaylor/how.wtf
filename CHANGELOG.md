@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.10.0 (2021-05-02)
+### Feature
+* **edge:** Add basic security headers ([`15d5846`](https://github.com/t-h-o/how.wtf/commit/15d584603a9a2226451edaf4a405f1a6bc4ef1fa))
+
+### Fix
+* **comments:** Remove comments from specific pages ([`cb1c9d7`](https://github.com/t-h-o/how.wtf/commit/cb1c9d7789709fa9807cbef0111e9e5293bc69e3))
+
 ## v1.9.2 (2021-04-28)
 ### Fix
 * **theme:** Fix titles on pages ([`d8536da`](https://github.com/t-h-o/how.wtf/commit/d8536dacea0e453f5d59e265d09cdf1639e660d8))
