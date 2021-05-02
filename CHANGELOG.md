@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.11.1 (2021-05-02)
+### Fix
+* **bash-ternary-operators:** Add language headings ([`3e6056d`](https://github.com/t-h-o/how.wtf/commit/3e6056d42b554113c60c433aae03764f056a274c))
+
 ## v1.11.0 (2021-05-02)
 ### Feature
 * **ternary-operator-in-bash:** Create new artile ([`2575061`](https://github.com/t-h-o/how.wtf/commit/2575061d60242796ffbcf5585a206cd005e647a2))
