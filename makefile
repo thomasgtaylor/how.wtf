@@ -7,9 +7,9 @@ STACK=how-wtf
 
 .PHONY: all
 
-all: lint deploy publish sync invalidate
+all: format deploy publish sync invalidate
 
-lint:
+format:
 	@echo " ✨ Running black code formatter... ✨ "
 	black $(BASE_DIR)
 
