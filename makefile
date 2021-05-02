@@ -36,7 +36,7 @@ invalidate:
 		--output text); \
 	aws cloudfront create-invalidation \
 		--distribution-id $$distribution_id \
-		--paths "/*.html" \
+		--paths "/*.html" "/*.js" "/*.css" "/*.xml" \
 		--query "Invalidation.Id" \
 		--output text
 
