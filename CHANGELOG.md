@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.12.0 (2021-05-08)
+### Feature
+* **sort-a-list-of-tuples-by-an-item-in-python:** New article ([`65fe493`](https://github.com/t-h-o/how.wtf/commit/65fe4932837259858f557e3ad38a5bf603a30b12))
+
 ## v1.11.1 (2021-05-02)
 ### Fix
 * **bash-ternary-operators:** Add language headings ([`3e6056d`](https://github.com/t-h-o/how.wtf/commit/3e6056d42b554113c60c433aae03764f056a274c))
