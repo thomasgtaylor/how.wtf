@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.13.0 (2021-05-22)
+### Feature
+* **convert-two-lists-into-a-dictionary-in-python:** Add new article ([`bc94517`](https://github.com/t-h-o/how.wtf/commit/bc9451753bc09ae16e088614c84be607dabc039f))
+
 ## v1.12.0 (2021-05-08)
 ### Feature
 * **sort-a-list-of-tuples-by-an-item-in-python:** New article ([`65fe493`](https://github.com/t-h-o/how.wtf/commit/65fe4932837259858f557e3ad38a5bf603a30b12))
