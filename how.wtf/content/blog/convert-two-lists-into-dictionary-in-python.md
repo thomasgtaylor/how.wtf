@@ -1,5 +1,5 @@
 Title: Convert Two Lists into a Dictionary in Python
-Date: 2021-05-22 2:00
+Date: 2021-05-22 1:35
 Category: Programming
 Tags: Python
 Authors: Thomas Taylor
