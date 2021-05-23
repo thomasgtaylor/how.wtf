@@ -1,5 +1,9 @@
 Title: Convert Two Lists into a Dictionary in Python
+<<<<<<< HEAD
 Date: 2021-05-22 1:35
+=======
+Date: 2021-05-22 2:00
+>>>>>>> bc94517 (feat(convert-two-lists-into-a-dictionary-in-python): add new article)
 Category: Programming
 Tags: Python
 Authors: Thomas Taylor
