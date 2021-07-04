@@ -2,11 +2,10 @@ from typing import Dict, List
 
 import boto3
 from aws_cdk import aws_cloudfront as cloudfront
-from aws_cdk import aws_iam as iam
 from aws_cdk import aws_s3 as s3
 from aws_cdk import core
 
-from .edge import EdgeFunction
+from .function import Function
 
 
 class Distribution(cloudfront.CloudFrontWebDistribution):
@@ -20,7 +19,7 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
         *,
         bucket: s3.Bucket,
         domain_names: List[str],
-        edge_functions: Dict[str, EdgeFunction],
+        functions: Dict[str, Function],
     ) -> None:
 
         origin_access_identity: cloudfront.OriginAccessIdentity = (
@@ -54,12 +53,10 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
                         cloudfront.Behavior(is_default_behavior=True),
                         cloudfront.Behavior(
                             path_pattern="*",
-                            lambda_function_associations=[
-                                cloudfront.LambdaFunctionAssociation(
-                                    event_type=cloudfront.LambdaEdgeEventType.ORIGIN_RESPONSE,
-                                    lambda_function=edge_functions[
-                                        "headers"
-                                    ].current_version,
+                            function_associations=[
+                                cloudfront.FunctionAssociation(
+                                    event_type=cloudfront.FunctionEventType.VIEWER_RESPONSE,
+                                    function=functions["security-headers"],
                                 ),
                             ],
                         ),
