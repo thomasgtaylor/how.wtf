@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.15.0 (2021-07-04)
+### Feature
+* **giscus:** Add support for giscus comments ([`03f24e7`](https://github.com/t-h-o/how.wtf/commit/03f24e7fd196e0135dca5dac59a5bea31cea6ddd))
+
 ## v1.14.0 (2021-07-04)
 ### Feature
 * **distribution:** Switched to cloudfront function ([`4444f55`](https://github.com/t-h-o/how.wtf/commit/4444f55b12ff731ed865f7c76e50efbd544ae3e8))
