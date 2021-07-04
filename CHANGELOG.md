@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.14.0 (2021-07-04)
+### Feature
+* **distribution:** Switched to cloudfront function ([`4444f55`](https://github.com/t-h-o/how.wtf/commit/4444f55b12ff731ed865f7c76e50efbd544ae3e8))
+
+### Fix
+* **cloudfront:** '*' -> '/*' ([`b55e942`](https://github.com/t-h-o/how.wtf/commit/b55e942b70b127724a7e4f6fa34cb3c3cf25520c))
+
 ## v1.13.0 (2021-05-22)
 ### Feature
 * **convert-two-lists-into-a-dictionary-in-python:** Add new article ([`bc94517`](https://github.com/t-h-o/how.wtf/commit/bc9451753bc09ae16e088614c84be607dabc039f))
