@@ -2,7 +2,7 @@ from aws_cdk import core
 
 from .resources.bucket import Bucket
 from .resources.distribution import Distribution
-from .resources.edge import EdgeFunction
+from .resources.function import Function
 
 
 class WebsiteStack(core.Stack):
@@ -13,12 +13,12 @@ class WebsiteStack(core.Stack):
     def __init__(self, app: core.App, id: str) -> None:
         super().__init__(app, id)
         bucket: Bucket = Bucket(self, bucket_name=WebsiteStack.BUCKET_NAME)
-        headers: EdgeFunction = EdgeFunction(self, "headers")
+        security_headers: Function = Function(self, "security-headers")
         distribution: Distribution = Distribution(
             self,
             bucket=bucket,
             domain_names=WebsiteStack.DOMAIN_NAMES,
-            edge_functions={"headers": headers},
+            functions={"security-headers": security_headers},
         )
         bucket.grant_read(distribution.origin_access_identity)
         core.CfnOutput(
