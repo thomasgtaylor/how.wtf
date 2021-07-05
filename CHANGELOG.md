@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v1.16.0 (2021-07-05)
+### Feature
+* **deploy-cloudfront-functions-to-add-security-headers-with-aws-cdk:** New article ([`51935ca`](https://github.com/t-h-o/how.wtf/commit/51935ca2a6eebc89d074225230cede8f08aa3ec0))
+
+### Fix
+* **dependencies:** Remove lambda dependency ([`533b446`](https://github.com/t-h-o/how.wtf/commit/533b44628a25549ca7a9876c21b84f8cf5cb4d7b))
+* **distribution:** Remove unnecessary 'stack' parameter ([`c284f9d`](https://github.com/t-h-o/how.wtf/commit/c284f9d62a03da886400ba311ce62d5d26364a6e))
+
 ## v1.15.0 (2021-07-04)
 ### Feature
 * **giscus:** Add support for giscus comments ([`03f24e7`](https://github.com/t-h-o/how.wtf/commit/03f24e7fd196e0135dca5dac59a5bea31cea6ddd))
