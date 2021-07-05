@@ -59,11 +59,9 @@ This code was a modified version from the AWS documentation described [here](htt
 
 The production version of the code in this section can be found in the [how.wtf](https://github.com/t-h-o/how.wtf) open source repository.
 
-### Install the AWS CDK dependencies
+### Create a `requirements.txt`
 
 For this tutorial, version 1.111.0 of the AWS CDK was used. 
-
-### Create a `requirements.txt`
 
 ```txt
 aws-cdk.aws_cloudfront===1.111.0
@@ -177,6 +175,17 @@ class WebsiteStack(core.Stack):
         )
 ```
 
+The directory structure should look like this:
+
+```
+project/
+├── app.py
+├── cdk.json
+├── headers.js
+├── requirements.txt
+└── stack.py
+```
+
 ### Deploy the stack
 
 ```bash
@@ -200,4 +209,4 @@ website.distributiondomainname = hostname.cloudfront.net
 
 After adding the `index.html` document, visit the distribution's domain name to ensure it is working correctly. 
 
-To test the security headers, either use your favorite request tool or use https://securityheaders.com.
+To test the security headers, either use your favorite request tool or use [securityheaders.com](https://securityheaders.com).
