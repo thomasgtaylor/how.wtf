@@ -1,5 +1,5 @@
 Title: Deploy Cloudfront Functions to Add Security Headers with AWS CDK
-Date: 2021-07-04 9:10
+Date: 2021-07-04 9:15
 Category: AWS
 Tags: AWS CDK, Python, Serverless
 Authors: Thomas Taylor
