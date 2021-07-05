@@ -38,7 +38,7 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
                 for s in [400, 403, 404, 405, 414]
             ],
             alias_configuration=cloudfront.AliasConfiguration(
-                acm_cert_ref=self.get_acm_certificate(stack),
+                acm_cert_ref=self.get_acm_certificate(),
                 names=domain_names,
                 ssl_method=cloudfront.SSLMethod.SNI,
                 security_policy=cloudfront.SecurityPolicyProtocol.TLS_V1_2_2019,
@@ -66,7 +66,7 @@ class Distribution(cloudfront.CloudFrontWebDistribution):
         )
         self.origin_access_identity = origin_access_identity
 
-    def get_acm_certificate(self, stack: core.Stack) -> str:
+    def get_acm_certificate(self) -> str:
         acm: boto3.client = boto3.client("acm")
         response: Dict[str, List[Dict[str, str]]] = acm.list_certificates(
             CertificateStatuses=["ISSUED"]

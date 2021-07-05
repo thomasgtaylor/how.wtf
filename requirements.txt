@@ -1,5 +1,4 @@
 aws-cdk.aws_cloudfront===1.111.0
-aws-cdk.aws_lambda===1.111.0
 aws-cdk.aws_s3===1.111.0
 aws-cdk.core===1.111.0
 black
