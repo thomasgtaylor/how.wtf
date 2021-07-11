@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.17.0 (2021-07-11)
+### Feature
+* **using-virtualenv-with-python-3:** New article ([`b668016`](https://github.com/t-h-o/how.wtf/commit/b6680168b1aba20d1e3584ebd97bff89597d4f12))
+
 ## v1.16.0 (2021-07-05)
 ### Feature
 * **deploy-cloudfront-functions-to-add-security-headers-with-aws-cdk:** New article ([`51935ca`](https://github.com/t-h-o/how.wtf/commit/51935ca2a6eebc89d074225230cede8f08aa3ec0))
