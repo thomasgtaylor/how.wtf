@@ -25,7 +25,7 @@ pip install virtualenv
 
 # How do I create a new virtualenv environment?
 
-Simply navigate to the project directory and use the `virtualenv` cli command and with a name for the environment (`venv` in this case):
+Simply navigate to the project directory and use the `virtualenv` cli command with a name for the environment (`venv` in this case):
 
 ```bash
 $ cd ~/projects/myproject
