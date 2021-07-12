@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.17.1 (2021-07-12)
+### Fix
+* **format:** Add black formatting ([`352c073`](https://github.com/t-h-o/how.wtf/commit/352c07390d0057e02fc6be9be530986703d2b8fd))
+
 ## v1.17.0 (2021-07-11)
 ### Feature
 * **using-virtualenv-with-python-3:** New article ([`b668016`](https://github.com/t-h-o/how.wtf/commit/b6680168b1aba20d1e3584ebd97bff89597d4f12))
