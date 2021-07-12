@@ -37,11 +37,11 @@ GITHUB = "https://github.com/t-h-o/how.wtf"
 RSS = "/feeds/all.rss.xml"
 # UTTERANCES = {"repo": "t-h-o/how.wtf", "label": "💬 Comments", "exclude": ["error"]}
 GISCUS = {
-    "repo": "t-h-o/how.wtf", 
+    "repo": "t-h-o/how.wtf",
     "repo_id": "MDEwOlJlcG9zaXRvcnkzNTg5NzAyOTY=",
     "category": "Blog Posts",
     "category_id": "DIC_kwDOFWVzuM4B-NTf",
-    "exclude": ["error"]
+    "exclude": ["error"],
 }
 
 #################
