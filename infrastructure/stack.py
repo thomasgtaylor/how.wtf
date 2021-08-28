@@ -1,8 +1,8 @@
 from aws_cdk import core
 
-from .resources.bucket import Bucket
-from .resources.distribution import Distribution
-from .resources.function import Function
+from .bucket import Bucket
+from .distribution import Distribution
+from .function import Function
 
 
 class WebsiteStack(core.Stack):
