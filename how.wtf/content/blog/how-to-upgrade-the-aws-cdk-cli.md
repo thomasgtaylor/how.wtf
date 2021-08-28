@@ -7,9 +7,11 @@ Description: Upgrading the AWS CDK CLI is simple - use node or yarn.
 
 AWS CDK CLI users are commonly faced with an error:
 
-> This CDK CLI is no compatible with the CDK library used by your application. Please upgrade the CLI to the latest version
+```
+This CDK CLI is no compatible with the CDK library used by your application. Please upgrade the CLI to the latest version
+```
 
-Luckily, there are two easy methods for resolving:
+Luckily, there are two easy methods for resolving that involve a single command.
 
 # NPM
 
