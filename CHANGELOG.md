@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.18.0 (2021-08-28)
+### Feature
+* **how-to-upgrade-aws-cdk-cli:** New article ([`5d7694e`](https://github.com/t-h-o/how.wtf/commit/5d7694e27bf387893d963905b6be3d133496f5db))
+
 ## v1.17.1 (2021-07-12)
 ### Fix
 * **format:** Add black formatting ([`352c073`](https://github.com/t-h-o/how.wtf/commit/352c07390d0057e02fc6be9be530986703d2b8fd))
