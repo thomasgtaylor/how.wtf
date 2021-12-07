@@ -9,38 +9,23 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           submodules: true
           token: ${{ secrets.GH_TOKEN }}
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: Set up Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
+      - uses: actions/setup-python@v2
+      - uses: hashicorp/setup-terraform@v1
       - name: Install dependencies
         run: |
           sudo apt-get install graphviz
           pip3 install -r requirements.txt
-          npm install -g aws-cdk
-      - name: Generate HTML
-        run: make publish
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - name: Deploy infrastructure
-        run: make deploy
-      - name: Sync files with S3 bucket
-        run: make sync
-      - name: Invalidate Cloudfront files
-        run: make invalidate
+      - name: Deploy website
+        run: ENV=prod make
 
   release:
     runs-on: ubuntu-latest
