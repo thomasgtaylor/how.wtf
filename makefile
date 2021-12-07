@@ -26,9 +26,7 @@ deploy:
 
 invalidate:
 	@echo " 📤 Invaliding cloudfront cache... 📤 "
-	distribution_id=$$(terraform $(TERRAFORM_DIR) output \
-		-raw cloudfront_distribution_id \
-	); \
+	distribution_id=$$(terraform $(TERRAFORM_DIR) output -raw cloudfront_distribution_id); \
 	aws cloudfront create-invalidation \
 		--distribution-id $$distribution_id \
 		--paths "/*" \
