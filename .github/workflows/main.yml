@@ -26,6 +26,7 @@ jobs:
           aws-region: us-east-1
       - name: Deploy website
         run: ENV=prod make
+        shell: bash
 
   release:
     runs-on: ubuntu-latest
