@@ -20,6 +20,7 @@ publish:
 
 deploy:
 	@echo " 🏗️ Deploying infrastructure changes... 🏗️ "
+	terraform $(TERRAFORM_DIR) init
 	terraform $(TERRAFORM_DIR) plan
 	terraform $(TERRAFORM_DIR) apply -auto-approve
 
