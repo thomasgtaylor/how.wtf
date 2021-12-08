@@ -1,5 +1,3 @@
-black
-boto3
 Markdown
 pelican
 pelican-graphviz

@@ -1,9 +1,8 @@
-# How? WTF?!
+# How? **WTF!**
 
 ![logo](./how.wtf/content/images/cover.png)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![Build Status](https://github.com/t-h-o/how.wtf/actions/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/thomasnotfound/how.wtf/actions/workflows/main.yml/badge.svg)
 ![Website Status](https://img.shields.io/website-up-down-green-red/http/how.wtf.svg)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/t-h-o/how.wtf)
 
 This repository contains the source code for the [how.wtf](https://how.wtf) blog. 

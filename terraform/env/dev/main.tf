@@ -12,7 +12,6 @@ provider aws {
 
 module "website" {
   source = "../../modules/website"
-  acm_certificate_id = "4f0374bd-8cc8-49ca-a475-c9b794a9d831"
   bucket_name = "dev.how.wtf"
   domain_names = ["dev.how.wtf"]
   security_header_function_name = "security-headers-dev"

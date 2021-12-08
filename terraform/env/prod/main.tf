@@ -12,10 +12,9 @@ provider aws {
 
 module "website" {
   source = "../../modules/website"
-  acm_certificate_id = "a3a16b29-cfb7-4524-a97e-70f8fc2103d5 "
   bucket_name = "how.wtf"
   domain_names = ["www.how.wtf", "how.wtf"]
-  security_header_function_name = "security-headers-dev"
+  security_header_function_name = "security-headers"
 }
 
 output "cloudfront_distribution_id" {
