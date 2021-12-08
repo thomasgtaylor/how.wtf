@@ -31,7 +31,7 @@ destroy:
 invalidate:
 	id=$$($(TERRAFORM) output -raw cloudfront_distribution_id); \
 	aws cloudfront create-invalidation \
-		--distribution-id $$id \
+		--distribution-id "$$id" \
 		--paths "/*" \
 		--query "Invalidation.Id" \
 		--output text
