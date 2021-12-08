@@ -13,7 +13,7 @@ provider aws {
 module "website" {
   source = "../../modules/website"
   bucket_name = "how.wtf"
-  domain_names = ["www.how.wtf", "how.wtf"]
+  domain_names = ["how.wtf", "www.how.wtf"]
   security_header_function_name = "security-headers"
 }
 
