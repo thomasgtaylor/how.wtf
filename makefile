@@ -29,10 +29,9 @@ destroy:
 	$(TERRAFORM) apply -destroy -auto-approve
 
 invalidate:
-	distribution_id=$$($(TERRAFORM) output -raw cloudfront_distribution_id); \
-	@echo $$distribution_id
-	# aws cloudfront create-invalidation \
-	# 	--distribution-id $$distribution_id \
-	# 	--paths "/*" \
-	# 	--query "Invalidation.Id" \
-	# 	--output text
+	distribution_id="$$($(TERRAFORM) output -raw cloudfront_distribution_id)"; \
+	aws cloudfront create-invalidation \
+		--distribution-id $$distribution_id \
+		--paths "/*" \
+		--query "Invalidation.Id" \
+		--output text
