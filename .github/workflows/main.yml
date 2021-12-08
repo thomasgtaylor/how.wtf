@@ -25,3 +25,4 @@ jobs:
           aws-region: us-east-1
       - name: Deploy website
         run: ENV=prod make init && ENV=prod make invalidate
+        shell: bash
