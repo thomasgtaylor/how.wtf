@@ -18,6 +18,8 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-python@v2
       - uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_wrapper: false
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
