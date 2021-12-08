@@ -6,7 +6,7 @@ TERRAFORM         = terraform -chdir="./terraform/env/$(ENV)"
 
 .PHONY: all
 
-all: publish validate deploy invalidate
+all: publish deploy invalidate
 
 publish:
 	$(PELICAN) -s $(PELICAN_CONF_FILE)
@@ -26,7 +26,7 @@ plan:
 apply:
 	$(TERRAFORM) apply -auto-approve
 
-deploy: init plan apply
+deploy: init validate plan apply
 
 destroy:
 	$(TERRAFORM) apply -destroy -auto-approve
