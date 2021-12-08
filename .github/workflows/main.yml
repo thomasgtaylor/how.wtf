@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -25,5 +28,5 @@ jobs:
           sudo apt-get install graphviz
           pip3 install -r requirements.txt
       - name: Deploy website
-        run: ENV=prod make
+        run: ENV=prod make init && ENV=prod make invalidate
         shell: bash
