@@ -1,12 +1,10 @@
-.DS_Store
-.DS_Store?
 ._*
 *~
-/venv
+venv
 __pycache__/
 *.pyc
 .vscode/
-/output
+output
 **/.terraform
 *.terraform.lock.hcl
 *.tfstate

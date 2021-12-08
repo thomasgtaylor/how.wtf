@@ -7,12 +7,7 @@ terraform {
   }
 }
 
-data "aws_caller_identity" "current" {}
-data "aws_region" "current" {}
-
 locals {
-  account_id = data.aws_caller_identity.current.account_id
-  region = data.aws_region.current.name
   cloudfront_origin_id = "s3"
   mime_types = {
     css   = "text/css"
@@ -27,7 +22,7 @@ locals {
     xml = "text/xml"
   }
   upload_directory = "${path.root}/../../../output/"
-  security_headers_code_path = "${path.root}/../../../how.wtf/functions/security-headers.js"
+  security_headers_code_path = "${path.root}/../../../functions/security-headers.js"
   index_page = "index.html"
 }
 
@@ -86,6 +81,11 @@ resource "aws_cloudfront_function" "headers" {
   code = file(local.security_headers_code_path)
 }
 
+data "aws_acm_certificate" "certificate" {
+  domain = element(var.domain_names, 0)
+  types = ["AMAZON_ISSUED"]
+}
+
 resource "aws_cloudfront_distribution" "distribution" {
   aliases = var.domain_names
   enabled = true
@@ -121,7 +121,7 @@ resource "aws_cloudfront_distribution" "distribution" {
   }
 
   viewer_certificate {
-    acm_certificate_arn = "arn:aws:acm:${local.region}:${local.account_id}:certificate/${var.acm_certificate_id}"
+    acm_certificate_arn = data.aws_acm_certificate.certificate.arn
     ssl_support_method = "sni-only"
     minimum_protocol_version = "TLSv1.2_2019"
   }
