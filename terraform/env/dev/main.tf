@@ -14,7 +14,6 @@ module "website" {
   source = "../../modules/website"
   bucket_name = "dev.how.wtf"
   domain_names = ["dev.how.wtf"]
-  security_header_function_name = "security-headers-dev"
 }
 
 output "cloudfront_distribution_id" {

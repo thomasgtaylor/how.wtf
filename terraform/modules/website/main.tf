@@ -22,7 +22,6 @@ locals {
     xml = "text/xml"
   }
   upload_directory = "${path.root}/../../../output/"
-  security_headers_code_path = "${path.root}/../../../functions/security-headers.js"
   index_page = "index.html"
 }
 
@@ -74,16 +73,74 @@ resource "aws_s3_bucket_policy" "policy" {
   policy = data.aws_iam_policy_document.document.json
 }
 
-resource "aws_cloudfront_function" "headers" {
-  name = var.security_header_function_name
-  runtime = "cloudfront-js-1.0"
-  publish = true
-  code = file(local.security_headers_code_path)
-}
-
 data "aws_acm_certificate" "certificate" {
   domain = element(var.domain_names, 0)
   types = ["AMAZON_ISSUED"]
+}
+
+resource "aws_cloudfront_cache_policy" "cache_policy" {
+  name = "caching-optimized"
+  min_ttl = 1
+  max_ttl = 315360000
+  default_ttl = 86400
+
+  parameters_in_cache_key_and_forwarded_to_origin {
+    cookies_config {
+      cookie_behavior = "none"
+    }
+
+    headers_config {
+      header_behavior = "none"
+    }
+
+    query_strings_config {
+      query_string_behavior = "none"
+    }
+
+    enable_accept_encoding_brotli = true
+    enable_accept_encoding_gzip = true
+  }
+}
+
+resource "aws_cloudfront_response_headers_policy" "headers_policy" {
+  name = "security-headers-policy"
+
+  custom_headers_config {
+    items {
+      header = "permissions-policy"
+      override = true
+      value = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    }
+  }
+
+  security_headers_config {
+    content_type_options {
+      override = true
+    }
+
+    frame_options {
+      override = true
+      frame_option = "DENY"
+    }
+
+    referrer_policy {
+      override = true
+      referrer_policy = "same-origin"
+    }
+
+    strict_transport_security {
+      override = true
+      access_control_max_age_sec = 63072000
+      include_subdomains = true
+      preload = true
+    }
+
+    xss_protection {
+      override = true
+      mode_block = true
+      protection = true
+    }
+  }
 }
 
 resource "aws_cloudfront_distribution" "distribution" {
@@ -105,19 +162,8 @@ resource "aws_cloudfront_distribution" "distribution" {
     compress = true
     target_origin_id = local.cloudfront_origin_id
     viewer_protocol_policy = "redirect-to-https"
-
-    forwarded_values {
-      query_string = false
-
-      cookies {
-        forward = "none"
-      }
-    }
-
-    function_association {
-      event_type = "viewer-response"
-      function_arn = aws_cloudfront_function.headers.arn
-    }
+    cache_policy_id = aws_cloudfront_cache_policy.cache_policy.id
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.headers_policy.id
   }
 
   viewer_certificate {
