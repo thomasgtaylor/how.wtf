@@ -7,7 +7,7 @@ Description: How do I split a string in bash based on a delimiter?
 
 Splitting a string in `bash` is easy with the help of the [internal field separator][1] (`IFS`). 
 
-# String split using `IFS`
+# Bash string split using `IFS`
 
 ```bash
 string="you got a friend in me"
