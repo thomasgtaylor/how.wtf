@@ -1,7 +1,7 @@
 Title: Try-Catch in AWS Step Functions
 Date: 2021-04-22 23:30
-Category: AWS
-Tags: Step Functions, Serverless
+Category: Cloud
+Tags: AWS, Step Functions, Serverless
 Authors: Thomas Taylor
 Description: How to apply a try/catch to multiple states in an AWS Step Function.
 
