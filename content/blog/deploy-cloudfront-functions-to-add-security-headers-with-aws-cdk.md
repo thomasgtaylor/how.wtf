@@ -1,5 +1,6 @@
 Title: Deploy Cloudfront Functions to Add Security Headers with AWS CDK
 Date: 2021-07-04 9:15
+Modified: 2021-12-11 11:30
 Category: Cloud
 Tags: AWS, AWS CDK, Python, Serverless
 Authors: Thomas Taylor
@@ -57,7 +58,7 @@ This code was a modified version from the AWS documentation described [here](htt
 
 # The AWS CDK Code
 
-The production version of the code in this section can be found in the [how.wtf](https://github.com/t-h-o/how.wtf) open source repository.
+The production version of the code in this section can be found in the [how.wtf][1] open source repository.
 
 ### Create a `requirements.txt`
 
@@ -210,3 +211,5 @@ website.distributiondomainname = hostname.cloudfront.net
 After adding the `index.html` document, visit the distribution's domain name to ensure it is working correctly. 
 
 To test the security headers, either use your favorite request tool or use [securityheaders.com](https://securityheaders.com).
+
+[1]: https://github.com/thomasnotfound/how.wtf/tree/02a170a08c7a1e44194c0ad1b58ca92968449b8d/infrastructure
