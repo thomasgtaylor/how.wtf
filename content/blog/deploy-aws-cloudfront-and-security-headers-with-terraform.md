@@ -1,5 +1,5 @@
 Title: Deploy AWS Cloudfront and Security Headers with Terraform
-Date: 2021-12-21 2:15
+Date: 2021-12-12 2:15
 Category: Cloud
 Tags: AWS, Terraform, Python, Serverless
 Authors: Thomas Taylor
