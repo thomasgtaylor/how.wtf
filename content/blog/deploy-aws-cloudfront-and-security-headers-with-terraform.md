@@ -20,7 +20,7 @@ Cloudfront can natively support all the security headers from the last post:
 
 # Terraform Code
 
-1. Begin with defining an `aws_cloudfront_response_headers_policy` resource in Terraform. This resources contains all the header policy information. In the following example, the values for each `security_headers_config` were copied from [AWS's documentation][3].
+Begin with defining an `aws_cloudfront_response_headers_policy` resource in Terraform. This resources contains all the header policy information. In the following example, the values for each `security_headers_config` were copied from [AWS's documentation][3].
 
 ```hcl
 resource "aws_cloudfront_response_headers_policy" "headers_policy" {
@@ -65,7 +65,7 @@ resource "aws_cloudfront_response_headers_policy" "headers_policy" {
 }
 ```
 
-2. Attach it to a Cloudfront Behavior. In this case, I attached it to the `default_cache_behavior` block.
+Attach it to a Cloudfront Behavior. In this case, I attached it to the `default_cache_behavior` block.
 
 ```hcl
 locals {
