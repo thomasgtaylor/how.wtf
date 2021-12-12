@@ -1,4 +1,4 @@
-Title: How to split a string in bash
+Title: How to split a string in Bash
 Date: 2021-12-11 2:30
 Category: Programming
 Tags: Bash
