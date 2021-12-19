@@ -1,18 +1,38 @@
-BASE_DIR          = $(PWD)
-ENV               ?= dev
-PELICAN           = pelican
-PELICAN_CONF_FILE = $(BASE_DIR)/publishconf.py
-TERRAFORM         = terraform -chdir="./terraform/env/$(ENV)"
+ENV          ?= dev
+HUGO         = hugo
+MAX_JPG_SIZE = 250
+MAX_WIDTH    = 1400
+PNG_LEVEL    = 4
+SHELL        := /bin/bash
+TERRAFORM    = terraform -chdir="./terraform/env/$(ENV)"
 
-.PHONY: all
+REQUIRED_BINS := hugo terraform aws exiftool jpegoptim optipng mogrify
+$(foreach bin,$(REQUIRED_BINS),\
+    $(if $(shell command -v $(bin) 2> /dev/null),,$(error Please install `$(bin)`)))
 
-all: publish deploy invalidate
+all: build optimize deploy invalidate
 
-publish:
-	$(PELICAN) -s $(PELICAN_CONF_FILE)
+build:
+	$(HUGO) --gc --minify
 
-html:
-	$(PELICAN)
+optimize: exif compress
+
+exif:
+	exiftool -all= public/images* -overwrite_original
+
+compress:
+	for i in public/images/*; do \
+		mogrify -resize '$(MAX_WIDTH)>' "$$i" ; \
+		if [[ "$$i" == *png ]]; then \
+			optipng -f4 -clobber -strip all -o $(PNG_LEVEL) -quiet "$$i" ; \
+		fi ; \
+		if [[ "$$i" == *jp ]]; then \
+			jpegoptim --strip-all --size=$(MAX_JPG_SIZE) -quiet "$$i" ; \
+		fi ; \
+	done
+
+serve:
+	$(HUGO) server -D
 
 init:
 	$(TERRAFORM) init

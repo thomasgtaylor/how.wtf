@@ -1,3 +1,4 @@
+*~
 ._*
 *~
 venv
@@ -16,3 +17,6 @@ override.tf.json
 *_override.tf.json
 .terraformrc
 terraform.rc
+/public
+/resources
+.hugo_build.lock
