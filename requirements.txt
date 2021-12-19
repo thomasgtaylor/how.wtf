@@ -1,4 +1,0 @@
-Markdown
-pelican
-pelican-graphviz
-pelican-sitemap

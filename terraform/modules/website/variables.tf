@@ -8,5 +8,5 @@ variable "domain_names" {
 
 variable "error_page_path" {
   type = string
-  default = "/error.html"
+  default = "/404.html"
 }
