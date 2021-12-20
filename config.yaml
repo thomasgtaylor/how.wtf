@@ -9,6 +9,8 @@ uglyurls: true
 
 params:
   titleLogo: images/08WeMC.png
+  images:
+  - images/8yRnin.png
   enableFootnotes: true
   siteName: how.wtf
   siteDesc: A blog providing how-to articles about development languages and the cloud.
@@ -28,7 +30,7 @@ params:
         id: DIC_kwDOFWVzuM4B-NTf
 
 permalinks:
-  posts: :title
+  post: :title
 
 menu:
   header:
