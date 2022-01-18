@@ -32,8 +32,6 @@ jobs:
           optipng \
           graphicsmagick-imagemagick-compat
     - name: Deploy global infrastructure
-      shell: bash
       run: ENV=global make deploy
     - name: Deploy website
-      shell: bash
       run: ENV=prod make all
