@@ -19,6 +19,7 @@ params:
   socialOptions:
     email: thomas@how.wtf
     github: https://github.com/thomasnotfound/how.wtf
+    twitter: thomasnotvalid
   comments:
     enabled: true
     provider: giscus
