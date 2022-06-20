@@ -1,6 +1,7 @@
 ---
 title: For loops in Bash
 date: 2022-06-19T22:30:00-04:00
+lastmod: 2022-06-19T23:45:00-04:00
 author: Thomas Taylor
 description: How to write a for loop in Bash
 categories:
@@ -89,6 +90,8 @@ done
 
 ## break statement
 
+The `break` statement terminates the current loop.
+
 ```bash
 for i in "first" "second" "break" "third"; do
     if [[ "${i}" == "break" ]]; then
@@ -104,6 +107,8 @@ second
 ```
 
 ## continue statement
+
+The `continue` statement skips the current iteration and 'continues' to the next iteration. 
 
 ```bash
 for i in "first" "second" "break" "third"; do
