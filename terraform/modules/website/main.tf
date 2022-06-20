@@ -31,12 +31,14 @@ resource "aws_cloudfront_origin_access_identity" "identity" {}
 
 resource "aws_s3_bucket" "bucket" {
   bucket = var.bucket_name
-  server_side_encryption_configuration {
-    rule {
-      apply_server_side_encryption_by_default {
-        sse_algorithm = "AES256"
-      }
-    }
+}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "encryption" {
+  bucket = aws_s3_bucket.bucket.bucket
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm = "AES256"
+    } 
   }
 }
 
