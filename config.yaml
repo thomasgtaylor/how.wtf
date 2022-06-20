@@ -3,7 +3,7 @@ relativeURLs: true
 languageCode: en-us
 title: how.wtf
 theme: "hugo-tania"
-paginate: 6
+paginate: 8
 googleAnalytics: G-0W6GZ3EH9R
 uglyurls: true
 
