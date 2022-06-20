@@ -11,7 +11,7 @@ tags:
 
 Using a `for` loop in Bash is simple! 
 
-# for Loop over strings
+# for loop over strings
 
 ```bash
 for i in "follow" "the" "white" "rabbit"; do
