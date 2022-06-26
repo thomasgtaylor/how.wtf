@@ -1,5 +1,5 @@
 ---
-title: For loops in Bash
+title: For Loops in Bash
 date: 2022-06-19T22:30:00-04:00
 lastmod: 2022-06-19T23:45:00-04:00
 author: Thomas Taylor
