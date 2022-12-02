@@ -9,7 +9,7 @@ tags:
 - Git
 ---
 
-Pushing an empty commit using Git is straightforward. Git provides an optional flag to be used on the `git commit` command: `--allow-empty`.
+Pushing an empty commit using Git is straightforward. Git provides an optional flag on the `git commit` command: `--allow-empty`.
 
 # Pushing without making changes
 
@@ -21,7 +21,7 @@ git commit --allow-empty -m "empty commit"
 git push
 ```
 
-The commit will be pushed without any changes.
+The commit will be pushed without requiring changes.
 
 # Why is this useful?
 
