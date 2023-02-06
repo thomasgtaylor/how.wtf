@@ -1,6 +1,7 @@
 ---
 title: Storing large items in DynamoDB
 date: 2023-02-06T00:30:00-04:00
+lastmod: 2023-02-06T00:40:00-04:00
 author: Thomas Taylor
 description: 'How to upload large items to DynamoDB and avoid the "Item size has exceeded the maximum allowed size error"'
 categories:
@@ -13,9 +14,9 @@ tags:
 - Serverless
 ---
 
-What is the item size limit in DynamoDB?
-
 Each item in a DynamoDB table has a maximum size limit of 400 KB, including both the attribute names and values. This limit applies to all data types: strings, numbers, and binary data.
+
+The three best ways to mitigate the maximum size limit:
 
 1. [Partitioning the data](#partition-the-data)
 2. [Compressing the data](#compress-the-data)
