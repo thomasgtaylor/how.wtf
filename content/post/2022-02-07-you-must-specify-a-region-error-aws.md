@@ -7,6 +7,8 @@ categories:
 - Cloud
 tags:
 - AWS
+- DynamoDB
+- AWS CLI
 ---
 
 **You must specify a region** error occurs when a default AWS Region is not configured.
