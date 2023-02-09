@@ -3,6 +3,7 @@ title: Resource vs. Client in Python Boto3
 date: 2023-02-09T00:45:00-04:00
 author: Thomas Taylor
 description: What is the difference between a Python Boto3 Resource and Client?
+slug: Resource vs Client in Python Boto3
 categories:
 - Cloud
 tags:
