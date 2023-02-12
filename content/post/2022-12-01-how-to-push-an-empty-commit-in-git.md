@@ -11,7 +11,7 @@ tags:
 
 Pushing an empty commit using Git is straightforward. Git provides an optional flag on the `git commit` command: `--allow-empty`.
 
-# Pushing without making changes
+## Pushing without making changes
 
 ```text
 git commit --allow-empty -m "empty commit"
@@ -23,6 +23,6 @@ git push
 
 The commit will be pushed without requiring changes.
 
-# Why is this useful?
+## Why is this useful?
 
 This is useful for retrying a CI pipeline when an issue occurs with a GitHub webhook _or_ CI service.

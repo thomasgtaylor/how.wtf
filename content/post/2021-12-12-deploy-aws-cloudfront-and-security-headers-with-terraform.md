@@ -13,7 +13,7 @@ tags:
 
 I made a post in July 2021 regarding [AWS CloudFront + security headers][1]. Using AWS Cloudfront and Cloudfront Functions, security headers were injected in viewer responses; however, AWS Cloudfront [natively supports security headers as of Nov. 2nd, 2021][2] alongside configurable CORS and custom HTTP response headers.
 
-# Security Headers
+## Security Headers
 
 Cloudfront can natively support all the security headers from the last post:
 
@@ -24,7 +24,7 @@ Cloudfront can natively support all the security headers from the last post:
 - x-frame-options
 - x-xss-protection
 
-# Terraform Code
+## Terraform Code
 
 Begin with defining an `aws_cloudfront_response_headers_policy` resource in Terraform. This resources contains all the header policy information. In the following example, the values for each `security_headers_config` were copied from [AWS's documentation][3].
 

@@ -9,11 +9,11 @@ tags:
 - Python
 ---
 
-# What is Virtualenv?
+## What is Virtualenv?
 
 Virtualenv is a tool used for creating isolated Python environments. It allows multiple Python environments/projects to coexist on the same computer with their own dependencies, python versions, and pip versions.
 
-# How to install Virtualenv
+## How to install Virtualenv
 
 Using Python's package manager, `pip` or `pip3`, virtualenv can be installed with a single command:
 
@@ -27,7 +27,7 @@ Optionally, you can install it for all users:
 pip install virtualenv
 ```
 
-# How do I create a new virtualenv environment?
+## How do I create a new virtualenv environment?
 
 Simply navigate to the project directory and use the `virtualenv` cli command with a name for the environment (`venv` in this case):
 
@@ -43,7 +43,7 @@ created virtual environment CPython3.8.5.final.0-64 in 1993ms
 
 This creates a new folder named `venv` in the project directory.
 
-# How do I use/activate a virtualenv (venv) environment?
+## How do I use/activate a virtualenv (venv) environment?
 
 To activate the virtualized environment, run the following command from the project directory:
 
@@ -61,7 +61,7 @@ On Windows:
 
 With the isolated environment activated, any `pip install packagename` will be contained within the directories of the virtualized environment.
 
-# How do I deactivate a virtualenv (venv) environment?
+## How do I deactivate a virtualenv (venv) environment?
 
 Simply type the following command to deactivate:
 

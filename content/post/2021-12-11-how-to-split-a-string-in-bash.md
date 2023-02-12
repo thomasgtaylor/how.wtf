@@ -11,7 +11,7 @@ tags:
 
 Splitting a string in `bash` is easy with the help of the [internal field separator][1] (`IFS`). 
 
-# Bash string split using IFS
+## Bash string split using IFS
 
 ```bash
 string="you got a friend in me"

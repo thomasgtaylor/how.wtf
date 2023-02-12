@@ -11,7 +11,7 @@ tags:
 
 Converting two lists into a dictionary is a breeze in Python when using the `dict` and `zip` methods! Additionally, there are alternatives.
 
-# Using Zip & Dict
+## Using Zip & Dict
 
 ```python
 >>> students = ["Cody", "Ashley", "Kerry"]
@@ -20,7 +20,7 @@ Converting two lists into a dictionary is a breeze in Python when using the `dic
 {'Cody': 93.5, 'Ashley': 95.4, 'Kerry': 82.8}
 ```
 
-# Dictionary Comprehension
+## Dictionary Comprehension
 
 ```python
 >>> students = ["Cody", "Ashley", "Kerry"]
@@ -29,7 +29,7 @@ Converting two lists into a dictionary is a breeze in Python when using the `dic
 {'Cody': 93.5, 'Ashley': 95.4, 'Kerry': 82.8}
 ```
 
-# Python <= 2.6
+## Python <= 2.6
 
 ```python
 >>> from itertools import izip

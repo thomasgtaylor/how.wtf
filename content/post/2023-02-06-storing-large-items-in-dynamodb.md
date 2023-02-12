@@ -22,9 +22,9 @@ The three best ways to mitigate the maximum size limit:
 2. [Compressing the data](#compress-the-data)
 3. [Storing data in S3](#store-the-data-in-s3)
 
-# How to handle large data in DynamoDB
+## How to handle large data in DynamoDB
 
-## Partition the data
+### Partition the data
 
 A simple way to get around the item size limit is to split the data into multiple items.
 
@@ -89,11 +89,11 @@ lorem_from_dynamodb = "".join(i["data"] for i in items)
 print(lorem == lorem_from_dynamodb) # prints True
 ```
 
-## Compress the data
+### Compress the data
 
 Try to reduce the size of your data by compression. Compression algorithms like Gzip can significantly reduce the size of the data.
 
-### Compressing a single item
+#### Compressing a single item
 
 Table Name: **lorem**
 |pk   |data                    |
@@ -134,7 +134,7 @@ print(lorem_from_dynamodb == lorem)  # prints true
 
 ```
 
-### Compressing a partitioned item
+#### Compressing a partitioned item
 
 **DynamoDB schema:**
 
@@ -202,7 +202,7 @@ lorem_from_dynamodb = "".join(
 print(lorem_from_dynamodb == lorem) # prints true
 ```
 
-## Store the data in S3
+### Store the data in S3
 
 Consider storing the data in S3 as opposed to an attribute value in DynamoDB.
 

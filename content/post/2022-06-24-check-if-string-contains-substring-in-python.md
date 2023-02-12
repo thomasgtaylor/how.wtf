@@ -11,7 +11,7 @@ tags:
 
 Checking if a string contains a substring is trivial in Python!
 
-# The _in_ Operator
+## The `in` Operator
 
 The `in` operator is the most straightforward and pythonic method.
 

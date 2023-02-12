@@ -11,7 +11,7 @@ tags:
 
 In Python versions 3.6 and above, literal string interpolation receives the hype; however, did you know that there are several ways to format strings in Python?
 
-# String Formatting (printf-style)
+## String Formatting (printf-style)
 
 String objects have a built-in operation: the **%** operator (modulo).
 
@@ -44,7 +44,7 @@ Additionally, there are flag characters and other types. To represent an integer
 
 More information can be found [here](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) about the printf-style string formatting.
 
-# String Format Method
+## String Format Method
 
 While the predecessor leveraged type conversions and flag characters, Python 3 introduced the `str.format(*args, **kwargs)` string method.
 
@@ -87,7 +87,7 @@ While the predecessor leveraged type conversions and flag characters, Python 3 i
 
 ... and more format string syntax tricks [here](https://docs.python.org/3/library/string.html#format-string-syntax).
 
-# Literal String Interpolation
+## Literal String Interpolation
 
 Python 3.6 introduced literal string interpolation, also known as f-strings. F-strings allow you to embed expressions inside string constants.
 ```python3

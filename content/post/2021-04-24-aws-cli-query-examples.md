@@ -14,7 +14,7 @@ While some users may prefer to pipe AWS CLI JSON output to `jq` for parsing, it 
 
 Commonly, users deal with large JSON outputs when executing AWS CLI commands in their environments. To mitigate the process, [JMESPath](https://jmespath.org), a powerful filtering language, can specify resource properties, create lists, search output, etc.
 
-# AWS CLI Output
+## AWS CLI Output
 
 For reference, the AWS CLI documentation lists JSON document outputs. The commands listed below use `aws ec2 describe-images`, but any combination of the examples can be used for other services and properties.
 
@@ -67,11 +67,11 @@ Output ([provided by AWS](https://docs.aws.amazon.com/cli/latest/reference/ec2/d
 
 Please note `Images` is a top-level list-type element in the JSON document.
 
-# Examples
+## Examples
 
 **Warning**: The AWS `describe-images` commands outputs a large JSON document. The JMESPath [list slicing](https://jmespath.org/tutorial.html#list-and-slice-projections) (`Images[:3]`) feature is leveraged to truncate the results. If the full output is desired, use `Images[]` instead.
 
-## Listing Outputs
+### Listing Outputs
 
 **List the `ImageId` of the first 3 images owned by Amazon:**
 
@@ -134,7 +134,7 @@ $ aws ec2 describe-images \
 ]
 ```
 
-## Filter Projection & Pipe Expressions
+### Filter Projection & Pipe Expressions
 
 **List the `ImageId` of the first 3 images that are owned by Amazon's `OwnerId` of `137112412989`:**
 
@@ -227,7 +227,7 @@ Then, add the specific `ImageId` property:
 ]
 ```
 
-## Function Expressions
+### Function Expressions
 
 JMESPath supports function expressions:
 

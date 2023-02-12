@@ -18,10 +18,10 @@ This CDK CLI is no compatible with the CDK library used by your application. Ple
 
 Luckily, there are two easy methods for resolving that involve a single command.
 
-# NPM
+## NPM
 
 `npm install -g aws-cdk@latest`
 
-# Yarn
+## Yarn
 
 `yarn global upgrade aws-cdk`
