@@ -1,6 +1,6 @@
 ---
 title: Clear all CloudFront cache and files using AWS CLI
-date: 2023-02-12T14:10:00-04:00
+date: 2023-02-12T14:30:00-04:00
 author: Thomas Taylor
 description: How to invalidate or clear all CloudFront cache and files using the AWS CLI
 categories:
