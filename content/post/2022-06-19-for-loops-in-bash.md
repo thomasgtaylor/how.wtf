@@ -12,7 +12,7 @@ tags:
 
 Using a `for` loop in Bash is simple! 
 
-# for loop over strings
+## for loop over strings
 
 ```bash
 for i in "follow" "the" "white" "rabbit"; do
@@ -27,7 +27,7 @@ white
 rabbit
 ```
 
-# for loop with range
+## for loop with range
 
 ```bash
 for i in {0..2}; do
@@ -56,7 +56,7 @@ done
 6
 ```
 
-# for loop with array
+## for loop with array
 
 ```bash
 a=("fried" "green" "tomatoes")
@@ -71,7 +71,7 @@ green
 tomatoes
 ```
 
-# for loop C-style
+## for loop C-style
 
 ```bash
 for (( i = 0; i <= 3; i++ )); do
@@ -86,9 +86,9 @@ done
 3
 ```
 
-# for loop control statements: break & continue
+## for loop control statements: break & continue
 
-## break statement
+### break statement
 
 The `break` statement terminates the current loop.
 
@@ -106,7 +106,7 @@ first
 second
 ```
 
-## continue statement
+### continue statement
 
 The `continue` statement skips the current iteration and 'continues' to the next iteration. 
 

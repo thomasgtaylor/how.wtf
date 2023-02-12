@@ -11,8 +11,6 @@ tags:
 
 Using the `pactl` command, setting default audio in Ubuntu is straightforward. For startup persistence, Ubuntu Startup Applications comes in handy.
 
-# Steps
-
 `pactl` is the cli entry for the PulseAudio sound server and will be used in this tutorial.
 
 ## List all input and output audio

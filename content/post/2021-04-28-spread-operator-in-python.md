@@ -13,7 +13,7 @@ The JavaScript spread operator `(...)` is a useful and convenient syntax for exp
 
 Python contains a similar "spread" operator that allows for iterable unpacking. Each of the examples below will demonstrate the comparison between the two languages.
 
-# Function Arguments
+## Function Arguments
 
 JavaScript:
 ```javascript
@@ -34,7 +34,7 @@ print(multiply(*numbers))
 # Output: 15
 ```
 
-# Array Literals
+## Array Literals
 ```javascript
 const numbers = [1, 2, 3];
 const newNumbers = [0, ...numbers, 4]
@@ -49,7 +49,7 @@ print(new_numbers)
 # Output: [0, 1, 2, 3, 4]
 ```
 
-# Object Literals
+## Object Literals
 
 ```javascript
 const testObj = { foo: 'bar' };

@@ -17,7 +17,7 @@ The questions that this post addresses:
 2. **Q:** How do you sort a list of tuples by the 2nd item?
 3. **Q:** How do you sort a list of tuples in reverse?
 
-# sorted() function
+## `sorted()` function
 
 The `sorted()` function returns a sorted iterable object, such as a list, in a specified order. It does **not** modify the list in place.
 
@@ -62,7 +62,7 @@ print(sorted(lst, key=itemgetter(1), reverse=True))
 # Output: [('val2', 2), ('val1', 1)]
 ```
 
-# list.sort() function
+## `list.sort()` function
 
 The `list.sort()` method sorts a list **in place** and does **not** return a value.
 

@@ -33,7 +33,7 @@ File system access | No | Yes
 Access to the request body | No | Yes
 Pricing | Free tier available; charged per request | No free tier; charged per request and function duration
 
-# The Cloudfront Function Code
+## The Cloudfront Function Code
 
 Using Javascript (ECMAScript 5.1 compliant), the following code adds common security headers to viewer responses:
 
@@ -66,7 +66,7 @@ function handler(event) {
 
 This code was a modified version from the AWS documentation described [here](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/example-function-add-security-headers.html).
 
-# The AWS CDK Code
+## The AWS CDK Code
 
 The production version of the code in this section can be found in the [how.wtf][1] open source repository.
 

@@ -41,7 +41,7 @@ int main()
 // Output: 🟦
 ```
 
-# Ternary Operation
+## Ternary Operation
 
 Bash does not have a native ternary operator. Instead, the same functionality can be achieved using:
 
@@ -55,7 +55,7 @@ color="blue"
 
 Similarly, if `color="green"`, the `[[ "$color" == "blue" ]]` expression would have a nonzero exit status, so it evaluates the next logical statement (`||`) and echos the green emoji.
 
-## Saving to a variable
+### Saving to a variable
 
 ```bash
 color="blue"
@@ -64,7 +64,7 @@ echo $emoji
 # Output: 🟦
 ```
 
-## ⚠️ Caution
+### ⚠️ Caution
 
 If the right-hand side of the `&&` condition has a nonzero exit status, it will silently default to the or (`||`) expression.
 

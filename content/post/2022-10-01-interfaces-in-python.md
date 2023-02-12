@@ -13,7 +13,7 @@ Python does not have the traditional `interface` keyword as seen in other progra
 
 However, there are native pythonic methods to create / implement an interface.
 
-# Ducktyping 
+## Ducktyping 
 
 If it quacks like a duck and walks like a duck, Python assumes it's a duck:
 
@@ -45,7 +45,7 @@ class Cache(UserService):
 
 Due to the lack of enforcement, this paradigm may not scale well for the implementer's needs.
 
-# Abstract Base Classes
+## Abstract Base Classes
 
 Introduced in Python 2.6, abstract base classes allow for interface creation.
 
