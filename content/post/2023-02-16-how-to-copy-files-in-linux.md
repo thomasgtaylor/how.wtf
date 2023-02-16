@@ -1,6 +1,6 @@
 ---
 title: How to copy files in Linux
-date: 2023-02-15T00:40:00-04:00
+date: 2023-02-16T00:40:00-04:00
 author: Thomas Taylor
 description: How to copy a file or multiple files in Linux / terminal.
 categories:
