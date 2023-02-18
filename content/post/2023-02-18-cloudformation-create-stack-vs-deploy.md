@@ -1,5 +1,5 @@
 ---
-title: CloudFormation create stack vs deploy
+title: CloudFormation create stack vs deploy in AWS CLI
 date: 2023-02-18T02:30:00-04:00
 author: Thomas Taylor
 description: What is the difference between CloudFormation create stack and deploy and when to use them?
