@@ -18,7 +18,7 @@ Commonly, users deal with large JSON outputs when executing AWS CLI commands in 
 
 For reference, the AWS CLI documentation lists JSON document outputs. The commands listed below use `aws ec2 describe-images`, but any combination of the examples can be used for other services and properties.
 
-```bash
+```shell
 aws ec2 describe-images \
     --region us-east-1 \
     --image-ids ami-1234567890EXAMPLE
@@ -75,7 +75,7 @@ Please note `Images` is a top-level list-type element in the JSON document.
 
 **List the `ImageId` of the first 3 images owned by Amazon:**
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[:3].ImageId"
@@ -90,7 +90,7 @@ $ aws ec2 describe-images \
 
 **List the `ImageId` and `OwnerId` of the first 3 images owned by Amazon:**
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[:3].[ImageId,OwnerId]"
@@ -114,7 +114,7 @@ $ aws ec2 describe-images \
 
 If desired, the output values can be nested in a hash object using JMESPath's [hash multi-selection](https://jmespath.org/tutorial.html#multiselect) feature.
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[:3].{image:ImageId,owner:OwnerId}"
@@ -143,7 +143,7 @@ JMESPath provides two features needed to accomplish this query:
 1. [Filter Projection](https://jmespath.org/tutorial.html#filter-projections)
 2. [Pipe Expressions](https://jmespath.org/tutorial.html#pipe-expressions)
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[?OwnerId=='137112412989'] | [:3].ImageId"
@@ -235,7 +235,7 @@ JMESPath supports function expressions:
 
 Step #1: Use the `contains` function and grab the first 3 results:
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[?contains(PlatformDetails, 'Linux')] | [:3]"
@@ -265,7 +265,7 @@ This filters the top-level `Images` for all objects with `Linux` in their `Platf
 
 Step #2: Sort by `CreationDate`:
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[?contains(PlatformDetails, 'Linux')] | [:3] | sort_by(@, &CreationDate)[].{CreationDate:CreationDate,Id:ImageId}"
@@ -321,7 +321,7 @@ After the `sort_by` function, the list is "retrieved" `[]` and the result is for
 
 The first object contains a null `CreationDate` value. Luckily, it can be removed from the output using the `not_null` function.
 
-```bash
+```shell
 $ aws ec2 describe-images \
   --owner amazon \
   --query "Images[?contains(PlatformDetails, 'Linux')] | [:4] | @[?not_null(CreationDate)] | sort_by(@, &CreationDate)[].{CreationDate:CreationDate,Id:ImageId}"
@@ -344,7 +344,7 @@ $ aws ec2 describe-images \
 Lastly, a common scenario is to filter based on environment variables:
 
 **Retrieve a cloudformation export by name and store the value**
-```bash
+```shell
 $ export_name=$(aws cloudformation list-exports \
     --query "Exports[?Name=='$ENV_VAR'].Value" \
     --output text)
