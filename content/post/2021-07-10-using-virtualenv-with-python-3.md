@@ -31,7 +31,7 @@ pip install virtualenv
 
 Simply navigate to the project directory and use the `virtualenv` cli command with a name for the environment (`venv` in this case):
 
-```bash
+```shell
 $ cd ~/projects/myproject
 $ virtualenv venv
 created virtual environment CPython3.8.5.final.0-64 in 1993ms
@@ -65,6 +65,6 @@ With the isolated environment activated, any `pip install packagename` will be c
 
 Simply type the following command to deactivate:
 
-```bash
+```shell
 deactivate
 ```

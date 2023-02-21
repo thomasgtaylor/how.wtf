@@ -82,7 +82,7 @@ aws-cdk.core===1.111.0
 
 ### Install the dependencies
 
-```bash
+```shell
 pip3 install -r requirements.txt
 ```
 
@@ -199,7 +199,7 @@ project/
 
 ### Deploy the stack
 
-```bash
+```shell
 cdk deploy website
 ```
 
