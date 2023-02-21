@@ -17,13 +17,13 @@ Virtualenv is a tool used for creating isolated Python environments. It allows m
 
 Using Python's package manager, `pip` or `pip3`, virtualenv can be installed with a single command:
 
-```
+```shell
 pip install --user virtualenv
 ```
 
 Optionally, you can install it for all users:
 
-```
+```shell
 pip install virtualenv
 ```
 
@@ -49,13 +49,13 @@ To activate the virtualized environment, run the following command from the proj
 
 On Linux / MacOS:
 
-```
+```shell
 source venv/bin/activate
 ```
 
 On Windows:
 
-```
+```shell
 .\venv\Scripts\activate
 ```
 
