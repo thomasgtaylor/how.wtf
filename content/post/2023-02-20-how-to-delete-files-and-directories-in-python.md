@@ -2,7 +2,7 @@
 title: How to delete files and directories in Python
 date: 2023-02-20T00:40:00-04:00
 author: Thomas Taylor
-description: How to delete or remove files and directories in Pytnon.
+description: How to delete or remove files and directories in Python.
 categories:
 - Programming
 tags:
