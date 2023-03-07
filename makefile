@@ -1,3 +1,4 @@
+BUCKET       ?= dev.how.wtf
 ENV          ?= dev
 HUGO         = hugo
 MAX_JPG_SIZE = 250
@@ -6,21 +7,33 @@ PNG_LEVEL    = 4
 SHELL        := /bin/bash
 TERRAFORM    = terraform -chdir="./terraform/env/$(ENV)"
 
-REQUIRED_BINS := hugo terraform aws exiftool jpegoptim optipng mogrify
-$(foreach bin,$(REQUIRED_BINS),\
-    $(if $(shell command -v $(bin) 2> /dev/null),,$(error Please install `$(bin)`)))
+tools := hugo terraform aws exiftool jpegoptim optipng mogrify
+$(tools):
+	@which $@ > /dev/null
 
-all: build optimize deploy invalidate
+.PHONY: publish
+publish: website upload invalidate
 
-build:
+.PHONY: upload
+upload: aws
+	aws s3 sync public/. s3://$(BUCKET) --cache-control max-age=604800 --delete
+
+.PHONY: website
+website: build optimize
+
+.PHONY: build
+build: hugo
 	$(HUGO) --gc --minify
 
+.PHONY: optimize
 optimize: exif compress
 
-exif:
+.PHONY: exif
+exif: exiftool
 	exiftool -all= public/images* -overwrite_original
 
-compress:
+.PHONY: compress
+compress: mogrify optipng jpegoptim
 	for i in public/images/*; do \
 		mogrify -resize '$(MAX_WIDTH)>' "$$i" ; \
 		if [[ "$$i" == *png ]]; then \
@@ -31,28 +44,36 @@ compress:
 		fi ; \
 	done
 
-serve:
+.PHONY: serve
+serve: hugo
 	$(HUGO) server -D
 
-init:
+.PHONY: init
+init: terraform
 	$(TERRAFORM) init
 
-validate:
+.PHONY: validate
+validate: terraform
 	$(TERRAFORM) validate
 
-plan:
+.PHONY: plan
+plan: terraform
 	$(TERRAFORM) plan
 
-apply:
+.PHONY: apply
+apply: terraform
 	$(TERRAFORM) apply -auto-approve
 
+.PHONY: deploy
 deploy: init validate plan apply
 
-destroy:
+.PHONY: destroy
+destroy: terraform
 	$(TERRAFORM) apply -destroy -auto-approve
 
-invalidate:
-	distribution_id=$$($(TERRAFORM) output -raw cloudfront_distribution_id); \
+.PHONY: invalidate
+invalidate: aws
+	distribution_id=$$(aws cloudfront list-distributions --query "DistributionList.Items[?starts_with(Origins.Items[0].DomainName, '$(BUCKET)')].Id" --output text); \
 	aws cloudfront create-invalidation \
 		--distribution-id $$distribution_id \
 		--paths "/*" \
