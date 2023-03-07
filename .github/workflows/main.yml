@@ -6,17 +6,64 @@ on:
     - main
 
 jobs:
+  changes:
+    runs-on: ubuntu
+    permissions:
+      pull-requests: read
+    outputs:
+      infrastructure: ${{ steps.changes.outputs.infrastructure }}
+    steps:
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            infrastructure:
+              - 'terraform/**'
+
+  infrastructure:
+    needs: changes
+    if: ${{ needs.changes.outputs.infrastructure == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          token: ${{ secrets.GH_TOKEN }}
+      - uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_wrapper: false
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            global:
+              - 'terraform/env/global/**'
+            website:
+              - 'terraform/env/prod/**'
+      - name: Deploy global infrastructure
+        if: steps.changes.outputs.global == 'true'
+        env:
+          ENV: global
+        run: make deploy
+      - name: Deploy website infrastructure
+        if: steps.changes.outputs.website == 'true'
+        env:
+          ENV: prod
+        run: make deploy
+
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         submodules: true
         token: ${{ secrets.GH_TOKEN }}
-    - uses: hashicorp/setup-terraform@v1
-      with:
-        terraform_wrapper: false
-    - uses: aws-actions/configure-aws-credentials@v1
+    - uses: aws-actions/configure-aws-credentials@v2
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -31,7 +78,8 @@ jobs:
           jpegoptim \
           optipng \
           graphicsmagick-imagemagick-compat
-    - name: Deploy global infrastructure
-      run: ENV=global make deploy
-    - name: Deploy website
-      run: ENV=prod make all
+    - name: Build website files
+      env:
+        ENV: prod
+        BUCKET: 'how.wtf'
+      run: make publish
