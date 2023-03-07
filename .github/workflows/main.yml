@@ -56,8 +56,10 @@ jobs:
           ENV: prod
         run: make deploy
 
-  deploy:
+  publication:
     runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ always() }}
     steps:
     - uses: actions/checkout@v3
       with:
