@@ -9,21 +9,6 @@ terraform {
 
 locals {
   cloudfront_origin_id = "s3"
-  mime_types = {
-    css   = "text/css"
-    html = "text/html"
-    ico = "image/vnd.microsoft.icon"
-    jpeg = "image/jpeg"
-    jpg = "image/jpeg"
-    js = "text/javascript"
-    json = "application/json"
-    png = "image/png"
-    ttf = "font/ttf"
-    woff = "font/woff"
-    woff2 = "font/woff2"
-    xml = "text/xml"
-  }
-  upload_directory = "${path.root}/../../../public/"
   index_page = "index.html"
 }
 
@@ -48,16 +33,6 @@ resource "aws_s3_bucket_public_access_block" "block" {
   block_public_policy = true
   ignore_public_acls = true
   restrict_public_buckets = true
-}
-
-resource "aws_s3_bucket_object" "website_files" {
-  for_each      = fileset(local.upload_directory, "**/*.*")
-  bucket        = aws_s3_bucket.bucket.bucket
-  key           = replace(each.value, local.upload_directory, "")
-  source        = "${local.upload_directory}${each.value}"
-  etag          = filemd5("${local.upload_directory}${each.value}")
-  content_type  = lookup(local.mime_types, split(".", each.value)[length(split(".", each.value)) - 1])
-  cache_control = "max-age=604800"
 }
 
 data "aws_iam_policy_document" "document" {
