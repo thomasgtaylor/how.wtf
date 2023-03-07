@@ -13,6 +13,10 @@ jobs:
     outputs:
       infrastructure: ${{ steps.changes.outputs.infrastructure }}
     steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          token: ${{ secrets.GH_TOKEN }}
       - uses: dorny/paths-filter@v2
         id: changes
         with:
