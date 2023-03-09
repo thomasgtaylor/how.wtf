@@ -27,7 +27,7 @@ There are no thrills to this technique, but it's straight forward.
 
 For a shorter syntax, ES5 introduced the ability to do this:
 
-```javscript
+```javascript
 const obj = {
   ...(condition && {field: 5})
 }
