@@ -68,7 +68,7 @@ jobs:
   publication:
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.publication == 'true' && always() }}
+    if: ${{ needs.changes.outputs.publication == 'true' }}
     steps:
     - uses: actions/checkout@v3
       with:
