@@ -19,7 +19,7 @@ $(foreach bin,$(REQUIRED_BINS),\
     $(if $(shell command -v $(bin) 2> /dev/null),,$(error Please install `$(bin)`)))
 ```
 
-This method will run before _all_ `make <command>` are completed. It ensures that each program listed in `REQUIRED_BINS`is executable. If not, it will output an error quickly.
+This method will run before _any_ `make <command>` is completed. It ensures that each program listed in `REQUIRED_BINS`is executable. If not, it will output an error quickly.
 
 ## Check if a specific program exists
 
