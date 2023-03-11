@@ -9,7 +9,7 @@ tags:
 - Makefile
 ---
 
-A Makefile can check if a shell program or executable exists before running a recipe.
+A Makefile can check if a shell program or executable exists before running recipes.
 
 ## Check if all programs exist
 
