@@ -12,6 +12,7 @@ jobs:
       pull-requests: read
     outputs:
       infrastructure: ${{ steps.changes.outputs.infrastructure }}
+      outputs: ${{ steps.changes.outputs.publication }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -66,9 +67,9 @@ jobs:
         run: make deploy
 
   publication:
-    runs-on: ubuntu-latest
     needs: changes
     if: ${{ needs.changes.outputs.publication == 'true' }}
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
