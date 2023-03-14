@@ -16,7 +16,7 @@ publish: website upload invalidate
 
 .PHONY: upload
 upload: aws
-	aws s3 sync public/. s3://$(BUCKET) --cache-control max-age=604800 --delete
+	aws s3 sync public/. s3://$(BUCKET) --cache-control max-age=604800 --delete --size-only
 
 .PHONY: website
 website: build optimize
