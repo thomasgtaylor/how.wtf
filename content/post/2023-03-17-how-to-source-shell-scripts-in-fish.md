@@ -1,5 +1,5 @@
 ---
-title: How to source shell scripts in fish
+title: How to source shell scripts in Fish
 date: 2023-03-17T01:30:00-04:00
 author: Thomas Taylor
 description: How to source general shell (sh or bash) scripts in fish
