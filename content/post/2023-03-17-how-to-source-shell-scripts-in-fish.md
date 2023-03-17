@@ -13,7 +13,7 @@ There may be a use case to `source` a general `sh` or `bash` script in `fish`. F
 
 ## How to source general scripts in `fish`
 
-Sourcing general scripts in `fish` is trivial with a plugin named `bass`. Using a preferred package manager, `bass` can be installed and used to source scripts.
+Sourcing general scripts in `fish` is trivial with a plugin named `bass`. Using a preferred package manager, `bass` can be [installed](https://github.com/edc/bass#installation) and used to source scripts.
 
 ```bash
 # variables.sh
