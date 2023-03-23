@@ -67,7 +67,7 @@ pactl set-default-source alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_
 
 ## Persist command on start/restart
 
-Persisting audio input: 
+Persisting audio output: 
 
 1. Open the application named "Startup Applications" (should be preinstalled)
 2. Click "Add" button in the upper right hand corner
@@ -75,7 +75,7 @@ Persisting audio input:
 4. Place the `pactl set-default-sink <device>` command in the `Command:` field
 5. Click "Add" button in the bottom right hand corner of the prompt
 
-Persisting audio output:
+Persisting audio input:
 
 1. Click "Add" button in the upper right hand corner
 2. Enter a command name such as: "Set default audio input" in the `Name:` field
