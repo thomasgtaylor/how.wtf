@@ -13,7 +13,7 @@ In TypeScript or JavaScript, checking if a variable is an array can be completed
 
 ## Using the `Array.isArray()`
 
-Using the native `Array.isArray()` method will yield a boolean result:
+Using the native `Array.isArray()` method, a boolean will be returned.
 
 ```javascript
 const names = ["sally", "billy", "mary"];
@@ -24,7 +24,7 @@ console.log(Array.isArray(notAnArray)); // false
 
 ## Using the `instanceOf` operator
 
-Using the `instanceOf` operator is another option:
+As an alternative option, `instanceOf` will yield the same results.
 
 ```javascript
 const names = ["sally", "billy", "mary"];
