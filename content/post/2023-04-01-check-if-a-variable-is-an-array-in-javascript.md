@@ -1,6 +1,6 @@
 ---
 title: Check if a variable is an array in JavaScript
-date: 2023-01-01T23:20:00-04:00
+date: 2023-04-01T23:20:00-04:00
 author: Thomas Taylor
 description: How to check if a variable is an array in JavaScript
 categories:
