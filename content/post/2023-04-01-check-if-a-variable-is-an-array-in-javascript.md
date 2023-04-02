@@ -9,7 +9,7 @@ tags:
 - JavaScript
 ---
 
-In TypeScript or JavaScript, checking if a variable is an array can be completed in two ways:
+In TypeScript or JavaScript, checking if a variable is an array can be completed in two ways.
 
 ## Using the `Array.isArray()`
 
