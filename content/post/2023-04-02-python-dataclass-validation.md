@@ -1,6 +1,6 @@
 ---
 title: Python dataclass validation
-date: 2023-04-02T11:45:00-04:00
+date: 2023-04-02T23:45:00-04:00
 author: Thomas Taylor
 description: How to validate dataclass inputs in Python
 categories:
