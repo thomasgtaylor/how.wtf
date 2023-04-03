@@ -7,7 +7,6 @@ categories:
 - Programming
 tags:
 - Python
-
 ---
 
 Creating dataclasses in Python is simplistic; however, what if additional validation needs to be completed during initialization?
