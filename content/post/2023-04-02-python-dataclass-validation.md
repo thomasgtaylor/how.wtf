@@ -38,7 +38,7 @@ print(zachary) # Person(first_name='zachary', last_name='taylor', age=12.5)
 
 ## How to validate inputs for dataclasses
 
-In the previous example, `sally`'s age was a non-positive integer and zachary's `age` was a float value. To resolve erroneous input, a `__post_init__` method can be used:
+In the previous example, `sally`'s age was a non-positive integer and `zachary`'s `age` was a float value. To resolve erroneous input, a `__post_init__` method can be used:
 
 ```python
 from dataclasses import dataclass
