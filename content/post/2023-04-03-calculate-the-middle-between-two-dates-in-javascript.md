@@ -21,4 +21,4 @@ const midDate = new Date((startDate.getTime() + endDate.getTime()) / 2);
 console.log(midDate) // 2023-03-12T12:00:00.000Z
 ```
 
-In the example above, `getTime()` returns the number of seconds since epoch. Adding the seconds and dividing by two gives the mid point.
+In the example above, `getTime()` returns the number of seconds since epoch. Adding the seconds and dividing by two gives the midpoint.
