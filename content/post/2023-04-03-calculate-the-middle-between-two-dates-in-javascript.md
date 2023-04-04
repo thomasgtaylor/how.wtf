@@ -1,6 +1,6 @@
 ---
 title: Calculate the middle between two dates in JavaScript
-date: 2023-04-03T23:40:00-04:00
+date: 2023-04-03T23:35:00-04:00
 author: Thomas Taylor
 description: How to calculate or determine the midpoint between two dates in JavaScript
 categories:
