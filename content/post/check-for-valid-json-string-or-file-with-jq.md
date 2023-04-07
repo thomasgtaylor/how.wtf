@@ -1,4 +1,3 @@
-
 ---
 title: Check for valid json string or file with jq
 date: 2023-04-06T21:30:00-04:00
