@@ -1,6 +1,6 @@
 ---
 title: Return a string from a function in Bash
-date: 2023-04-16T23:40:00-04:00
+date: 2023-04-16T23:45:00-04:00
 author: Thomas Taylor
 description: How to return a string from a function using Bash
 categories:
