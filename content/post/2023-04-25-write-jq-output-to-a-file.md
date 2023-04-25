@@ -32,7 +32,7 @@ Extract all project ids from the following `json` payload to a text file:
 echo '{"projects": [{"id": 1}, {"id": 2}]}' | jq '.projects[].id' > ids.txt
 ```
 
-Output int `ids.txt`:
+Output: `ids.txt`:
 
 ```text
 1
