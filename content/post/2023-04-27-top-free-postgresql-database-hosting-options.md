@@ -1,5 +1,5 @@
 ---
-title: Top PostgreSQL database free hosting options
+title: Top free PostgreSQL database hosting options
 date: 2023-04-27T00:05:00-04:00
 author: Thomas Taylor
 description: How to host a PostgreSQL database free
