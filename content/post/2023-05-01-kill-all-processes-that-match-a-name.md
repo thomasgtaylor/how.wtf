@@ -1,6 +1,6 @@
 ---
 title: Kill all processes that match a name
-date: 2023-05-30T23:40:00-04:00
+date: 2023-05-01T23:40:00-04:00
 author: Thomas Taylor
 description: How to kill all processes that match a name
 categories:
