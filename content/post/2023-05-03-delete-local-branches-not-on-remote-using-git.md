@@ -9,7 +9,7 @@ tags:
 - Git
 ---
 
-After merging changes or working on temporary branches, users may be left with a list of git branches on their local machine. Rather than deleting each branch one-by-one, running a simple script will can clear them out. 
+After merging changes or working on temporary branches, users may retain a list of orphaned git branches on their local machine. Rather than deleting each branch one-by-one, running a simple script can clear them out. 
 
 ## Delete local branches not found on remote
 
@@ -20,4 +20,3 @@ git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream
 ```
 
 This works by detected if a branch is `[gone]` from remote.
-
