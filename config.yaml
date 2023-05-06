@@ -29,6 +29,12 @@ params:
       category:
         name: Blog Posts
         id: DIC_kwDOFWVzuM4B-NTf
+  ads:
+    enabled: true
+    provider: carbon
+    carbon:
+      serve: CWYDP27U
+      placement: howwtf
 
 permalinks:
   post: :title
