@@ -29,7 +29,6 @@ jobs:
               - 'static/**'
               - 'themes/**'
               - 'config.yaml'
-
   infrastructure:
     needs: changes
     if: ${{ needs.changes.outputs.infrastructure == 'true' }}
@@ -70,8 +69,6 @@ jobs:
     needs: changes
     if: ${{ needs.changes.outputs.publication == 'true' }}
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/thomasnotfound/how-wtf-ci:latest
     steps:
     - uses: actions/checkout@v3
       with:
@@ -85,6 +82,13 @@ jobs:
     - uses: peaceiris/actions-hugo@v2
       with:
         extended: true
+    - name: Install dependencies
+      run: |
+        sudo apt-get update -y && sudo apt install -y \
+          libimage-exiftool-perl \
+          jpegoptim \
+          optipng \
+          graphicsmagick-imagemagick-compat
     - name: Build website files
       env:
         ENV: prod
