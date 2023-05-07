@@ -1,6 +1,6 @@
 ---
 title: Installing Docker on Ubuntu
-date: 2023-05-06T20:40:00-04:00
+date: 2023-05-06T21:25:00-04:00
 author: Thomas Taylor
 description: How to install Docker on Ubuntu-based Linux distributions
 categories:
