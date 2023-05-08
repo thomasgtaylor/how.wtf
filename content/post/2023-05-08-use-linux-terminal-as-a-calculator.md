@@ -1,6 +1,6 @@
 ---
 title: Use Linux terminal as a calculator
-date: 2023-05-08T001:20:00-04:00
+date: 2023-05-08T01:20:00-04:00
 author: Thomas Taylor
 description: How to use the Linux terminal as a calculator
 categories:
