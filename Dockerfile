@@ -12,8 +12,10 @@ COPY . .
 
 RUN hugo --gc --minify && ./bin/compression.sh
 
-FROM nginx:alpine
-COPY --from=build /src/public/ /usr/share/nginx/html
+FROM busybox:uclibc
 
 LABEL org.opencontainers.image.source="https://github.com/thomasnotfound/how.wtf"
 LABEL org.opencontainers.image.description="Official how.wtf image"
+
+COPY --from=build /src/public/ /
+CMD ["busybox", "httpd", "-f", "-v", "-p", "1313"]
