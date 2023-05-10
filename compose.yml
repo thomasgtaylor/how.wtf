@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: .
+      tags:
+        - how.wtf:latest
+    ports:
+      - 1313:1313
