@@ -1,0 +1,7 @@
+version: '4'
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - 1313:1313
