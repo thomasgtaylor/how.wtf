@@ -56,14 +56,10 @@ jobs:
               - 'terraform/env/prod/**'
       - name: Deploy global infrastructure
         if: steps.changes.outputs.global == 'true'
-        env:
-          ENV: global
-        run: make deploy
+        run: ./bin/deploy.sh global
       - name: Deploy website infrastructure
         if: steps.changes.outputs.website == 'true'
-        env:
-          ENV: prod
-        run: make deploy
+        run: ./bin/deploy.sh prod
 
   publication:
     needs: changes
@@ -79,18 +75,7 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
-    - uses: peaceiris/actions-hugo@v2
-      with:
-        extended: true
-    - name: Install dependencies
-      run: |
-        sudo apt-get update -y && sudo apt install -y \
-          libimage-exiftool-perl \
-          jpegoptim \
-          optipng \
-          graphicsmagick-imagemagick-compat
     - name: Build website files
-      env:
-        ENV: prod
-        BUCKET: 'how.wtf'
-      run: make publish
+      run: ./bin/dh.sh -t "how.wtf" -b
+    - name: Publish website
+      run: ./bin/upload.sh -t "how.wtf" -b "how.wtf"
