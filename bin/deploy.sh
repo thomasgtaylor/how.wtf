@@ -10,12 +10,12 @@ usage() {
 deploy() {
   $TERRAFORM init
   $TERRAFORM validate
-	$TERRAFORM plan
-	$TERRAFORM apply
+  $TERRAFORM plan
+  $TERRAFORM apply
 }
 
 destroy() {
-	$TERRAFORM apply -destroy -auto-approve
+  $TERRAFORM apply -destroy -auto-approve
 }
 
 environment="$1"

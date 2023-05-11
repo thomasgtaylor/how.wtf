@@ -18,16 +18,16 @@ copy() {
 }
 
 upload() {
-	aws s3 sync $OUTDIR/. s3://$bucket --cache-control max-age=604800 --delete --size-only
+  aws s3 sync $OUTDIR/. s3://$bucket --cache-control max-age=604800 --delete --size-only
 }
 
 invalidate() {
   distribution_id=$(aws cloudfront list-distributions --query "DistributionList.Items[?starts_with(Origins.Items[0].DomainName, '$bucket')].Id" --output text)
-	aws cloudfront create-invalidation \
+  aws cloudfront create-invalidation \
     --distribution-id $distribution_id \
-		--paths "/*" \
-		--query "Invalidation.Id" \
-		--output text
+    --paths "/*" \
+    --query "Invalidation.Id" \
+    --output text
 }
 
 while getopts "t:b:h" o; do
