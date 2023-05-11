@@ -10,12 +10,12 @@ RUN apk add --no-cache \
 WORKDIR /src
 COPY . .
 
-RUN hugo --gc --minify && ./bin/compression.sh
+RUN hugo --gc --minify && ./bin/compress.sh
 
 FROM busybox:uclibc
 
 LABEL org.opencontainers.image.source="https://github.com/thomasnotfound/how.wtf"
 LABEL org.opencontainers.image.description="Official how.wtf image"
 
-COPY --from=build /src/public/ /
-CMD ["busybox", "httpd", "-f", "-v", "-p", "1313"]
+COPY --from=build /src/public/ /var/www/html
+CMD ["busybox", "httpd", "-f", "-v", "-p", "1313", "-h", "/var/www/html"]
