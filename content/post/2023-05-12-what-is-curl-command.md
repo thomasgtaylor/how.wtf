@@ -1,6 +1,7 @@
 ---
 title: What is curl
 date: 2023-05-12T00:55:00-04:00
+lastmod: 2023-05-14T18:30:00-04:00
 author: Thomas Taylor
 description: What is curl in Linux?
 categories:
