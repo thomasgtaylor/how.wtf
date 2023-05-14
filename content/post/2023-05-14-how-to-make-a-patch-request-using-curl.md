@@ -1,6 +1,6 @@
 ---
 title: How to make a PATCH request using curl
-date: 2023-05-13T10:25:00-04:00
+date: 2023-05-14T18:20:00-04:00
 author: Thomas Taylor
 description: How to make a PATCH request using curl
 categories:
