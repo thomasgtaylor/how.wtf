@@ -1,9 +1,9 @@
 ---
-title: What is curl
+title: What is the curl command
 date: 2023-05-12T00:55:00-04:00
 lastmod: 2023-05-14T18:30:00-04:00
 author: Thomas Taylor
-description: What is curl in Linux?
+description: What is the curl command in Linux?
 categories:
 - OS
 tags:
@@ -14,7 +14,7 @@ Curl is a command line utility that was created in 1998 for transferring data us
 
 `curl` (short for "Client URL") is powered by libcurl – a portable client-side URL transfer library written in C. 
 
-## Why use curl?
+## Why use the curl command?
 
 Common use cases for `curl` include:
 
