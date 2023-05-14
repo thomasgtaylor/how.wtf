@@ -21,7 +21,7 @@ curl -X DELETE https://example.com
 
 **NOTE**: The `-X` flag is a shorthand for `--request`.
 
-## Make a `DELETE` request for JSON data
+## `DELETE` request example
 
 ```shell
 curl -X DELETE \
