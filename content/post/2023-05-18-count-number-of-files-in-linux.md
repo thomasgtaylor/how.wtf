@@ -1,8 +1,8 @@
 ---
 title: Count number of files in Linux
-date: 2023-05-18T22:15:00-04:00
+date: 2023-05-18T22:20:00-04:00
 author: Thomas Taylor
-description: How to count the number of files in a directory in Linux
+description: How to count the number of files in Linux
 categories:
 - OS
 tags:
