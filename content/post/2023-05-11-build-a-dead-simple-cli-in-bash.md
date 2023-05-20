@@ -4,9 +4,9 @@ date: 2023-05-11T01:45:00-04:00
 author: Thomas Taylor
 description: How to build a simple CLI in Bash using getopts
 categories:
-- OS
+- Programming
 tags:
-- Linux
+- Bash
 ---
 
 Building a simple CLI in Bash may seem like a herculean task; however, `getopts` provides an easy-to-use interface out of the box! For this tutorial, we'll be using the https://pokeapi.co/ to build a simple CLI for fetching resources from the Pokemon world.
