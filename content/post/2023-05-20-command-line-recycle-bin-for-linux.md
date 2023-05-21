@@ -14,7 +14,7 @@ tags:
 
 ## What is `trash-cli`
 
-`trash-cli` is a Python tool the implements the freedesktop.org trash specification. In contrast to `rm`, users can recover deleted files easily.
+[`trash-cli` is a Python tool](https://github.com/andreafrancia/trash-cli) that implements the freedesktop.org trash specification. In contrast to `rm`, users can recover deleted files easily.
 
 ## Installing `trash-cli`
 
