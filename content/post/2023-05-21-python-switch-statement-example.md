@@ -36,6 +36,8 @@ match pizza_size:
         print("medium pizza")
     case 2:
         print("large pizza")
+    case _:
+        print("pizza size is not valid")
 ```
 
 Output:
