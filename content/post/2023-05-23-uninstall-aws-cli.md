@@ -10,7 +10,7 @@ tags:
 - AWS CLI
 ---
 
-The AWS CLI can be installed using several methods. The article attempts to address uninstalling through many of them.
+The AWS CLI can be installed using several methods: this article attempts to address uninstalling through many of them.
 
 ## Uninstall AWS CLI using Pip
 
