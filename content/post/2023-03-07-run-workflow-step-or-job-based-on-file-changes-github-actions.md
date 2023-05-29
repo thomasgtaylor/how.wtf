@@ -42,44 +42,6 @@ on:
     - main
 
 jobs:
-  job1:
-    steps:
-    - uses: actions/checkout@v3
-    - uses: dorny/paths-filter@v2
-      id: changes
-      with:
-        filters: |
-          src:
-            - 'src/**'
-          infra:
-            - 'infra/**'
-            
-    - name: src deploy
-      if: steps.changes.outputs.src == 'true'
-      run: ...
-      
-    - name: infra deploy
-      if: steps.changes.outputs.infra == 'true'
-      run: ...
-    
-    - name: e2e
-      if: steps.changes.outputs.src == 'true' || steps.changes.outputs.infra == 'true'
-      run: ...
-```
-
-On a push to the `main` branch, this workflow will execute; however, the first action checks where changes occurred and outputs `true` or `false` for the specified filtered paths.
-
-## Run step based on file changes in GitHub Actions
-
-Similarly to jobs, GitHub actions to not natively support triggering individual steps based on file changes. [dorny/paths-filter](https://github.com/dorny/paths-filter) supports this use-case as well.
-
-```yaml
-on:
-  push:
-    branches:
-    - main
-
-jobs:
   changes:
     runs-on: ubuntu-latest
     outputs:
@@ -111,6 +73,44 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: ...
+```
+
+On a push to the `main` branch, this workflow will execute; however, the first action checks where changes occurred and outputs `true` or `false` for the specified filtered paths.
+
+## Run step based on file changes in GitHub Actions
+
+Similarly to jobs, GitHub actions to not natively support triggering individual steps based on file changes. [dorny/paths-filter](https://github.com/dorny/paths-filter) supports this use-case as well.
+
+```yaml
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  job1:
+    steps:
+    - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: changes
+      with:
+        filters: |
+          src:
+            - 'src/**'
+          infra:
+            - 'infra/**'
+            
+    - name: src deploy
+      if: steps.changes.outputs.src == 'true'
+      run: ...
+      
+    - name: infra deploy
+      if: steps.changes.outputs.infra == 'true'
+      run: ...
+    
+    - name: e2e
+      if: steps.changes.outputs.src == 'true' || steps.changes.outputs.infra == 'true'
+      run: ...
 ```
 
 ## Pull requests
