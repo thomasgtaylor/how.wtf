@@ -1,6 +1,6 @@
 ---
 title: What is double asterisk kwargs in Python
-date: 2023-05-30T23:35:00-04:00
+date: 2023-05-31T23:35:00-04:00
 author: Thomas Taylor
 description: What does the double asterisk (**) kwargs mean in Python
 categories:
