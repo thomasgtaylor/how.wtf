@@ -21,7 +21,7 @@ Normally, this error indicates that a new method was added without adding the re
 
 Example:
 
-```apex
+```java
 public class Foo {
 
     private String bar;
@@ -38,7 +38,7 @@ public class Foo {
 
 To fix this, simply add the return type to the method:
 
-```apex
+```java
 public class Foo {
 
     private String bar;
