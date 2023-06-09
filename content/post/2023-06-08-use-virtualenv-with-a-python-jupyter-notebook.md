@@ -29,7 +29,7 @@ For instructions on installing, using, and activating `virtualenv`, refer to my 
 3. Use the `ipykernel install` command
 
   ```shell
-  python3 -m ipykernel install --name=venv # this name can be anything
+  python3 -m ipykernel install --user --name=venv # this name can be anything
   ```
 
 4. Open `jupyter-lab` and click on the environment labeled `venv`
