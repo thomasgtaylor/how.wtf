@@ -1,5 +1,5 @@
 ---
-title: Pico vs. Nano A Comparison of Lightweight Text Editors
+title: Pico vs Nano A Comparison of Lightweight Text Editors
 date: 2023-06-10T11:15:00-04:00
 author: Thomas Taylor
 description: What are the differences between pico and nano?
