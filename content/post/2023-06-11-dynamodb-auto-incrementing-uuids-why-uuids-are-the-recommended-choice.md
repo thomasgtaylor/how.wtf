@@ -1,5 +1,5 @@
 ---
-title: DynamoDB auto incrementing UUIDs: Why UUIDs are the recommended choice
+title: DynamoDB auto incrementing UUIDs Why UUIDs are the recommended choice
 date: 2023-06-11T11:05:00-04:00
 author: Thomas Taylor
 description: Why auto incrementing is bad and a better alternative is UUIDs.
