@@ -11,7 +11,7 @@ tags:
 
 Implementing custom memory in Langchain is dead simple using the `ChatMessageHistory` class.
 
-## How to implement custom memory in Langchain
+## How to implement custom memory in Langchain (including LCEL)
 
 One of the easiest methods for storing and retrieving messages with Langchain is using the `ChatMessageHistory` [class](https://python.langchain.com/docs/modules/memory/chat_messages/) that is provided from the `langchain.memory` module.
 
@@ -73,7 +73,7 @@ print(chat_history.messages)
 
 The `chat_history` may be used for instantiating other types of memory!
 
-Here is an example from the langchain [documentation](https://python.langchain.com/docs/expression_language/cookbook/memory) using the `ChatMessageHistory`:
+Here is an example from the langchain [documentation](https://python.langchain.com/docs/expression_language/cookbook/memory) using the `ChatMessageHistory` with Langchain Expression Language (LCEL):
 
 ```python
 import json
