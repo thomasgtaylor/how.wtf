@@ -4,7 +4,7 @@ date: 2023-11-11T22:10:00-05:00
 author: Thomas Taylor
 description: How to implement custom memory in langchain
 categories:
-- Progamming
+- Programming
 tags:
 - Python
 ---
