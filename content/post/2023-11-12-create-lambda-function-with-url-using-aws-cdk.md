@@ -35,7 +35,7 @@ constructs>=10.0.0,<11.0.0
 pip3 install -r requirements.txt
 ```
 
-### Create /handler folder with index.py
+### Create /handler folder with an index.py file
 
 ```python
 def handler(event, context):
