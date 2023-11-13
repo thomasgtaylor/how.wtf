@@ -114,7 +114,7 @@ cdk deploy
 
 Because of the `CfnOutput`, the distribution's domain name is in an output:
 
-```
+```text
 Outputs:
 FunctionUrlStack.FunctionUrl = https://<url>.lambda-url.us-east-1.on.aws/
 ```
