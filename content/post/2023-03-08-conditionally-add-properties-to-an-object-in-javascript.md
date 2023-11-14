@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2023-03-08 08:45:00-04:00
-description: How to conditionally add properties or fields or members to an objectin JavaScript or TypeScript
+description: How to conditionally add properties or fields or members to an object in JavaScript or TypeScript
 tags:
 - javascript
 title: Conditionally add properties to an object in JavaScript

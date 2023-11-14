@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2021-04-28 01:00:00-04:00
-description: JavaScript provides a spread operator for unpacking elements of iterableobjects. The same functionality can be achieved in Python.
+description: JavaScript provides a spread operator for unpacking elements of iterable objects. The same functionality can be achieved in Python.
 tags:
 - python
 title: Spread operator in Python

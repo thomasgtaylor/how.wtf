@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2023-02-07 00:00:00-04:00
-description: You must specify a region. You can also configuration your region byrunning "aws configure"
+description: You must specify a region. You can also configuration your region by running "aws configure"
 tags:
 - aws
 - dynamodb

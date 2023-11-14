@@ -4,7 +4,7 @@ categories:
 - cloud
 - programming
 date: 2021-07-04 09:15:00-04:00
-description: How to deploy Cloudfront functions using the AWS CDK to add securityheaders to responses
+description: How to deploy Cloudfront functions using the AWS CDK to add security headers to responses
 lastmod: 2021-12-11T23:30-5:00
 tags:
 - python

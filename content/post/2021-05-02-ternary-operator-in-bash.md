@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2021-05-02 01:35:00-04:00
-description: 'Many languages support a ternary operator: a short-form if/else statement
-  for in-place conditional. This functionality can be mimicked in Bash.'
+description: 'Many languages support a ternary operator: a short-form if/else statement for in-place conditional. This functionality can be mimicked in Bash.'
 tags:
 - bash
 title: Ternary operator in Bash

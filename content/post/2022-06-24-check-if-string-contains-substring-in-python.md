@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2022-06-24 01:30:00-04:00
-description: Easily check if a string contains a substring or multiple substringsin Python.
+description: Easily check if a string contains a substring or multiple substrings in Python.
 tags:
 - python
 title: Check if a String Contains a Substring in Python

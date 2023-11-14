@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2021-04-21 01:25:00-04:00
-description: 'There are several methods to answer the question: "How to format strings
-  in Python?"'
+description: 'There are several methods to answer the question: "How to format strings in Python?"'
 tags:
 - python
 title: 3 ways to format strings in Python
