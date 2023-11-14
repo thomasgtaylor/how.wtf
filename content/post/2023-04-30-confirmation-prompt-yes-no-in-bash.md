@@ -1,12 +1,12 @@
 ---
-title: Confirmation prompt yes/no in Bash
-date: 2023-04-30T23:55:00-04:00
 author: Thomas Taylor
-description: How to ask for confirmation in a bash script
 categories:
-- Programming
+- programming
+date: 2023-04-30 23:55:00-04:00
+description: How to ask for confirmation in a bash script
 tags:
-- Bash
+- bash
+title: Confirmation prompt yes/no in Bash
 ---
 
 Asking for user confirmation in a `bash` script is easy! 

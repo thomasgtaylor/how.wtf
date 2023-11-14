@@ -1,13 +1,14 @@
 ---
-title: Patch operations for updating api resources with the AWS CLI
-date: 2023-04-05T23:45:00-04:00
 author: Thomas Taylor
-description: How to use the patch operations argument when updating API resources with the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-04-05 23:45:00-04:00
+description: How to use the patch operations argument when updating API resources
+  with the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Patch operations for updating api resources with the AWS CLI
 ---
 
 When updating API Gateway resources using the AWS CLI, some commands include a `--patch-operations` argument.

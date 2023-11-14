@@ -1,13 +1,13 @@
 ---
-title: For Loops in Bash
-date: 2022-06-19T22:30:00-04:00
-lastmod: 2022-06-19T23:45:00-04:00
 author: Thomas Taylor
-description: How to write a for loop in Bash
 categories:
-- Programming
+- programming
+date: 2022-06-19 22:30:00-04:00
+description: How to write a for loop in Bash
+lastmod: 2022-06-19 23:45:00-04:00
 tags:
-- Bash
+- bash
+title: For Loops in Bash
 ---
 
 Using a `for` loop in Bash is simple! 

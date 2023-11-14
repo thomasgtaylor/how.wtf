@@ -1,13 +1,13 @@
 ---
-title: "DynamoDB auto incrementing keys: Why UUIDs are the recommended choice"
-date: 2023-06-11T11:05:00-04:00
 author: Thomas Taylor
-description: Why auto incrementing is bad and a better alternative is UUIDs.
 categories:
-- Cloud
+- cloud
+date: 2023-06-11 11:05:00-04:00
+description: Why auto incrementing is bad and a better alternative is UUIDs.
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: 'DynamoDB auto incrementing keys: Why UUIDs are the recommended choice'
 ---
 
 When working with Amazon DynamoDB, the design of the primary key plays a crucial role. Unlike traditional relational databases, DynamoDB does not natively support auto-incrementing primary keys. However, there are alternative approaches that provide greater flexibility and scalability.

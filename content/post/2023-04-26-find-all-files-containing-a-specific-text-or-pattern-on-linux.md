@@ -1,12 +1,12 @@
 ---
-title: Find all files containing a specific text or pattern on Linux
-date: 2023-04-26T00:40:00-04:00
 author: Thomas Taylor
-description: How to find all files containing a specific text or pattern on Linux
 categories:
-- OS
+- os
+date: 2023-04-26 00:40:00-04:00
+description: How to find all files containing a specific text or pattern on Linux
 tags:
-- Linux
+- linux
+title: Find all files containing a specific text or pattern on Linux
 ---
 
 Searching for a specific text or pattern across multiple files can be completed using `grep`.

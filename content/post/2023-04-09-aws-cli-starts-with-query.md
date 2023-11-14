@@ -1,13 +1,13 @@
 ---
-title: AWS CLI starts with query
-date: 2023-04-09T19:30:00-04:00
 author: Thomas Taylor
-description: How to use a starts with query using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-04-09 19:30:00-04:00
+description: How to use a starts with query using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: AWS CLI starts with query
 ---
 
 If a user wants to search AWS resources using a `starts_with` or "begins with" or "has prefix" query, the AWS CLI natively supports it.

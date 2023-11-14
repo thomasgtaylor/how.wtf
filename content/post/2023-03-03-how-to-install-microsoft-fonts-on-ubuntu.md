@@ -1,12 +1,12 @@
 ---
-title: How to install Microsoft fonts on Ubuntu
-date: 2023-03-03T00:00:00-04:00
 author: Thomas Taylor
-description: How to install Microsoft fonts on Ubuntu or other Debian-based distributions.
 categories:
-- OS
+- os
+date: 2023-03-03 00:00:00-04:00
+description: How to install Microsoft fonts on Ubuntu or other Debian-based distributions.
 tags:
-- Linux
+- linux
+title: How to install Microsoft fonts on Ubuntu
 ---
 
 Installing Microsoft fonts is simple through the terminal on Debian-based distributions.

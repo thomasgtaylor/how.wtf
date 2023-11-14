@@ -1,14 +1,14 @@
 ---
-title: Turn off the pager for AWS CLI
-date: 2023-03-24T20:00:00-04:00
-lastmod: 2023-03-25T00:45:00-04:00
 author: Thomas Taylor
-description: How to disable the pager for the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-24 20:00:00-04:00
+description: How to disable the pager for the AWS CLI
+lastmod: 2023-03-25 00:45:00-04:00
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Turn off the pager for AWS CLI
 ---
 
 Disabling the AWS CLI pager can be completed in three different ways.

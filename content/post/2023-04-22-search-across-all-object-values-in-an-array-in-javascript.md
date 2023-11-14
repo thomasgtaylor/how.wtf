@@ -1,12 +1,12 @@
 ---
-title: Search across all object values in an array in JavaScript 
-date: 2023-04-22T11:45:00-04:00
 author: Thomas Taylor
-description: How to search across all object values in an array JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-22 11:45:00-04:00
+description: How to search across all object values in an array JavaScript
 tags:
-- JavaScript
+- javascript
+title: Search across all object values in an array in JavaScript
 ---
 
 If there is a need to search across all object values in an array in JavaScript, a combination of `filter`, `entries`, and `some` can be used.

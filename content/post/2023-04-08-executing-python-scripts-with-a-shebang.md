@@ -1,13 +1,12 @@
 ---
-title: Executing Python scripts with a shebang
-date: 2023-04-08T10:50:00-04:00
 author: Thomas Taylor
-description: How to execute Python scripts using a shebang
 categories:
-- Programming
+- programming
+date: 2023-04-08 10:50:00-04:00
+description: How to execute Python scripts using a shebang
 tags:
-- Python
-
+- python
+title: Executing Python scripts with a shebang
 ---
 
 The shebang line informs the operating system's shell where to find the interpreter. The program loader will execute the specified interpreter with the same arguments that were initially passed.
@@ -39,4 +38,3 @@ the file can be called like this:
 ```shell
 chmod +x ./hello.py
 ```
-

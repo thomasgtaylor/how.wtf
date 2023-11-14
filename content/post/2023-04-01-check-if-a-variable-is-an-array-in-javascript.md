@@ -1,12 +1,12 @@
 ---
-title: Check if a variable is an array in JavaScript
-date: 2023-04-01T23:20:00-04:00
 author: Thomas Taylor
-description: How to check if a variable is an array in JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-01 23:20:00-04:00
+description: How to check if a variable is an array in JavaScript
 tags:
-- JavaScript
+- javascript
+title: Check if a variable is an array in JavaScript
 ---
 
 In TypeScript or JavaScript, checking if a variable is an array can be completed in two ways.

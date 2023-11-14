@@ -1,13 +1,14 @@
 ---
-title: AWS CLI query examples
-date: 2021-04-24T15:30:00-04:00
 author: Thomas Taylor
-description: AWS CLI provides native json filtering functionality using the query option.
 categories:
-- Cloud
+- cloud
+date: 2021-04-24 15:30:00-04:00
+description: AWS CLI provides native json filtering functionality using the query
+  option.
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: AWS CLI query examples
 ---
 
 While some users may prefer to pipe AWS CLI JSON output to `jq` for parsing, it is possible to leverage the `--query` functionality that's built-in. 

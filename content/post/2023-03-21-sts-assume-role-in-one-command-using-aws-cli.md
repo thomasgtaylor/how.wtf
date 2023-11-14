@@ -1,13 +1,13 @@
 ---
-title: STS assume role in one command using AWS CLI
-date: 2023-03-21T00:00:00-04:00
 author: Thomas Taylor
-description: How STS assume role in one command using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-21 00:00:00-04:00
+description: How STS assume role in one command using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: STS assume role in one command using AWS CLI
 ---
 
 In order to assume a role, two actions must normally be completed.

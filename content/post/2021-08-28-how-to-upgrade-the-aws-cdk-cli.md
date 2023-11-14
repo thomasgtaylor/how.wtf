@@ -1,13 +1,13 @@
 ---
-title: How to upgrade the AWS CDK CLI
-date: 2021-08-28T1:10:00-04:00
 author: Thomas Taylor
-description: Upgrading the AWS CDK CLI is simple - use node or yarn.
 categories:
-- Cloud
+- cloud
+date: 2021-08-28 01:10:00-04:00
+description: Upgrading the AWS CDK CLI is simple - use node or yarn.
 tags:
-- AWS
-- AWS CDK
+- aws
+- aws-cdk
+title: How to upgrade the AWS CDK CLI
 ---
 
 AWS CDK CLI users are commonly faced with an error:

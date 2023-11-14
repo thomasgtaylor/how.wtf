@@ -1,12 +1,12 @@
 ---
-title: Delete local branches not on remote using Git
-date: 2023-05-03T23:55:00-04:00
 author: Thomas Taylor
-description: How to delete local branches that are not on remote using git.
 categories:
-- Programming
+- programming
+date: 2023-05-03 23:55:00-04:00
+description: How to delete local branches that are not on remote using git.
 tags:
-- Git
+- git
+title: Delete local branches not on remote using Git
 ---
 
 After merging changes or working on temporary branches, users may retain a list of orphaned git branches on their local machine. Rather than deleting each branch one-by-one, running a simple script can clear them out. 

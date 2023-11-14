@@ -1,12 +1,13 @@
 ---
-title: Ternary operator in Bash
-date: 2021-05-02T1:35:00-04:00
 author: Thomas Taylor
-description: "Many languages support a ternary operator: a short-form if/else statement for in-place conditional. This functionality can be mimicked in Bash."
 categories:
-- Programming
+- programming
+date: 2021-05-02 01:35:00-04:00
+description: 'Many languages support a ternary operator: a short-form if/else statement
+  for in-place conditional. This functionality can be mimicked in Bash.'
 tags:
-- Bash
+- bash
+title: Ternary operator in Bash
 ---
 
 The ternary operator is a form of syntactic sugar for an in-line if/else statement. Many languages natively support the operator:

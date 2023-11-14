@@ -1,12 +1,12 @@
 ---
-title: Singleton in Python
-date: 2023-02-26T00:00:00-04:00
 author: Thomas Taylor
-description: How to implement the singleton design pattern in Python.
 categories:
-- Programming
+- programming
+date: 2023-02-26 00:00:00-04:00
+description: How to implement the singleton design pattern in Python.
 tags:
-- Python
+- python
+title: Singleton in Python
 ---
 
 The Singleton pattern enforces having one instance of a class. This tutorial will showcase how to implement the singleton pattern in Python.

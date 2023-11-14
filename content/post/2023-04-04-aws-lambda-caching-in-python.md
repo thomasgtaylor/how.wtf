@@ -1,12 +1,12 @@
 ---
-title: AWS Lambda caching in Python
-date: 2023-04-04T23:30:00-04:00
 author: Thomas Taylor
-description: How to cache in an AWS Lambda function using Python
 categories:
-- Programming
+- programming
+date: 2023-04-04 23:30:00-04:00
+description: How to cache in an AWS Lambda function using Python
 tags:
-- Python
+- python
+title: AWS Lambda caching in Python
 ---
 
 Caching between lambda invocations may be useful for certain scenarios:

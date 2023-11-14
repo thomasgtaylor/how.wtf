@@ -1,12 +1,12 @@
 ---
-title: How to pass variables to Makefiles
-date: 2023-03-13T01:30:00-04:00
 author: Thomas Taylor
-description: How to pass variables from command line using Make
 categories:
-- Programming
+- programming
+date: 2023-03-13 01:30:00-04:00
+description: How to pass variables from command line using Make
 tags:
-- Makefile
+- makefile
+title: How to pass variables to Makefiles
 ---
 
 Passing variables, exported variables, or `.env` (dot env) file variables from outside of a Makefile can be completed in a few ways.

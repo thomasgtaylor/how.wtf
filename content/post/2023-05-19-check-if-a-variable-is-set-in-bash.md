@@ -1,12 +1,12 @@
 ---
-title: Check if a variable is set in Bash
-date: 2023-05-19T22:45:00-04:00
 author: Thomas Taylor
-description: How to check if a variable is set in Bash
 categories:
-- Programming
+- programming
+date: 2023-05-19 22:45:00-04:00
+description: How to check if a variable is set in Bash
 tags:
-- Bash
+- bash
+title: Check if a variable is set in Bash
 ---
 
 Checking if a variable is set is easy in Bash; however, there are two common scenarios:

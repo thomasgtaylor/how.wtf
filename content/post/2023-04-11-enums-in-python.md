@@ -1,12 +1,12 @@
 ---
-title: Enums in Python
-date: 2023-04-11T23:45:00-04:00
 author: Thomas Taylor
-description: How to implement enums in Python
 categories:
-- Programming
+- programming
+date: 2023-04-11 23:45:00-04:00
+description: How to implement enums in Python
 tags:
-- Python
+- python
+title: Enums in Python
 ---
 
 In Python 3.4, `Enum` support was added.

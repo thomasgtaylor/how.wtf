@@ -1,12 +1,12 @@
 ---
-title: How to catch Boto3 errors
-date: 2023-03-04T01:25:00-04:00
 author: Thomas Taylor
-description: How to catch errors in Boto3 with Python
 categories:
-- Programming
+- programming
+date: 2023-03-04 01:25:00-04:00
+description: How to catch errors in Boto3 with Python
 tags:
-- Python
+- python
+title: How to catch Boto3 errors
 ---
 
 Catching errors with the `boto3` library is straightfoward.

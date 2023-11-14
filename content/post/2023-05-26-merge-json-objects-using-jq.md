@@ -1,12 +1,12 @@
 ---
-title: Merge JSON objects using jq
-date: 2023-05-26T23:40:00-04:00
 author: Thomas Taylor
-description: How to merge JSON objects using jq
 categories:
-- OS
+- os
+date: 2023-05-26 23:40:00-04:00
+description: How to merge JSON objects using jq
 tags:
-- Linux
+- linux
+title: Merge JSON objects using jq
 ---
 
 Merging objects in `jq` is handled natively since 1.14.

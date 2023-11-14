@@ -1,12 +1,12 @@
 ---
-title: How to make a DELETE request using curl
-date: 2023-05-14T10:15:00-04:00
 author: Thomas Taylor
-description: How to make a DELETE request using curl
 categories:
-- OS
+- os
+date: 2023-05-14 10:15:00-04:00
+description: How to make a DELETE request using curl
 tags:
-- Linux
+- linux
+title: How to make a DELETE request using curl
 ---
 
 For more information about `curl`, checkout the ["What is curl"](https://how.wtf/what-is-curl.html) article. This article will discuss how to interact with an API using `DELETE` requests through curl.

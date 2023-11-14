@@ -1,12 +1,12 @@
 ---
-title: Differences between Langchain and LlamaIndex and their use cases
-date: 2023-11-13T00:20:00-05:00
 author: Thomas Taylor
-description: What is the difference between Langchain and LlamaIndex
 categories:
 - ai
+date: 2023-11-13 00:20:00-05:00
+description: What is the difference between Langchain and LlamaIndex
 tags:
 - generative-ai
+title: Differences between Langchain and LlamaIndex and their use cases
 ---
 
 What are the differences between Langchain and LlamaIndex and what are their use cases? In this article, we'll explore these differences, helping you choose the most suitable library for your needs.

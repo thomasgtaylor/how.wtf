@@ -1,12 +1,13 @@
 ---
-title: Executing a script with dot vs source in Bash
-date: 2023-03-16T1:25:00-04:00
 author: Thomas Taylor
-description: What is the difference between . and source when executing a script in bash?
 categories:
-- Programming
+- programming
+date: 2023-03-16 01:25:00-04:00
+description: What is the difference between . and source when executing a script in
+  bash?
 tags:
-- Bash
+- bash
+title: Executing a script with dot vs source in Bash
 ---
 
 What are the differences between `source scriptname.sh`, `. scriptname.sh` and `./scriptname.sh` when executing scripts?

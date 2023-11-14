@@ -1,12 +1,12 @@
 ---
-title: Check for valid json string or file with jq
-date: 2023-04-06T21:30:00-04:00
 author: Thomas Taylor
-description: How to validate if a string or file is valid json with jq
 categories:
-- OS
+- os
+date: 2023-04-06 21:30:00-04:00
+description: How to validate if a string or file is valid json with jq
 tags:
-- Linux
+- linux
+title: Check for valid json string or file with jq
 ---
 
 Verifying if a string or file is valid json is easy with `jq`.

@@ -1,12 +1,12 @@
 ---
-title: Convert a string to lowercase in Bash
-date: 2023-05-09T00:10:00-04:00
 author: Thomas Taylor
-description: How to convert a string to lowercase in Bash
 categories:
-- Programming
+- programming
+date: 2023-05-09 00:10:00-04:00
+description: How to convert a string to lowercase in Bash
 tags:
-- Bash
+- bash
+title: Convert a string to lowercase in Bash
 ---
 
 Here are the top 3 ways for converting a string to lowercase in Bash.

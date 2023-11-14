@@ -1,13 +1,13 @@
 ---
-title: Filter S3 files in bucket by pattern using AWS CLI
-date: 2023-03-22T00:25:00-04:00
 author: Thomas Taylor
-description: How to filter S3 list-objects results by pattern
 categories:
-- Cloud
+- cloud
+date: 2023-03-22 00:25:00-04:00
+description: How to filter S3 list-objects results by pattern
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Filter S3 files in bucket by pattern using AWS CLI
 ---
 
 Filtering S3 files using a pattern, or finding all files in an S3 bucket that contain a substring can be completed using the AWS CLI.

@@ -1,12 +1,12 @@
 ---
-title: Static methods in Python
-date: 2023-02-21T00:40:00-04:00
 author: Thomas Taylor
-description: What is a static method in Python, and how do I create them?
 categories:
-- Programming
+- programming
+date: 2023-02-21 00:40:00-04:00
+description: What is a static method in Python, and how do I create them?
 tags:
-- Python
+- python
+title: Static methods in Python
 ---
 
 Static methods are similar to instance methods (class-level methods), except static methods behave like regular functions bound to a class namespace. Unlike instance methods, static methods do not have access to `cls` or `self`.

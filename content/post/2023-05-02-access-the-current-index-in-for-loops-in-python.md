@@ -1,12 +1,12 @@
 ---
-title: Access the current index in for loops in Python
-date: 2023-05-02T23:50:00-04:00
 author: Thomas Taylor
-description: How to access the current index in for loops in Python
 categories:
-- Programming
+- programming
+date: 2023-05-02 23:50:00-04:00
+description: How to access the current index in for loops in Python
 tags:
-- Python
+- python
+title: Access the current index in for loops in Python
 ---
 
 In Python, an iterable may be traversed using a simple for in loop:

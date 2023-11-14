@@ -1,12 +1,12 @@
 ---
-title: How to iterate through JSON arrays in Bash using jq
-date: 2023-06-13T22:45:00-04:00
 author: Thomas Taylor
-description: Learn how to easily iterate through a JSON array using jq in a Bash script
 categories:
-- OS
+- os
+date: 2023-06-13 22:45:00-04:00
+description: Learn how to easily iterate through a JSON array using jq in a Bash script
 tags:
-- Linux
+- linux
+title: How to iterate through JSON arrays in Bash using jq
 ---
 
 Learn the simple process of iterating through a JSON array in bash with the help of `jq`.

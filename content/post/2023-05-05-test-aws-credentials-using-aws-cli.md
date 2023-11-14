@@ -1,13 +1,13 @@
 ---
-title: Test AWS credentials using AWS CLI
-date: 2023-05-05T23:55:00-04:00
 author: Thomas Taylor
-description: How to test AWS credentials using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-05-05 23:55:00-04:00
+description: How to test AWS credentials using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Test AWS credentials using AWS CLI
 ---
 
 Testing for AWS credentials is a straightforward operation.

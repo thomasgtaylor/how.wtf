@@ -1,13 +1,13 @@
 ---
-title: How to view or tail AWS logs in real time
-date: 2023-02-17T00:10:00-04:00
 author: Thomas Taylor
-description: How to view AWS logs in real time (like tail -f in linux)
 categories:
-- Cloud
+- cloud
+date: 2023-02-17 00:10:00-04:00
+description: How to view AWS logs in real time (like tail -f in linux)
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: How to view or tail AWS logs in real time
 ---
 
 Since mid-2019, the AWS CLI natively supports real time viewing of aws logs.

@@ -1,14 +1,15 @@
 ---
-title: You must specify a region error AWS
-date: 2023-02-07T00:00:00-04:00
 author: Thomas Taylor
-description: 'You must specify a region. You can also configuration your region by running "aws configure"'
 categories:
-- Cloud
+- cloud
+date: 2023-02-07 00:00:00-04:00
+description: You must specify a region. You can also configuration your region by
+  running "aws configure"
 tags:
-- AWS
-- DynamoDB
-- AWS CLI
+- aws
+- dynamodb
+- aws-cli
+title: You must specify a region error AWS
 ---
 
 **You must specify a region** error occurs when a default AWS Region is not configured.

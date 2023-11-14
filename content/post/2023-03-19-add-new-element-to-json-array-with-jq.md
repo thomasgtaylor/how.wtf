@@ -1,12 +1,12 @@
 ---
-title: Add new element to JSON array with jq
-date: 2023-03-19T01:15:00-04:00
 author: Thomas Taylor
-description: How to add a new element to a JSON array using jq
 categories:
-- OS
+- os
+date: 2023-03-19 01:15:00-04:00
+description: How to add a new element to a JSON array using jq
 tags:
-- Linux
+- linux
+title: Add new element to JSON array with jq
 ---
 
 Adding a new element to an existing JSON array can be completed using `jq`.

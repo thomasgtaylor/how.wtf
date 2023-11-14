@@ -1,12 +1,12 @@
 ---
-title: Read environment variables from file in Python
-date: 2023-02-25T02:15:00-04:00
 author: Thomas Taylor
-description: How to read environment variables from env files in Python.
 categories:
-- Programming
+- programming
+date: 2023-02-25 02:15:00-04:00
+description: How to read environment variables from env files in Python.
 tags:
-- Python
+- python
+title: Read environment variables from file in Python
 ---
 
 A `.env` file is a text file containing key value pairs of environment variables. This file is normally included with a project, but not committed to source.

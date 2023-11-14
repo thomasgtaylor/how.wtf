@@ -1,12 +1,12 @@
 ---
-title: Undo and redo changes in Vim 
-date: 2023-06-03T23:25:00-04:00
 author: Thomas Taylor
-description: How to undo and redo in Vim 
 categories:
-- OS
+- os
+date: 2023-06-03 23:25:00-04:00
+description: How to undo and redo in Vim
 tags:
-- Vim
+- vim
+title: Undo and redo changes in Vim
 ---
 
 Undo and redo operations are seamless using Vim.

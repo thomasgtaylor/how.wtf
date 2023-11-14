@@ -1,12 +1,12 @@
 ---
-title: Invalid constructor name error in Apex
-date: 2023-06-03T12:45:00-04:00
 author: Thomas Taylor
-description: What is the invalid constructor name error in Apex?
 categories:
-- Programming
+- programming
+date: 2023-06-03 12:45:00-04:00
+description: What is the invalid constructor name error in Apex?
 tags:
-- Apex
+- apex
+title: Invalid constructor name error in Apex
 ---
 
 When deploying apex classes, a user may run into an odd error: `Error: Compile Error: Invalid constructor name`.

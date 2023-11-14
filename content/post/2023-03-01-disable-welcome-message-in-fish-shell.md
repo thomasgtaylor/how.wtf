@@ -1,12 +1,12 @@
 ---
-title: Disable welcome message in Fish Shell
-date: 2023-03-01T00:45:00-04:00
 author: Thomas Taylor
-description: How to surpress or customize or remove the welcome message in Fish Shell
 categories:
-- OS
+- os
+date: 2023-03-01 00:45:00-04:00
+description: How to surpress or customize or remove the welcome message in Fish Shell
 tags:
-- Linux
+- linux
+title: Disable welcome message in Fish Shell
 ---
 
 The default welcome message in Fish can be surpressed or customized.

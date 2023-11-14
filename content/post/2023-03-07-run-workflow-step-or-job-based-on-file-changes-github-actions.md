@@ -1,12 +1,12 @@
 ---
-title: Run workflow, step, or job based on file changes GitHub Actions
-date: 2023-03-07T08:50:00-04:00
 author: Thomas Taylor
-description: How to catch errors in Boto3 with Python
 categories:
-- Cloud
+- cloud
+date: 2023-03-07 08:50:00-04:00
+description: How to catch errors in Boto3 with Python
 tags:
-- Github Actions
+- github-actions
+title: Run workflow, step, or job based on file changes GitHub Actions
 ---
 
 There are options for conditionally running GitHub actions at the workflow, job, or step level based on file changes.

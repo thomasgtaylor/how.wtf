@@ -1,13 +1,13 @@
 ---
-title: Use multiple AWS accounts using AWS CLI
-date: 2023-03-23T00:30:00-04:00
 author: Thomas Taylor
-description: How to use multiple AWS accounts using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-23 00:30:00-04:00
+description: How to use multiple AWS accounts using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Use multiple AWS accounts using AWS CLI
 ---
 
 Using multiple AWS accounts from the command line is natively handled with profiles in the AWS CLI.

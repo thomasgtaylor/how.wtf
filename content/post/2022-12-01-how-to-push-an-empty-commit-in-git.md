@@ -1,12 +1,12 @@
 ---
-title: How to push an empty commit in Git
-date: 2022-12-01T23:05:00-04:00
 author: Thomas Taylor
-description: How to push without making changes in git.
 categories:
-- Programming
+- programming
+date: 2022-12-01 23:05:00-04:00
+description: How to push without making changes in git.
 tags:
-- Git
+- git
+title: How to push an empty commit in Git
 ---
 
 Pushing an empty commit using Git is straightforward. Git provides an optional flag on the `git commit` command: `--allow-empty`.

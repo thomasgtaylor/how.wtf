@@ -1,12 +1,12 @@
 ---
-title: Installing Docker on Ubuntu
-date: 2023-05-06T21:25:00-04:00
 author: Thomas Taylor
-description: How to install Docker on Ubuntu-based Linux distributions
 categories:
-- OS
+- os
+date: 2023-05-06 21:25:00-04:00
+description: How to install Docker on Ubuntu-based Linux distributions
 tags:
-- Linux
+- linux
+title: Installing Docker on Ubuntu
 ---
 
 Installing Docker on Ubuntu-based Linux distributions: Linux Mint, Zorin, Pop OS, etc. is simple!

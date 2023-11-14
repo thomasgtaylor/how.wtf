@@ -1,12 +1,12 @@
 ---
-title: Difference between is and equal in Python
-date: 2023-04-13T23:30:00-04:00
 author: Thomas Taylor
-description: What is the difference between is and = in Python?
 categories:
-- Programming
+- programming
+date: 2023-04-13 23:30:00-04:00
+description: What is the difference between is and = in Python?
 tags:
-- Python
+- python
+title: Difference between is and equal in Python
 ---
 
 In Python, there are two operators for determining equality: `is` and `==`; however, what are the differences between them and when should one be used over the other?

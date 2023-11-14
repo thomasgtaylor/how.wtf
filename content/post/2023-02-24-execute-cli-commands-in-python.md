@@ -1,12 +1,12 @@
 ---
-title: Execute CLI commands in Python
-date: 2023-02-24T23:45:00-04:00
 author: Thomas Taylor
-description: How to execute CLI commands or shell scripts using Python.
 categories:
-- Programming
+- programming
+date: 2023-02-24 23:45:00-04:00
+description: How to execute CLI commands or shell scripts using Python.
 tags:
-- Python
+- python
+title: Execute CLI commands in Python
 ---
 
 Executing CLI commands / shell scripts / external programs in Python is easy.

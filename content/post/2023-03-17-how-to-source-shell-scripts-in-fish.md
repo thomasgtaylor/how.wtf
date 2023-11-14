@@ -1,12 +1,12 @@
 ---
-title: How to source shell scripts in Fish
-date: 2023-03-17T01:30:00-04:00
 author: Thomas Taylor
-description: How to source general shell (sh or bash) scripts in fish
 categories:
-- OS
+- os
+date: 2023-03-17 01:30:00-04:00
+description: How to source general shell (sh or bash) scripts in fish
 tags:
-- Linux
+- linux
+title: How to source shell scripts in Fish
 ---
 
 There may be a use case to `source` a general `sh` or `bash` script in `fish`. For example, if a function is present in a script file that needs to be sourced, `fish` cannot execute the script because `sh` functions are not _natively_ supported.

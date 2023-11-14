@@ -1,12 +1,13 @@
 ---
-title: Spread operator in Python
-date: 2021-04-28T1:00:00-04:00
 author: Thomas Taylor
-description: JavaScript provides a spread operator for unpacking elements of iterable objects. The same functionality can be achieved in Python.
 categories:
-- Programming
+- programming
+date: 2021-04-28 01:00:00-04:00
+description: JavaScript provides a spread operator for unpacking elements of iterable
+  objects. The same functionality can be achieved in Python.
 tags:
-- Python
+- python
+title: Spread operator in Python
 ---
 
 The JavaScript spread operator `(...)` is a useful and convenient syntax for expanding iterable objects into function arguments, array literals, or other object literals. 

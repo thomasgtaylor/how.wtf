@@ -1,12 +1,12 @@
 ---
-title: Sort array of objects by single or multiple keys in JavaScript
-date: 2023-04-20T23:45:00-04:00
 author: Thomas Taylor
-description: How to sort an array of objects by a single or multiple keys in JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-20 23:45:00-04:00
+description: How to sort an array of objects by a single or multiple keys in JavaScript
 tags:
-- JavaScript
+- javascript
+title: Sort array of objects by single or multiple keys in JavaScript
 ---
 
 In TypeScript or JavaScript, sorting an array of objects is made easy in ES6/ES2015.

@@ -1,13 +1,13 @@
 ---
-title: Set cache control on S3 objects using the AWS CLI
-date: 2023-03-09T08:20:00-04:00
 author: Thomas Taylor
-description: How to set cache control headers on S3 objects using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-09 08:20:00-04:00
+description: How to set cache control headers on S3 objects using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Set cache control on S3 objects using the AWS CLI
 ---
 
 Cache-control can be set on S3 bucket objects.

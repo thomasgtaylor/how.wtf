@@ -1,12 +1,12 @@
 ---
-title: Getters and setters in Python
-date: 2023-04-14T23:45:00-04:00
 author: Thomas Taylor
-description: How to write getter and setter methods in Python.
 categories:
-- Programming
+- programming
+date: 2023-04-14 23:45:00-04:00
+description: How to write getter and setter methods in Python.
 tags:
-- Python
+- python
+title: Getters and setters in Python
 ---
 
 Writing getter and setter methods in Python is seamless using the [`@property` decorator](https://docs.python.org/3/library/functions.html#property).

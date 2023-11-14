@@ -1,12 +1,12 @@
 ---
-title: Build a dead simple CLI in Bash
-date: 2023-05-11T01:45:00-04:00
 author: Thomas Taylor
-description: How to build a simple CLI in Bash using getopts
 categories:
-- Programming
+- programming
+date: 2023-05-11 01:45:00-04:00
+description: How to build a simple CLI in Bash using getopts
 tags:
-- Bash
+- bash
+title: Build a dead simple CLI in Bash
 ---
 
 Building a simple CLI in Bash may seem like a herculean task; however, `getopts` provides an easy-to-use interface out of the box! For this tutorial, we'll be using the https://pokeapi.co/ to build a simple CLI for fetching resources from the Pokemon world.
@@ -133,4 +133,4 @@ A few things happened:
 
 ## What's next?
 
-`getopts` is useful for building plain / simple CLIs. If something more advanced is necessary, `bash` is not the best language for the task. 
+`getopts` is useful for building plain / simple CLIs. If something more advanced is necessary, `bash` is not the best language for the task.

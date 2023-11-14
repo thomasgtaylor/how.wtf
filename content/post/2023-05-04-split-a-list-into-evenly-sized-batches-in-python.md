@@ -1,12 +1,12 @@
 ---
-title: Split a list into evenly sized batches in Python
-date: 2023-05-04T21:30:00-04:00
 author: Thomas Taylor
-description: How to split a list into evenly sized batches or chunks in Python
 categories:
-- Programming
+- programming
+date: 2023-05-04 21:30:00-04:00
+description: How to split a list into evenly sized batches or chunks in Python
 tags:
-- Python
+- python
+title: Split a list into evenly sized batches in Python
 ---
 
 Splitting a list into evenly sized chunks or batches can be accomplished using Python.

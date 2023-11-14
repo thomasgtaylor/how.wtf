@@ -1,12 +1,14 @@
 ---
-title: Custom memory in Langchain
-date: 2023-11-11T22:10:00-05:00
 author: Thomas Taylor
-description: How to implement custom memory in langchain
 categories:
-- Programming
+- programming
+- ai
+date: 2023-11-11 22:10:00-05:00
+description: How to implement custom memory in langchain
 tags:
-- Python
+- python
+- generative-ai
+title: Custom memory in Langchain
 ---
 
 Implementing custom memory in Langchain is dead simple using the `ChatMessageHistory` class.
@@ -119,4 +121,3 @@ chain = (
 inputs = {"input": "hi im bob"}
 response = chain.invoke(inputs)
 ```
-

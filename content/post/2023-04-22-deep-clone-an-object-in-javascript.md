@@ -1,12 +1,12 @@
 ---
-title: Deep clone an object in JavaScript
-date: 2023-04-22T22:15:00-04:00
 author: Thomas Taylor
-description: How to deep clone an object in JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-22 22:15:00-04:00
+description: How to deep clone an object in JavaScript
 tags:
-- JavaScript
+- javascript
+title: Deep clone an object in JavaScript
 ---
 
 Deep cloning an object in JavaScript was natively added in [Node 17](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone#browser_compatibility).

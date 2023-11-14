@@ -1,12 +1,12 @@
 ---
-title: What does PHONY mean in a Makefile
-date: 2023-03-26T01:35:00-04:00
 author: Thomas Taylor
-description: What is the purpose of the .PHONY in a Makefile?
 categories:
-- Programming
+- programming
+date: 2023-03-26 01:35:00-04:00
+description: What is the purpose of the .PHONY in a Makefile?
 tags:
-- Makefile
+- makefile
+title: What does PHONY mean in a Makefile
 ---
 
 What does `.PHONY` mean in a Makefile? The `make` [manual](https://www.gnu.org/software/make/manual/make.html#Phony-Targets) describes the `.PHONY` target as, 

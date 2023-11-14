@@ -1,12 +1,12 @@
 ---
-title: Write jq output to a file
-date: 2023-04-25T00:35:00-04:00
 author: Thomas Taylor
-description: How to write jq output to a file
 categories:
-- OS
+- os
+date: 2023-04-25 00:35:00-04:00
+description: How to write jq output to a file
 tags:
-- Linux
+- linux
+title: Write jq output to a file
 ---
 
 If a user wants to write `jq` output to a file, the solution is simple.

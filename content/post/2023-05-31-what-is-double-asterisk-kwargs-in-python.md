@@ -1,12 +1,12 @@
 ---
-title: What is double asterisk kwargs in Python
-date: 2023-05-31T23:35:00-04:00
 author: Thomas Taylor
-description: What does the double asterisk (**) kwargs mean in Python
 categories:
-- Programming
+- programming
+date: 2023-05-31 23:35:00-04:00
+description: What does the double asterisk (**) kwargs mean in Python
 tags:
-- Python
+- python
+title: What is double asterisk kwargs in Python
 ---
 
 When developing in Python, it's common to come across `**kwargs`.
