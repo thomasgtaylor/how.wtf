@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - os
 date: 2023-03-02 01:35:00-04:00
-description: How to install Microsoft Edge on Ubuntu or Linux Mint or other Debian-based
-  distributions.
+description: How to install Microsoft Edge on Ubuntu or Linux Mint or other Debian-baseddistributions.
 tags:
 - linux
 title: How to install Microsoft Edge on Ubuntu

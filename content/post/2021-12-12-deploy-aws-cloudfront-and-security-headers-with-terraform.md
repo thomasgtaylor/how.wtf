@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2021-12-12 02:15:00-05:00
-description: How to deploy AWS Cloudfront using Terraform to add security headers
-  to responses.
+description: How to deploy AWS Cloudfront using Terraform to add security headersto responses.
 tags:
 - aws
 - terraform

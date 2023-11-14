@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2023-04-05 23:45:00-04:00
-description: How to use the patch operations argument when updating API resources
-  with the AWS CLI
+description: How to use the patch operations argument when updating API resourceswith the AWS CLI
 tags:
 - aws
 - aws-cli

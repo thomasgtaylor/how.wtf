@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2021-04-24 15:30:00-04:00
-description: AWS CLI provides native json filtering functionality using the query
-  option.
+description: AWS CLI provides native json filtering functionality using the queryoption.
 tags:
 - aws
 - aws-cli

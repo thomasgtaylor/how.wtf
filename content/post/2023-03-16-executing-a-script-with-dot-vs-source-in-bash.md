@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2023-03-16 01:25:00-04:00
-description: What is the difference between . and source when executing a script in
-  bash?
+description: What is the difference between . and source when executing a script inbash?
 tags:
 - bash
 title: Executing a script with dot vs source in Bash

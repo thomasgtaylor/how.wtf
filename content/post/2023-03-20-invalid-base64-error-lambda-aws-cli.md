@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2023-03-20 01:20:00-04:00
-description: How to debug the "Invalid base64" error when invoking lambda functions
-  from the AWS CLI
+description: How to debug the "Invalid base64" error when invoking lambda functionsfrom the AWS CLI
 tags:
 - aws
 - aws-cli

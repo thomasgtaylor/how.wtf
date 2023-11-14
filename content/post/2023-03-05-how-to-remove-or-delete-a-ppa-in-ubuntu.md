@@ -3,8 +3,7 @@ author: Thomas Taylor
 categories:
 - os
 date: 2023-03-05 01:15:00-04:00
-description: How to remove or delete a PPA (Personal Package Archive) in Debian-based
-  distributions.
+description: How to remove or delete a PPA (Personal Package Archive) in Debian-baseddistributions.
 tags:
 - linux
 title: How to remove or delete a PPA in Ubuntu
