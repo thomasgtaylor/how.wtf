@@ -1,12 +1,12 @@
 ---
-title: Count number of files in Linux
-date: 2023-05-18T22:20:00-04:00
 author: Thomas Taylor
-description: How to count the number of files in Linux
 categories:
-- OS
+- os
+date: 2023-05-18 22:20:00-04:00
+description: How to count the number of files in Linux
 tags:
-- Linux
+- linux
+title: Count number of files in Linux
 ---
 
 Counting the number of files in Linux is made possible using the `wc` command!

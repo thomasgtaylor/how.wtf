@@ -1,12 +1,12 @@
 ---
-title: Check if a program exists from a Makefile
-date: 2023-03-11T00:50:00-04:00
 author: Thomas Taylor
-description: How to check if a shell program or executable exists from a Makefile
 categories:
-- Programming
+- programming
+date: 2023-03-11 00:50:00-04:00
+description: How to check if a shell program or executable exists from a Makefile
 tags:
-- Makefile
+- makefile
+title: Check if a program exists from a Makefile
 ---
 
 A Makefile can check if a shell program or executable exists before running recipes.

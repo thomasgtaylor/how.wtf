@@ -1,12 +1,12 @@
 ---
-title: How to unadd or uncommit files in Git
-date: 2023-03-06T00:55:00-04:00
 author: Thomas Taylor
-description: How to unadd or uncommit files using Git in terminal
 categories:
-- OS
+- os
+date: 2023-03-06 00:55:00-04:00
+description: How to unadd or uncommit files using Git in terminal
 tags:
-- Git
+- git
+title: How to unadd or uncommit files in Git
 ---
 
 Occasionally, developers will mistakenly `git add` or `git commit` files before pushing to remote. Luckily, there are commands that remediate the situation.

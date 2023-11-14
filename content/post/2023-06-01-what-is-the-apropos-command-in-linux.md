@@ -1,12 +1,12 @@
 ---
-title: What is the apropos command in Linux
-date: 2023-06-01T23:40:00-04:00
 author: Thomas Taylor
-description: What is the apropos command in Linux?
 categories:
-- OS
+- os
+date: 2023-06-01 23:40:00-04:00
+description: What is the apropos command in Linux?
 tags:
-- Linux
+- linux
+title: What is the apropos command in Linux
 ---
 
 Recently, I was made aware of the `apropos` command in Linux. What is it? What is it used for?

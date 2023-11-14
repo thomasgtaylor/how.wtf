@@ -1,17 +1,17 @@
 ---
-title: Create Lambda Function URL using AWS CDK
-date: 2023-11-12T01:50:00-05:00
 author: Thomas Taylor
-description: How to deploy Lambda Functions with Function URLs using the AWS CDK
 categories:
-- Cloud
-- Programming
+- cloud
+- programming
+date: 2023-11-12 01:50:00-05:00
+description: How to deploy Lambda Functions with Function URLs using the AWS CDK
 tags:
-- Python
-- AWS
-- AWS CDK
-- Python
-- Serverless
+- python
+- aws
+- aws-cdk
+- python
+- serverless
+title: Create Lambda Function URL using AWS CDK
 ---
 
 Deploying Lambda Function URLs with the AWS CDK is simple.

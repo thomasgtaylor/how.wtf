@@ -1,12 +1,12 @@
 ---
-title: Find devices on a network in Linux
-date: 2023-05-27T22:55:00-04:00
 author: Thomas Taylor
-description: How to find devices on a network in Linux
 categories:
-- OS
+- os
+date: 2023-05-27 22:55:00-04:00
+description: How to find devices on a network in Linux
 tags:
-- Linux
+- linux
+title: Find devices on a network in Linux
 ---
 
 Finding a device that's connected to a network on Linux is easy with an open source tool named `nmap`.

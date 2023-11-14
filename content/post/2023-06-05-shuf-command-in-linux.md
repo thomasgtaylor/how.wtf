@@ -1,12 +1,12 @@
 ---
-title: shuf command in Linux 
-date: 2023-06-05T23:55:00-04:00
 author: Thomas Taylor
-description: What is the shuf command in Linux?
 categories:
-- OS
+- os
+date: 2023-06-05 23:55:00-04:00
+description: What is the shuf command in Linux?
 tags:
-- Linux
+- linux
+title: shuf command in Linux
 ---
 
 What is the `shuf` command in Linux?

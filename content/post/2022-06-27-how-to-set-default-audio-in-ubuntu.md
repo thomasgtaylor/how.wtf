@@ -1,13 +1,13 @@
 ---
-title: How to Set Default Audio in Ubuntu
-date: 2022-06-27T02:10:00-04:00
-lastmod: 2023-03-23T00:45:00-04:00
 author: Thomas Taylor
-description: How to set default audio in Ubuntu on startup using pactl
 categories:
-- OS
+- os
+date: 2022-06-27 02:10:00-04:00
+description: How to set default audio in Ubuntu on startup using pactl
+lastmod: 2023-03-23 00:45:00-04:00
 tags:
-- Linux
+- linux
+title: How to Set Default Audio in Ubuntu
 ---
 
 Using the `pactl` command, setting default audio in Ubuntu is straightforward. For startup persistence, Ubuntu Startup Applications comes in handy.

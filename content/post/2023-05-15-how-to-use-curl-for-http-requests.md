@@ -1,12 +1,12 @@
 ---
-title: How to use curl for HTTP requests
-date: 2023-05-15T23:40:00-04:00
 author: Thomas Taylor
-description: How to use curl for HTTP requests
 categories:
-- OS
+- os
+date: 2023-05-15 23:40:00-04:00
+description: How to use curl for HTTP requests
 tags:
-- Linux
+- linux
+title: How to use curl for HTTP requests
 ---
 
 Curl is a command line utility that was created in 1998 for transferring data using URLs. Fundamentally, `curl` allows users to create network requests to a server by specifying a location in the form of a URL and adding optional data.

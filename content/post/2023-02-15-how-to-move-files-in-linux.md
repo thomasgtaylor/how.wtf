@@ -1,12 +1,12 @@
 ---
-title: How to move files in Linux
-date: 2023-02-15T00:25:00-04:00
 author: Thomas Taylor
-description: How to move a file or multiple files in Linux / terminal.
 categories:
-- OS
+- os
+date: 2023-02-15 00:25:00-04:00
+description: How to move a file or multiple files in Linux / terminal.
 tags:
-- Linux
+- linux
+title: How to move files in Linux
 ---
 
 Moving files is an essential task individuals often need to perform.

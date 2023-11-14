@@ -1,13 +1,13 @@
 ---
-title: Invalid base64 error Lambda AWS CLI
-date: 2023-03-20T01:20:00-04:00
 author: Thomas Taylor
-description: How to debug the "Invalid base64" error when invoking lambda functions from the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-20 01:20:00-04:00
+description: How to debug the "Invalid base64" error when invoking lambda functions from the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Invalid base64 error Lambda AWS CLI
 ---
 
 The **Invalid base64** error occurs when invoking a lambda from the AWS CLI because the default `--payload` parameter expects `base64` encoding.

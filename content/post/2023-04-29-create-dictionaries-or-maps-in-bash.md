@@ -1,12 +1,12 @@
 ---
-title: Create dictionaries or maps in Bash
-date: 2023-04-29T23:55:00-04:00
 author: Thomas Taylor
-description: How to create dictionaries or maps in Bash
 categories:
-- Programming
+- programming
+date: 2023-04-29 23:55:00-04:00
+description: How to create dictionaries or maps in Bash
 tags:
-- Bash
+- bash
+title: Create dictionaries or maps in Bash
 ---
 
 `bash` 4.0 natively supports creating hash tables / maps / dictionaries.

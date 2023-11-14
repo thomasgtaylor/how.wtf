@@ -1,12 +1,12 @@
 ---
-title: AWS SigV4 requests with curl
-date: 2023-05-16T22:35:00-04:00
 author: Thomas Taylor
-description: How to make AWS Signature V4 requests with curl
 categories:
-- OS
+- os
+date: 2023-05-16 22:35:00-04:00
+description: How to make AWS Signature V4 requests with curl
 tags:
-- Linux
+- linux
+title: AWS SigV4 requests with curl
 ---
 
 Curl handles AWS Signature Version 4 API requests natively.

@@ -1,12 +1,12 @@
 ---
-title: Write a multi-line command in a Makefile
-date: 2023-03-12T09:45:00-04:00
 author: Thomas Taylor
-description: How to write a multi-line command in a Makefile
 categories:
-- Programming
+- programming
+date: 2023-03-12 09:45:00-04:00
+description: How to write a multi-line command in a Makefile
 tags:
-- Makefile
+- makefile
+title: Write a multi-line command in a Makefile
 ---
 
 Occasionally, there is a need for adding multiple continuous lines for one target in a Makefile.

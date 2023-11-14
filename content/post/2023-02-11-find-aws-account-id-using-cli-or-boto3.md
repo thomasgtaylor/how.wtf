@@ -1,15 +1,15 @@
 ---
-title: Find AWS Account Id using CLI or Boto3
-date: 2023-02-11T01:15:00-04:00
 author: Thomas Taylor
-description: How to find AWS Account ID using the AWS CLI or Boto3 in Python
 categories:
-- Cloud
-- Programming
+- cloud
+- programming
+date: 2023-02-11 01:15:00-04:00
+description: How to find AWS Account ID using the AWS CLI or Boto3 in Python
 tags:
-- AWS
-- AWS CLI
-- Python
+- aws
+- aws-cli
+- python
+title: Find AWS Account Id using CLI or Boto3
 ---
 
 How to find the AWS Account ID using the AWS CLI or Boto3?

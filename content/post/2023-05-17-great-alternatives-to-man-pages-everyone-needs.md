@@ -1,12 +1,12 @@
 ---
-title: Great alternatives to man pages everyone needs
-date: 2023-05-17T20:30:00-04:00
 author: Thomas Taylor
-description: Here are modern alternatives to man pages everyone needs.
 categories:
-- OS
+- os
+date: 2023-05-17 20:30:00-04:00
+description: Here are modern alternatives to man pages everyone needs.
 tags:
-- Linux
+- linux
+title: Great alternatives to man pages everyone needs
 ---
 
 `man` (manual documentation pages) cannot be replaced; however, there are modern CLI tools that provide simplified experiences.

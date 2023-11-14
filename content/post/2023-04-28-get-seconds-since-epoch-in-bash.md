@@ -1,12 +1,12 @@
 ---
-title: Get seconds since Epoch in Bash
-date: 2023-04-28T23:50:00-04:00
 author: Thomas Taylor
-description: How to get the seconds since Epoch using Bash
 categories:
-- Programming
+- programming
+date: 2023-04-28 23:50:00-04:00
+description: How to get the seconds since Epoch using Bash
 tags:
-- Bash
+- bash
+title: Get seconds since Epoch in Bash
 ---
 
 `bash` 5.0 natively supports retrieving seconds since Epoch using a variable.

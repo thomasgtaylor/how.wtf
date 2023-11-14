@@ -1,14 +1,14 @@
 ---
-title: Deploy AWS Cloudfront and security headers with Terraform
-date: 2021-12-12T2:15:00-05:00
 author: Thomas Taylor
-description: How to deploy AWS Cloudfront using Terraform to add security headers to responses.
 categories:
-- Cloud
+- cloud
+date: 2021-12-12 02:15:00-05:00
+description: How to deploy AWS Cloudfront using Terraform to add security headers to responses.
 tags:
-- AWS
-- Terraform
-- Serverless
+- aws
+- terraform
+- serverless
+title: Deploy AWS Cloudfront and security headers with Terraform
 ---
 
 I made a post in July 2021 regarding [AWS CloudFront + security headers][1]. Using AWS Cloudfront and Cloudfront Functions, security headers were injected in viewer responses; however, AWS Cloudfront [natively supports security headers as of Nov. 2nd, 2021][2] alongside configurable CORS and custom HTTP response headers.

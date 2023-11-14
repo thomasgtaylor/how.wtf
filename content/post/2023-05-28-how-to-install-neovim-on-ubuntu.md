@@ -1,12 +1,12 @@
 ---
-title: How to install Neovim on Ubuntu
-date: 2023-05-28T23:45:00-04:00
 author: Thomas Taylor
-description: How to install Neovim on Debian-based distributions.
 categories:
-- OS
+- os
+date: 2023-05-28 23:45:00-04:00
+description: How to install Neovim on Debian-based distributions.
 tags:
-- Linux
+- linux
+title: How to install Neovim on Ubuntu
 ---
 
 Installing Neovim on Debian-based distributions: Ubuntu, Mint, etc. is easy!

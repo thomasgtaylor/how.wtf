@@ -1,12 +1,12 @@
 ---
-title: Difference between init and new in Python
-date: 2023-02-27T00:05:00-04:00
 author: Thomas Taylor
-description: __init__ vs. __new__ methods in Python and when to use them
 categories:
-- Programming
+- programming
+date: 2023-02-27 00:05:00-04:00
+description: __init__ vs. __new__ methods in Python and when to use them
 tags:
-- Python
+- python
+title: Difference between init and new in Python
 ---
 
 `__init__` and `__new__` are dunder methods invoked during the creation of an object instance.

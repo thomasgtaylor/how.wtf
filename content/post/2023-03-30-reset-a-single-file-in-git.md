@@ -1,12 +1,12 @@
 ---
-title: Reset a single file in Git
-date: 2023-03-30T20:45:00-04:00
 author: Thomas Taylor
-description: How to reset a single file using Git
 categories:
-- OS
+- os
+date: 2023-03-30 20:45:00-04:00
+description: How to reset a single file using Git
 tags:
-- Git
+- git
+title: Reset a single file in Git
 ---
 
 Resetting a single file is possible using Git.

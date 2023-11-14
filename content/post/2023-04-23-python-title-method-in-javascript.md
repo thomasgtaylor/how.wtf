@@ -1,12 +1,12 @@
 ---
-title: Python title method in JavaScript
-date: 2023-04-23T23:25:00-04:00
 author: Thomas Taylor
-description: How to implement the Python title method in JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-23 23:25:00-04:00
+description: How to implement the Python title method in JavaScript
 tags:
-- JavaScript
+- javascript
+title: Python title method in JavaScript
 ---
 
 What is the equivalent for the Python string `title` method in JavaScript? Python's native `str.title()` method returns a string with title-casing— i.e. the first letter of each word is capitalized.

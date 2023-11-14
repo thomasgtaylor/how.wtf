@@ -1,12 +1,12 @@
 ---
-title: Create an HTTP server in one line
-date: 2023-06-07T20:40:00-04:00
 author: Thomas Taylor
-description: How to create an HTTP server in one line
 categories:
-- OS
+- os
+date: 2023-06-07 20:40:00-04:00
+description: How to create an HTTP server in one line
 tags:
-- Linux
+- linux
+title: Create an HTTP server in one line
 ---
 
 If you need a quick one-liner HTTP server from the command line, Python comes in handy.

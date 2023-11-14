@@ -1,12 +1,12 @@
 ---
-title: Catch and handle errors in Bash
-date: 2023-04-27T22:10:00-04:00
 author: Thomas Taylor
-description: How to catch and handle errors in Bash
 categories:
-- Programming
+- programming
+date: 2023-04-27 22:10:00-04:00
+description: How to catch and handle errors in Bash
 tags:
-- Bash
+- bash
+title: Catch and handle errors in Bash
 ---
 
 Bash does not natively support a try/catch syntax for errors; however, there are options for handling errors within a script.

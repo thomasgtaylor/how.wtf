@@ -1,13 +1,13 @@
 ---
-title: Command line recycle bin for Linux
-date: 2023-05-20T21:50:00-04:00
 author: Thomas Taylor
-description: How to use a command line recycle bin for Linux systems
 categories:
-- OS
+- os
+date: 2023-05-20 21:50:00-04:00
+description: How to use a command line recycle bin for Linux systems
 tags:
-- Linux
-- Mac
+- linux
+- mac
+title: Command line recycle bin for Linux
 ---
 
 `rm` is a great tool that gives users enough power to inadvertently erase data. While the data may be recoverable, there is a tool that gives users recycle bin behavior.

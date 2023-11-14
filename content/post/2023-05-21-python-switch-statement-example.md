@@ -1,12 +1,12 @@
 ---
-title: Python switch statement example
-date: 2023-05-21T23:55:00-04:00
 author: Thomas Taylor
-description: How to create a switch statement in Python
 categories:
-- Programming
+- programming
+date: 2023-05-21 23:55:00-04:00
+description: How to create a switch statement in Python
 tags:
-- Python
+- python
+title: Python switch statement example
 ---
 
 Python 3.10 added support for the `switch` keyword.

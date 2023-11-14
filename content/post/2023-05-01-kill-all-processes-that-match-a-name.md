@@ -1,12 +1,12 @@
 ---
-title: Kill all processes that match a name
-date: 2023-05-01T23:40:00-04:00
 author: Thomas Taylor
-description: How to kill all processes that match a name
 categories:
-- OS
+- os
+date: 2023-05-01 23:40:00-04:00
+description: How to kill all processes that match a name
 tags:
-- Linux
+- linux
+title: Kill all processes that match a name
 ---
 
 Killing all processes that match a certain substring or name is easy using `pkill`.

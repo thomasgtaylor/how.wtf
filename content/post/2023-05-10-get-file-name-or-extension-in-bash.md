@@ -1,12 +1,12 @@
 ---
-title: Get file name or extension in Bash
-date: 2023-05-10T00:20:00-04:00
 author: Thomas Taylor
-description: How to get the file name or extension in Bash
 categories:
-- Programming
+- programming
+date: 2023-05-10 00:20:00-04:00
+description: How to get the file name or extension in Bash
 tags:
-- Bash
+- bash
+title: Get file name or extension in Bash
 ---
 
 Retrieving the file name and extension in Bash can be completed using `basename` and [shell parameter expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html). 

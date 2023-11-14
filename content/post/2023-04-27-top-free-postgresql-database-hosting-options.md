@@ -1,12 +1,12 @@
 ---
-title: Top free PostgreSQL database hosting options
-date: 2023-04-27T00:05:00-04:00
 author: Thomas Taylor
-description: How to host a PostgreSQL database free
 categories:
-- Database
+- database
+date: 2023-04-27 00:05:00-04:00
+description: How to host a PostgreSQL database free
 tags:
-- PostgreSQL
+- postgresql
+title: Top free PostgreSQL database hosting options
 ---
 
 Hosting a free PostgreSQL database for side projects, MVPs, learning, etc. is easy with free tiers provided by following services in this article.

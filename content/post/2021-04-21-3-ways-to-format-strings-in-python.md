@@ -1,12 +1,12 @@
 ---
-title: 3 ways to format strings in Python
-date: 2021-04-21T01:25:00-04:00
 author: Thomas Taylor
-description: "There are several methods to answer the question: \"How to format strings in Python?\""
 categories:
-- Programming
+- programming
+date: 2021-04-21 01:25:00-04:00
+description: 'There are several methods to answer the question: "How to format strings in Python?"'
 tags:
-- Python
+- python
+title: 3 ways to format strings in Python
 ---
 
 In Python versions 3.6 and above, literal string interpolation receives the hype; however, did you know that there are several ways to format strings in Python?

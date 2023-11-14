@@ -1,12 +1,12 @@
 ---
-title: Return a string from a function in Bash
-date: 2023-04-16T23:45:00-04:00
 author: Thomas Taylor
-description: How to return a string from a function using Bash
 categories:
-- Programming
+- programming
+date: 2023-04-16 23:45:00-04:00
+description: How to return a string from a function using Bash
 tags:
-- Bash
+- bash
+title: Return a string from a function in Bash
 ---
 
 Bash allows returning status codes (integers) from functions; however, how can a string be returned?

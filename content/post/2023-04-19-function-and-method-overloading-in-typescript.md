@@ -1,12 +1,12 @@
 ---
-title: Function and method overloading in TypeScript
-date: 2023-04-19T23:55:00-04:00
 author: Thomas Taylor
-description: How to implement function and method overloading in TypeScript
 categories:
-- Programming
+- programming
+date: 2023-04-19 23:55:00-04:00
+description: How to implement function and method overloading in TypeScript
 tags:
-- TypeScript
+- typescript
+title: Function and method overloading in TypeScript
 ---
 
 In Typescript, the declaration of an  `overload`  is defined by writing [overload signatures](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads).

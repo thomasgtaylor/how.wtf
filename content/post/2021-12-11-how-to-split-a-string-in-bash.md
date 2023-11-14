@@ -1,12 +1,12 @@
 ---
-title: How to split a string in Bash
-date: 2021-12-11T2:30:00-05:00
 author: Thomas Taylor
-description: How do I split a string in bash based on a delimiter?
 categories:
-- Programming
+- programming
+date: 2021-12-11 02:30:00-05:00
+description: How do I split a string in bash based on a delimiter?
 tags:
-- Bash
+- bash
+title: How to split a string in Bash
 ---
 
 Splitting a string in `bash` is easy with the help of the [internal field separator][1] (`IFS`). 

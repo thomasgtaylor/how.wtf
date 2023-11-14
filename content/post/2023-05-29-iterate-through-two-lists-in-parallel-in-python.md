@@ -1,12 +1,12 @@
 ---
-title: Iterate through two lists in parallel in Python
-date: 2023-05-29T21:30:00-04:00
 author: Thomas Taylor
-description: How to iterate through two lists in parallel in Python
 categories:
-- Programming
+- programming
+date: 2023-05-29 21:30:00-04:00
+description: How to iterate through two lists in parallel in Python
 tags:
-- Python
+- python
+title: Iterate through two lists in parallel in Python
 ---
 
 Iterating through a two lists in parallel is natively handled in Python using the `zip` function.

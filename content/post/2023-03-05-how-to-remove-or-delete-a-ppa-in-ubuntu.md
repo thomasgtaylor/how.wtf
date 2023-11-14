@@ -1,12 +1,12 @@
 ---
-title: How to remove or delete a PPA in Ubuntu
-date: 2023-03-05T01:15:00-04:00
 author: Thomas Taylor
-description: How to remove or delete a PPA (Personal Package Archive) in Debian-based distributions.
 categories:
-- OS
+- os
+date: 2023-03-05 01:15:00-04:00
+description: How to remove or delete a PPA (Personal Package Archive) in Debian-based distributions.
 tags:
-- Linux
+- linux
+title: How to remove or delete a PPA in Ubuntu
 ---
 
 PPAs (Personal Package Archive) are third-party collections of packages built and maintained by users.

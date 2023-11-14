@@ -1,12 +1,12 @@
 ---
-title: Convert OrderedDict to dict in Python
-date: 2023-03-10T00:45:00-04:00
 author: Thomas Taylor
-description: How to convert an OrderedDict or a nested OrderedDict to a dictionary in Python
 categories:
-- Programming
+- programming
+date: 2023-03-10 00:45:00-04:00
+description: How to convert an OrderedDict or a nested OrderedDict to a dictionary in Python
 tags:
-- Python
+- python
+title: Convert OrderedDict to dict in Python
 ---
 
 Upon first glance, converting an `OrderedDict` seems intuitive.

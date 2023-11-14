@@ -1,12 +1,12 @@
 ---
-title: gyp no xcode or clt version detected
-date: 2023-04-07T22:25:00-04:00
 author: Thomas Taylor
-description: How to fix the "gyp no xcode or clt version detected" error for MacOS
 categories:
-- OS
+- os
+date: 2023-04-07 22:25:00-04:00
+description: How to fix the "gyp no xcode or clt version detected" error for MacOS
 tags:
-- Mac
+- mac
+title: gyp no xcode or clt version detected
 ---
 
 On a fresh update of MacOS, an error may occur:

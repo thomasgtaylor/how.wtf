@@ -1,12 +1,12 @@
 ---
-title: Python dataclass validation
-date: 2023-04-02T23:45:00-04:00
 author: Thomas Taylor
-description: How to validate dataclass inputs in Python
 categories:
-- Programming
+- programming
+date: 2023-04-02 23:45:00-04:00
+description: How to validate dataclass inputs in Python
 tags:
-- Python
+- python
+title: Python dataclass validation
 ---
 
 Creating dataclasses in Python is simplistic; however, what if additional validation needs to be completed during initialization?
@@ -67,4 +67,3 @@ ValueError: age must be a positive integer greater than 0
 ```text
 ValueError: age is not an int
 ```
-

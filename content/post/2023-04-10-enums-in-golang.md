@@ -1,12 +1,12 @@
 ---
-title: Enums in Golang
-date: 2023-04-10T23:50:00-04:00
 author: Thomas Taylor
-description: How to implement enums in Golang
 categories:
-- Programming
+- programming
+date: 2023-04-10 23:50:00-04:00
+description: How to implement enums in Golang
 tags:
-- GO
+- go
+title: Enums in Golang
 ---
 
 GO does not natively support an `enum` keyword; however, an enum-like syntax can be implemented using the help of `iota`.
@@ -93,4 +93,3 @@ func main() {
 	fmt.Println(size.Index())  // Print : 1
 }
 ```
-

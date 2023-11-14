@@ -1,14 +1,14 @@
 ---
-title: Full scan of DynamoDB table in Python
-date: 2023-05-22T21:35:00-04:00
 author: Thomas Taylor
-description: How to fully scan a DynamoDB table in Python
 categories:
-- Cloud
+- cloud
+date: 2023-05-22 21:35:00-04:00
+description: How to fully scan a DynamoDB table in Python
 tags:
-- AWS
-- AWS CLI
-- Python
+- aws
+- aws-cli
+- python
+title: Full scan of DynamoDB table in Python
 ---
 
 A full scan of DynamoDB in Python is possible by using the `LastEvaluatedKey`.

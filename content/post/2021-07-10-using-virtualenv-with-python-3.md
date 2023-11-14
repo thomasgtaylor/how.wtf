@@ -1,12 +1,12 @@
 ---
-title: Using Virtualenv with Python
-date: 2021-07-10T21:15:00-04:00
 author: Thomas Taylor
-description: How to use virtualenv with Python 3 to create virutal environments.
 categories:
-- Programming
+- programming
+date: 2021-07-10 21:15:00-04:00
+description: How to use virtualenv with Python 3 to create virutal environments.
 tags:
-- Python
+- python
+title: Using Virtualenv with Python
 ---
 
 ## What is Virtualenv?

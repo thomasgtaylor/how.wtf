@@ -1,12 +1,12 @@
 ---
-title: How to get start or end of a day in Python
-date: 2023-02-10T00:00:00-04:00
 author: Thomas Taylor
-description: How to get earliest or latest moment from a day in Python
 categories:
-- Programming
+- programming
+date: 2023-02-10 00:00:00-04:00
+description: How to get earliest or latest moment from a day in Python
 tags:
-- Python
+- python
+title: How to get start or end of a day in Python
 ---
 
 In Python, `datetime` natively handles getting the earliest/latest moment of a given day using the `combine` function.

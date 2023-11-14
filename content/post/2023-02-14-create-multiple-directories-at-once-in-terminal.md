@@ -1,12 +1,12 @@
 ---
-title: Create multiple directories at once in terminal
-date: 2023-02-14T00:00:00-04:00
 author: Thomas Taylor
-description: How to create multiple directories or subdirectories at once in terminal
 categories:
-- OS
+- os
+date: 2023-02-14 00:00:00-04:00
+description: How to create multiple directories or subdirectories at once in terminal
 tags:
-- Linux
+- linux
+title: Create multiple directories at once in terminal
 ---
 
 Here are different strategies for creating multiple directories/folders or subdirectories at once in a linux terminal.

@@ -1,12 +1,12 @@
 ---
-title: Grep for contents after pattern match
-date: 2023-03-14T01:00:00-04:00
 author: Thomas Taylor
-description: How to print everything following a grep pattern match
 categories:
-- OS
+- os
+date: 2023-03-14 01:00:00-04:00
+description: How to print everything following a grep pattern match
 tags:
-- Linux
+- linux
+title: Grep for contents after pattern match
 ---
 
 There may be a need to grep for a specific pattern but only capture / echo the contents _after_ the match. 

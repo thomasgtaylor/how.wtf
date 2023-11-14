@@ -1,12 +1,12 @@
 ---
-title: Get key names from JSON using jq
-date: 2023-05-24T23:55:00-04:00
 author: Thomas Taylor
-description: How to get the key names from JSON using jq
 categories:
-- OS
+- os
+date: 2023-05-24 23:55:00-04:00
+description: How to get the key names from JSON using jq
 tags:
-- Linux
+- linux
+title: Get key names from JSON using jq
 ---
 
 Fetching the key names from a JSON document using `jq` is simple!

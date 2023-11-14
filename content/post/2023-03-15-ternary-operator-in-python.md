@@ -1,12 +1,12 @@
 ---
-title: Ternary operator in Python
-date: 2023-03-15T01:30:00-04:00
 author: Thomas Taylor
-description: Ternary operator in Python code
 categories:
-- Programming
+- programming
+date: 2023-03-15 01:30:00-04:00
+description: Ternary operator in Python code
 tags:
-- Python
+- python
+title: Ternary operator in Python
 ---
 
 The ternary operator is an in-line if/else statement that many languages support natively; however, Python does not have a specific operator. Instead, it uses [conditional expression resolution](https://mail.python.org/pipermail/python-dev/2005-September/056846.html) which was added in Python 2.5.

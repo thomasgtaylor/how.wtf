@@ -1,12 +1,12 @@
 ---
-title: Use virtualenv with a Python Jupyter notebook
-date: 2023-06-08T23:50:00-04:00
 author: Thomas Taylor
-description: How to use a virtualenv with a Python Jupyter notebook 
 categories:
-- Programming
+- programming
+date: 2023-06-08 23:50:00-04:00
+description: How to use a virtualenv with a Python Jupyter notebook
 tags:
-- Python
+- python
+title: Use virtualenv with a Python Jupyter notebook
 ---
 
 Using a virtual environment with a Jupyter notebook is easy!

@@ -1,12 +1,12 @@
 ---
-title: Promise all in Python
-date: 2023-04-12T23:55:00-04:00
 author: Thomas Taylor
-description: How to implement the promise all method from JavaScript in Python
 categories:
-- Programming
+- programming
+date: 2023-04-12 23:55:00-04:00
+description: How to implement the promise all method from JavaScript in Python
 tags:
-- Python
+- python
+title: Promise all in Python
 ---
 
 In JavaScript, `promise.all()` returns a single promise given an iterable of promises. The returned promise is fulfilled when all the iterable promises are fulfilled. If one promise is rejected, the resulting promise is also rejected.

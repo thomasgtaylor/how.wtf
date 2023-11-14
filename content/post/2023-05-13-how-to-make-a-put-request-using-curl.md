@@ -1,12 +1,12 @@
 ---
-title: How to make a PUT request using curl
-date: 2023-05-13T16:10:00-04:00
 author: Thomas Taylor
-description: How to make a PUT request using curl
 categories:
-- OS
+- os
+date: 2023-05-13 16:10:00-04:00
+description: How to make a PUT request using curl
 tags:
-- Linux
+- linux
+title: How to make a PUT request using curl
 ---
 
 For more information about `curl`, checkout the ["What is curl"](https://how.wtf/what-is-curl.html) article. This article will discuss how to interact with an API using `PUT` requests through curl.

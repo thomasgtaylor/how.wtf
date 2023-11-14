@@ -1,12 +1,12 @@
 ---
-title: Pico vs Nano A Comparison of Lightweight Text Editors
-date: 2023-06-10T11:15:00-04:00
 author: Thomas Taylor
-description: What are the differences between pico and nano?
 categories:
-- OS
+- os
+date: 2023-06-10 11:15:00-04:00
+description: What are the differences between pico and nano?
 tags:
-- Linux
+- linux
+title: Pico vs Nano A Comparison of Lightweight Text Editors
 ---
 
 When it comes to lightweight text editors, Pico and Nano are viable options that are available on Unix-based systems. While they share similarities, understanding their differences will enable users to make an informed choice.

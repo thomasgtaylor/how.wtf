@@ -1,12 +1,12 @@
 ---
-title: Dynamic variable names in Bash
-date: 2023-04-18T23:50:00-04:00
 author: Thomas Taylor
-description: How to create a dynamic variable name in Bash
 categories:
-- Programming
+- programming
+date: 2023-04-18 23:50:00-04:00
+description: How to create a dynamic variable name in Bash
 tags:
-- Bash
+- bash
+title: Dynamic variable names in Bash
 ---
 
 In Bash, dynamic variables can be created using indirect [expansion](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Shell-Parameter-Expansion).
@@ -30,4 +30,4 @@ Output:
 123
 ```
 
-In the example above, the `secret` value is `PROD_TOKEN` after expansion. Using indirect expansion, `${!secret}` references `123`. 
+In the example above, the `secret` value is `PROD_TOKEN` after expansion. Using indirect expansion, `${!secret}` references `123`.

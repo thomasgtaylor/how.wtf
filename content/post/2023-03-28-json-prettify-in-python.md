@@ -1,12 +1,12 @@
 ---
-title: JSON prettify in Python
-date: 2023-03-28T00:20:00-04:00
 author: Thomas Taylor
-description: How to JSON pretty print using Python
 categories:
-- Programming
+- programming
+date: 2023-03-28 00:20:00-04:00
+description: How to JSON pretty print using Python
 tags:
-- Python
+- python
+title: JSON prettify in Python
 ---
 
 Using the native `json` Python module, JSON data can be pretty-printed.

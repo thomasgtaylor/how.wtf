@@ -1,12 +1,12 @@
 ---
-title: Difference between continue and pass in Python
-date: 2023-02-22T00:10:00-04:00
 author: Thomas Taylor
-description: When to use continue vs. pass in Python.
 categories:
-- Programming
+- programming
+date: 2023-02-22 00:10:00-04:00
+description: When to use continue vs. pass in Python.
 tags:
-- Python
+- python
+title: Difference between continue and pass in Python
 ---
 
 ## Using the `continue` statement

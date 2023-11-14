@@ -1,12 +1,12 @@
 ---
-title: Parallel commands in Bash
-date: 2023-04-17T23:45:00-04:00
 author: Thomas Taylor
-description: How to run parallel commands in Bash
 categories:
-- Programming
+- programming
+date: 2023-04-17 23:45:00-04:00
+description: How to run parallel commands in Bash
 tags:
-- Bash
+- bash
+title: Parallel commands in Bash
 ---
 
 Bash natively supports a `wait` command. 

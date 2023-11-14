@@ -1,12 +1,12 @@
 ---
-title: Interfaces in Python
-date: 2022-10-01T15:30:00-04:00
 author: Thomas Taylor
-description: How to implement or create interfaces in Python
 categories:
-- Programming
+- programming
+date: 2022-10-01 15:30:00-04:00
+description: How to implement or create interfaces in Python
 tags:
-- Python
+- python
+title: Interfaces in Python
 ---
 
 Python does not have the traditional `interface` keyword as seen in other programming languages. Instead, the language supports ducktyping and multiple inheritance which may satisfy the need for interfaces for some use cases.

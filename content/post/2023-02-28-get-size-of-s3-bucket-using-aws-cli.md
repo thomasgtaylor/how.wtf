@@ -1,13 +1,13 @@
 ---
-title: Get size of an S3 bucket with AWS CLI
-date: 2023-02-28T01:15:00-04:00
 author: Thomas Taylor
-description: How to find the size of an Amazon S3 bucket using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-02-28 01:15:00-04:00
+description: How to find the size of an Amazon S3 bucket using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Get size of an S3 bucket with AWS CLI
 ---
 
 Using the AWS CLI, S3 bucket sizes can retrieved.

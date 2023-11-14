@@ -1,12 +1,12 @@
 ---
-title: rev command in Linux and how to reverse strings
-date: 2023-06-04T23:00:00-04:00
 author: Thomas Taylor
-description: What is the rev command in Linux?
 categories:
-- OS
+- os
+date: 2023-06-04 23:00:00-04:00
+description: What is the rev command in Linux?
 tags:
-- Linux
+- linux
+title: rev command in Linux and how to reverse strings
 ---
 
 What is the `rev` command in Linux?

@@ -1,13 +1,13 @@
 ---
-title: List public IP addresses of EC2 instances using AWS CLI
-date: 2023-03-25T00:45:00-04:00
 author: Thomas Taylor
-description: How to use list public IP addresses of EC2 instances using the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-03-25 00:45:00-04:00
+description: How to use list public IP addresses of EC2 instances using the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: List public IP addresses of EC2 instances using AWS CLI
 ---
 
 Listing all public IP addresses of EC2 instances can be completed using the `--query` argument.

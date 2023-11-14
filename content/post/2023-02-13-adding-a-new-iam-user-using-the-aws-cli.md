@@ -1,13 +1,13 @@
 ---
-title: Adding a new IAM User using the AWS CLI
-date: 2023-02-13T00:20:00-04:00
 author: Thomas Taylor
-description: How to create a new IAM user with the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-02-13 00:20:00-04:00
+description: How to create a new IAM user with the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Adding a new IAM User using the AWS CLI
 ---
 
 How to create a new IAM user with the AWS CLI?

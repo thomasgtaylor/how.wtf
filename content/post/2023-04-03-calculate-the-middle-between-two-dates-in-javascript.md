@@ -1,12 +1,12 @@
 ---
-title: Calculate the middle between two dates in JavaScript
-date: 2023-04-03T23:35:00-04:00
 author: Thomas Taylor
-description: How to calculate or determine the midpoint between two dates in JavaScript
 categories:
-- Programming
+- programming
+date: 2023-04-03 23:35:00-04:00
+description: How to calculate or determine the midpoint between two dates in JavaScript
 tags:
-- JavaScript
+- javascript
+title: Calculate the middle between two dates in JavaScript
 ---
 
 In TypeScript or JavaScript, determining the midpoint between two dates is easy using the native `Date` library.

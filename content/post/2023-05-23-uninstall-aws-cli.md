@@ -1,13 +1,13 @@
 ---
-title: Uninstall AWS CLI
-date: 2023-05-23T23:55:00-04:00
 author: Thomas Taylor
-description: How to uninstall the AWS CLI
 categories:
-- Cloud
+- cloud
+date: 2023-05-23 23:55:00-04:00
+description: How to uninstall the AWS CLI
 tags:
-- AWS
-- AWS CLI
+- aws
+- aws-cli
+title: Uninstall AWS CLI
 ---
 
 The AWS CLI can be installed using several methods: this article attempts to address uninstalling through many of them.

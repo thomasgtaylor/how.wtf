@@ -1,12 +1,12 @@
 ---
-title: Passing variables to jq
-date: 2023-03-18T01:40:00-04:00
 author: Thomas Taylor
-description: How to pass a shell variable to jq filters
 categories:
-- OS
+- os
+date: 2023-03-18 01:40:00-04:00
+description: How to pass a shell variable to jq filters
 tags:
-- Linux
+- linux
+title: Passing variables to jq
 ---
 
 Passing a shell / bash variable / environment variable to `jq` is simple using the native functionality of:

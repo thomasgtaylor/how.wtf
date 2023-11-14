@@ -1,12 +1,12 @@
 ---
-title: Use Linux terminal as a calculator
-date: 2023-05-08T01:20:00-04:00
 author: Thomas Taylor
-description: How to use the Linux terminal as a calculator
 categories:
-- OS
+- os
+date: 2023-05-08 01:20:00-04:00
+description: How to use the Linux terminal as a calculator
 tags:
-- Linux
+- linux
+title: Use Linux terminal as a calculator
 ---
 
 Linux provides several methods for calculating expressions using the command line.

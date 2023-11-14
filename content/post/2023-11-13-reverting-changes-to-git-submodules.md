@@ -1,12 +1,12 @@
 ---
-title: Reverting changes to Git submodules
-date: 2023-11-13T00:10:00-05:00
 author: Thomas Taylor
-description: How to revert changes to a Git submodule
 categories:
-- OS
+- os
+date: 2023-11-13 00:10:00-05:00
+description: How to revert changes to a Git submodule
 tags:
-- Git
+- git
+title: Reverting changes to Git submodules
 ---
 
 Reverting a submodule in Git is simple.

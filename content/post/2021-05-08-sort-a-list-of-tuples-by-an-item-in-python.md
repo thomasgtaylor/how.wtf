@@ -1,12 +1,12 @@
 ---
-title: Sort a list of tuples by an item in Python
-date: 2021-05-08T23:00:00-04:00
 author: Thomas Taylor
-description: It's possible to sort a list of tuples by an indexed value using Python's native sort functions.
 categories:
-- Programming
+- programming
+date: 2021-05-08 23:00:00-04:00
+description: It's possible to sort a list of tuples by an indexed value using Python's native sort functions.
 tags:
-- Python
+- python
+title: Sort a list of tuples by an item in Python
 ---
 
 Python has native `sort` capabilities available for use. You can sort a list of objects by leveraging one of the method specified below.

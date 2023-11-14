@@ -1,12 +1,12 @@
 ---
-title: Conditionally add properties to an object in JavaScript
-date: 2023-03-08T08:45:00-04:00
 author: Thomas Taylor
-description: How to conditionally add properties or fields or members to an object in JavaScript or TypeScript
 categories:
-- Programming
+- programming
+date: 2023-03-08 08:45:00-04:00
+description: How to conditionally add properties or fields or members to an object in JavaScript or TypeScript
 tags:
-- JavaScript
+- javascript
+title: Conditionally add properties to an object in JavaScript
 ---
 
 Conditionally adding properties/fields/members to an object in JavaScript or TypeScript can be completed using a combination of the logical and spread operators or simply an `if` statement.

@@ -1,13 +1,12 @@
 ---
-title: Specify a log group for a lambda function in AWS CloudFormation
-date: 2023-03-27T01:50:00-04:00
 author: Thomas Taylor
-description: How to specify a log group for a Lambda Function in AWS CloudFormation
 categories:
-- Cloud
+- cloud
+date: 2023-03-27 01:50:00-04:00
+description: How to specify a log group for a Lambda Function in AWS CloudFormation
 tags:
-- AWS
-
+- aws
+title: Specify a log group for a lambda function in AWS CloudFormation
 ---
 
 By default, lambda functions will create their own log groups if they are given proper permissions.

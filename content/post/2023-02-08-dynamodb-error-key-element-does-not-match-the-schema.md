@@ -1,13 +1,13 @@
 ---
-title: 'DynamoDB error: key element does not match the schema'
-date: 2023-02-08T00:00:00-04:00
 author: Thomas Taylor
-description: 'An error occurred (ValidationException) when calling the operation: The provided key element does not match the schema'
 categories:
-- Cloud
+- cloud
+date: 2023-02-08 00:00:00-04:00
+description: 'An error occurred (ValidationException) when calling the operation: The provided key element does not match the schema'
 tags:
-- AWS
-- DynamoDB
+- aws
+- dynamodb
+title: 'DynamoDB error: key element does not match the schema'
 ---
 
 **The provided key element does not match the schema** occurs when getting or deleting a record without providing all the proper key elements.

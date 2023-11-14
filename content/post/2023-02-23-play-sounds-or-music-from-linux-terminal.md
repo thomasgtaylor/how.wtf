@@ -1,12 +1,12 @@
 ---
-title: Play sounds or music from Linux terminal
-date: 2023-02-23T23:15:00-04:00
 author: Thomas Taylor
-description: How to play sounds, music, or audio from the Linux terminal
 categories:
-- OS
+- os
+date: 2023-02-23 23:15:00-04:00
+description: How to play sounds, music, or audio from the Linux terminal
 tags:
-- Linux
+- linux
+title: Play sounds or music from Linux terminal
 ---
 
 Playing music or sounds from the command line is simple with Sound eXchange (`SoX`). It supports many audio file types: **mp3**, **wav**, **ogg**, etc.

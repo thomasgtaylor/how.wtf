@@ -1,12 +1,12 @@
 ---
-title: Python dataclasses with optional fields
-date: 2023-02-19T01:20:00-04:00
 author: Thomas Taylor
-description: How to create dataclasses with optional fields in Python.
 categories:
-- Programming
+- programming
+date: 2023-02-19 01:20:00-04:00
+description: How to create dataclasses with optional fields in Python.
 tags:
-- Python
+- python
+title: Python dataclasses with optional fields
 ---
 
 How do I create dataclasses in Python with optional fields? 

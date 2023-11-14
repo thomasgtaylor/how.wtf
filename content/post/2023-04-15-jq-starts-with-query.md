@@ -1,12 +1,12 @@
 ---
-title: jq starts with query
-date: 2023-04-15T23:58:00-04:00
 author: Thomas Taylor
-description: How use a starts with query in jq
 categories:
-- OS
+- os
+date: 2023-04-15 23:58:00-04:00
+description: How use a starts with query in jq
 tags:
-- Linux
+- linux
+title: jq starts with query
 ---
 
 If a user wants to search a `json` payload using a `starts_with` or “begins with” or “has prefix” query, `jq` natively supports it.

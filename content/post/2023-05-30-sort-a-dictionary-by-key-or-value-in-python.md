@@ -1,12 +1,12 @@
 ---
-title: Sort a dictionary by key or value in Python
-date: 2023-05-30T23:35:00-04:00
 author: Thomas Taylor
-description: How to sort a dictionary by key or value in Python
 categories:
-- Programming
+- programming
+date: 2023-05-30 23:35:00-04:00
+description: How to sort a dictionary by key or value in Python
 tags:
-- Python
+- python
+title: Sort a dictionary by key or value in Python
 ---
 
 Sorting based on a dictionary value or key is _easy_ using Python.
