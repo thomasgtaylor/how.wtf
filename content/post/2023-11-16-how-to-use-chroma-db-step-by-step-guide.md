@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - ai
 - database
-date: 2023-11-16T00:40:00-05:00
+date: 2023-11-16T00:45:00-05:00
 description: How to use Chroma DB step-by-step Python guide
 tags:
 - generative-ai
@@ -15,7 +15,7 @@ Vector databases have seen an increase in popularity due to the rise of Generati
 
 ## What is Chroma DB?
 
-![Chroma DB embedding process](images/L9tqZZ.svg)
+![Chroma DB embedding process](images/L9tqZZ.png)
 
 Chroma is an open-source embedding database that enables retrieving relevant information for LLM prompting. It emphasizes developer productivity, speed, and ease-of-use.
 
