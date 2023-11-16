@@ -2,6 +2,7 @@
 author: Thomas Taylor
 categories:
 - cloud
+- database
 date: 2023-02-08 00:00:00-04:00
 description: 'An error occurred (ValidationException) when calling the operation: The provided key element does not match the schema'
 tags:

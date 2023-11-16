@@ -1,8 +1,9 @@
 ---
 author: Thomas Taylor
 categories:
-- programming
 - cloud
+- database
+- programming
 date: 2023-02-06 00:30:00-04:00
 description: How to upload large items to DynamoDB and avoid the "Item size has exceededthe maximum allowed size error"
 lastmod: 2023-02-06 00:40:00-04:00

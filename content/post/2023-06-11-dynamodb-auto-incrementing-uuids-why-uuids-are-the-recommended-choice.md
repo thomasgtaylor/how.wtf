@@ -2,6 +2,8 @@
 author: Thomas Taylor
 categories:
 - cloud
+- database
+- programming
 date: 2023-06-11 11:05:00-04:00
 description: Why auto incrementing is bad and a better alternative is UUIDs.
 tags:

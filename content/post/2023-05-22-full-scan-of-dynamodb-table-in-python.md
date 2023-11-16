@@ -2,6 +2,8 @@
 author: Thomas Taylor
 categories:
 - cloud
+- database
+- programming
 date: 2023-05-22 21:35:00-04:00
 description: How to fully scan a DynamoDB table in Python
 tags:
