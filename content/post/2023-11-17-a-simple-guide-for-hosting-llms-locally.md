@@ -11,7 +11,7 @@ tags:
 title: A simple guide for hosting LLMs locally
 ---
 
-Hosting large langage models (LLMs) locally is made simple using `LocalAI`.
+Hosting large langage models (LLMs) locally is simple using `LocalAI`.
 
 ## What is LocalAI
 
@@ -21,7 +21,7 @@ With LocalAI, you can effortlessly serve Large Language Models (LLMs), as well a
 
 ## How to host large language models locally
 
-Installing LocalAI is simple - clone the repository to begin and we'll find a model to use.
+Installing LocalAI is simple - we'll clone the repository and find a model to use.
 
 ### Clone the repository
 
@@ -38,9 +38,9 @@ https://huggingface.co/models?search=ggml
 
 ### Download the model
 
-For this tutorial, I opted to use the `TheBloke/Llama-2-7B-Chat-GGML` model.
+For this tutorial, I'm using the `TheBloke/Llama-2-7B-Chat-GGML` model.
 
-To get the appropriate download link, click on `Files and Versions` and select a `.bin` file of your preference.
+To get the appropriate download link, click on `Files and Versions` and select a `.bin` file. I chose the `llama-2-7b-chat.ggmlv3.q2_K.bin` file.
 
 ```shell
 wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q2_K.bin \
@@ -55,7 +55,7 @@ Run the docker-compose command:
 docker compose up -d --pull always
 ```
 
-This may take a few minutes since the docker image was greater than 5GB.
+This may take a few minutes since the docker image was greater than 5 GB.
 
 ### Invoke the LocalAI endpoint
 
