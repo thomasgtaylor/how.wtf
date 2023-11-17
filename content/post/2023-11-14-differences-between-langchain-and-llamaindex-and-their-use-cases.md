@@ -2,7 +2,7 @@
 author: Thomas Taylor
 categories:
 - ai
-date: 2023-11-13 00:20:00-05:00
+date: 2023-11-14 00:20:00-05:00
 description: What is the difference between Langchain and LlamaIndex
 tags:
 - generative-ai
