@@ -13,6 +13,8 @@ tags:
 title: A simple guide for hosting LLMs locally
 ---
 
+[Hosting llms locally guide](images/41N7Nm.png)
+
 Hosting large langage models (LLMs) locally is simple using `LocalAI`.
 
 ## What is LocalAI
