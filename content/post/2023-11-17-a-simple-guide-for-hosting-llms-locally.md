@@ -5,8 +5,6 @@ categories:
 - programming
 date: 2023-11-17T01:50:00-05:00
 description: How to host large language models (LLMs) locally
-images:
-- 41N7Nm.png
 tags:
 - generative-ai
 - python
