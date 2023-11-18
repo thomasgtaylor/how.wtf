@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - ai
 - programming
-date: 2023-11-17T01:50:00-05:00
+date: 2023-11-18T02:00:00-05:00
 description: How to use Amazon Bedrock with Langchain
 images:
 - images/X6TLBR.png
