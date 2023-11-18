@@ -5,11 +5,15 @@ categories:
 - database
 date: 2023-11-16T00:45:00-05:00
 description: How to use Chroma DB step-by-step Python guide
+images:
+- images/fZH6cy.png
 tags:
 - generative-ai
 - python
 title: How to use Chroma DB step-by-step guide
 ---
+
+![how to use chroma db step-by-step](images/fZH6cy.png)
 
 Vector databases have seen an increase in popularity due to the rise of Generative AI and Large Language Models (LLMs). Vector databases can be used in tandem with LLMs for Retrieval-augmented generation (RAG) - i.e. a framework for improving the quality of LLM responses by grounding prompts with context from external systems.
 
