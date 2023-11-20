@@ -8,7 +8,7 @@ exiftool -all= public/images* -overwrite_original
 for i in public/images/*; do
 	mogrify -resize "$MAX_WIDTH>" "$i"
 	case "$i" in
-		*.png) optipng -f4 -clobber -strip all -o $PNG_LEVEL -quiet "$i" ;;
+		*.png) oxipng --strip all --opt $PNG_LEVEL --quiet "$i" ;;
 		*.jpeg|*.jpg) jpegoptim --strip-all --size=$MAX_JPG_SIZE -quiet "$i" ;;
 	esac
 done

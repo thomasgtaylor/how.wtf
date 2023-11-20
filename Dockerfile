@@ -4,7 +4,7 @@ RUN apk add --no-cache \
   hugo \
   exiftool \
   jpegoptim \
-  optipng \
+  oxipng \
   imagemagick
 
 WORKDIR /src
