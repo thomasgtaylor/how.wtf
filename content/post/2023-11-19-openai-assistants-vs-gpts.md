@@ -80,6 +80,8 @@ From a high-level, this code does the following:
 
 ## What is the difference between Assistants and GPTs?
 
+tl;dr - Assistants are accessed through OpenAI's API for developers. GPTs are used to personalize the ChatGPT experience.
+
 The key difference between Assistants and GPTs is their application and integration scopes. Assistants are primarily API-driven tools meant for embedding within external applications, focusing on enhancing functionality with specific tasks like code interpretation, information retrieval, and function execution. They are components in a broader system, augmenting existing applications with AI capabilities.
 
 On the other hand, GPTs are standalone, user-customized versions of ChatGPT, designed to fulfill varied personal, educational, or professional needs. While Assistants enhance specific functionalities within applications, GPTs are more about creating a personalized ChatGPT experience, tailored to the user's unique requirements.
