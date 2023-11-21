@@ -6,10 +6,9 @@ categories:
 date: 2023-11-21T00:25:00-05:00
 description: This article describes how to prompt for the best DALL-E results
 images:
-- images/qp822M.png
+- images/wTdq5f.png
 tags:
 - generative-ai
-- python
 title: How to prompt DALL-E effectively
 ---
 
@@ -17,7 +16,7 @@ title: How to prompt DALL-E effectively
 
 DALL-E is an OpenAI model that generates images from textual descriptions. It combines elements of creativity and technology to produce unique imagery based on human prompts.
 
-## DALL-E Prompt Book
+## Tip 1 - DALL-E Prompt Book
 
 To kick things off, I recommend reviewing the DALL-E [prompt book released by the dallery gallery][1]. It contains _many_ useful techniques for describing tone, emotion, angles, lightning, illustration style, etc. It has been a wonderful resource for myself and will likely give you enough information to get started.
 
@@ -25,7 +24,7 @@ The mascot for [https://how.wtf](https://how.wtf) is a bald character, depicted 
 
 ![angry how.wtf mascot](images/8yRnin.png)
 
-## Upload an image and prompt DALL-E
+## Tip 2 - Upload an image and prompt DALL-E
 
 Seeking an image of the same character riding a llama, I:
 
@@ -34,7 +33,7 @@ Seeking an image of the same character riding a llama, I:
 
 ![prompt mascot to ride llama joyfully](images/a2SaNO.png)
 
-## Ask DALL-E to describe an image
+## Tip 3 - Ask DALL-E to describe an image
 
 If you wish to reproduce or modify an image, DALL-E can help describe it. For instance, I asked DALL-E to describe my mascot riding the llama:
 
