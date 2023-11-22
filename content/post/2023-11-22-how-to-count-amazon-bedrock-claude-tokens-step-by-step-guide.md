@@ -6,12 +6,14 @@ categories:
 date: 2023-11-22T11:50:00-05:00
 description: This article describes how to track Amazong Bedrock Claude token usage
 images:
-- images/wTdq5f.png
+- images/s6Kev8.png
 tags:
 - generative-ai
 - python 
 title: How to count Amazon Bedrock Claude tokens step-by-step guide
 ---
+
+![Counting Amazon Bedrock Claude tokens](images/s6Kev8.png)
 
 Monitoring token consumption in Anthropic-based models can be straightforward and hassle-free. In fact, Anthropic offers a simple and effective method for accurately counting tokens using Python!
 
