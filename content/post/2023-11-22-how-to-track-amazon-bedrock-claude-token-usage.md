@@ -57,7 +57,7 @@ client = AnthropicBedrock(
 )
 ```
 
-For the sake of this guide, I set my `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables. Since I'm in `us-east-1`, my client is simple:
+For the sake of this guide, I set my `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables. My client is using the default region of `us-east-1`:
 
 ```python
 import anthropic_bedrock
@@ -86,7 +86,7 @@ Output:
 
 ## Calling Claude on Bedrock using the client
 
-Using the `anthropic.claude-instant-v1` model id from above, I'm using the `completions` api to call it:
+Using the `anthropic.claude-instant-v1` model id from above, here's how to call it using the `completions` API:
 
 ```
 import anthropic_bedrock
