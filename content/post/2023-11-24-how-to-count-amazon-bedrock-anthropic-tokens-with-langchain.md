@@ -113,8 +113,8 @@ class AnthropicTokenCounter(BaseCallbackHandler):
 
 1. The `on_llm_start` function supplies a list of prompts. For each prompt, I add the tokens to an instance property named `input_tokens`.
 2. The `on_llm_end` function supplies a `LLMResult`.
-  1. The `LLMResult`, as I discovered in the [source code][5], has a `flatten()` method that converts a `LLMResult` to a list of `LLMResult`s with 1 generation.
-  2. I add the tokens to an instance property named `output_tokens`.
+   1. The `LLMResult`, as I discovered in the [source code][5], has a `flatten()` method that converts a `LLMResult` to a list of `LLMResult`s with 1 generation.
+   2. I add the tokens to an instance property named `output_tokens`.
 
 I used the callback handler when calling the custom chain:
 
