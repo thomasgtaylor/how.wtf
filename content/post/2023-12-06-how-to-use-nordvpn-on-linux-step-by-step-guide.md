@@ -21,6 +21,13 @@ Please note, the links provided for NordVPN are affiliate links. This means if y
 
 [NordVPN][1] is a robust virtual private network (VPN) service that ensures secure and anonymized internet access. It's easy to use, fast, and provides _many_ servers to connect from. Truth be told, it has been my go-to VPN solution for years.
 
+## Why use NordVPN?
+
+- 14 million users
+- 5,400+ servers in 59 countries
+- Split tunneling support
+- 24/7 customer support
+
 ## Installing NordVPN on Linux
 
 Sign up for [NordVPN][1] then run the installer for Linux using the following command:
@@ -173,5 +180,7 @@ nordvpn settings
 ## Conclusion
 
 This article provides a step-by-step guide on installing and using NordVPN on Linux. It covers installation, logging in, connecting to different servers, and setting up features like auto-connect and killswitch. I hope you enjoyed the content!
+
+[![get the nord vpn deal now](images/M5CQOY.png)](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=97262&source=how-to-use-nordvpn-on-ubuntu-step-by-step-guide)
 
 [1]: https://go.nordvpn.net/aff_c?offer_id=15&aff_id=97262&source=how-to-use-nordvpn-on-ubuntu-step-by-step-guide 
