@@ -49,7 +49,7 @@ aws dynamodb create-table \
 
 then enable TTL
 
-```
+```shell
 aws dynamodb update-time-to-live \
     --table-name your-table \
     --time-to-live-specification \
