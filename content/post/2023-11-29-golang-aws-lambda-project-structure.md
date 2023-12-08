@@ -1,15 +1,13 @@
 ---
 author: Thomas Taylor
 categories:
-- ai
 - programming
 date: 2023-11-29T01:45:00-05:00
 description: This article describes my method for structuring AWS Lambda projects with GO
 images:
 - images/yI9Hqu.png
 tags:
-- generative-ai
-- python 
+- go
 title: Golang AWS Lambda project structure
 ---
 
