@@ -4,7 +4,7 @@ categories:
 - cloud
 - database
 - programming
-date: 2023-12-08T01:15:00-05:00
+date: 2023-12-08T01:50:00-05:00
 description: Learn how to setup time-to-live (TTL) attributes for DynamoDB
 tags:
 - python
