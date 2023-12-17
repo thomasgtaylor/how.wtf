@@ -152,7 +152,7 @@ My name is Claude.
 
 Amazon Bedrock allows streaming LLM responses as well!
 
-### How to use the invoke_model_with_response_stream
+### How to use the invoke_model with response stream method
 
 Using the same example from above, let's use the `invoke_model_with_response_stream` method:
 
