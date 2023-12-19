@@ -35,6 +35,11 @@ params:
     carbon:
       serve: CWYDP27U
       placement: howwtf
+  newsletter:
+    enabled: true
+    provider: beehiiv
+    beehiiv:
+      id: 4810f3b3-bb5d-406d-85cd-6b1ce2a877ec
 
 permalinks:
   post: :title
