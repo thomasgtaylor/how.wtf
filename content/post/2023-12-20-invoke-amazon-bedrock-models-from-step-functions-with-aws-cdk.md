@@ -4,7 +4,7 @@ categories:
 - cloud
 - programming
 - ai
-date: 2023-11-20T02:30:00-05:00
+date: 2023-12-20T02:30:00-05:00
 description: How to invoke Amazon Bedrock models using Step Functions with the AWS CDK
 images:
 - images/nauk58.png
