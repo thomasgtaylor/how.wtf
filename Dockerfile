@@ -11,6 +11,7 @@ WORKDIR /src
 COPY . .
 
 RUN hugo --gc --minify && ./bin/compress.sh
+RUN hugo --gc --minify
 
 FROM busybox:uclibc
 

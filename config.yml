@@ -1,0 +1,52 @@
+baseURL: "https://how.wtf/"
+copyright: "© 2021-2023 how.wtf"
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: true
+title: how.wtf
+theme: bearcub
+uglyurls: true
+
+author:
+  name: Thomas Taylor
+
+markup:
+  highlight:
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+
+params:
+  goatcounter: "https://stats.how.wtf/count"
+  dateFormat: 2006-01-02
+  description: A blog providing how-to articles about development languages and the cloud.
+  favicon: images/favicon.ico
+  generateSocialCard: false
+  images:
+  - images/8yRnin.png
+  latestPostsCount: 5
+  social:
+    email: thomas@how.wtf
+    twitter: iamthomastaylor
+  title: how.wtf
+
+menus:
+  main:
+  - name: Newsletter 
+    weight: 3
+    url: https://weeklywtf.beehiiv.com/subscribe
+  - name: RSS
+    weight: 4
+    url: /index.xml
+
+
+permalinks:
+  page:
+    blog: :title
+  section:
+    blog: /posts
+
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
