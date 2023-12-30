@@ -19,15 +19,22 @@ markup:
 params:
   goatcounter: "https://stats.how.wtf/count"
   dateFormat: 2006-01-02
-  description: A blog providing how-to articles about development languages and the cloud.
+  description: Helpful posts on programming, cloud infrastructure, AI, and other software engineering topics to help with your "WTF?!" moments.
   favicon: images/favicon.ico
   generateSocialCard: false
   images:
   - images/8yRnin.png
-  latestPostsCount: 7
+  latestPostsCount: 8
   social:
     email: thomas@how.wtf
     twitter: iamthomastaylor
+  links:
+  - name: WEEKLY WTF
+    url: https://weeklywtf.beehiiv.com/subscribe
+    description: Subscribe for weekly tech news
+  - name: X
+    url: https://x.com/iamthomastaylor
+    description: Find me on X
   title: how.wtf
 
 menus:
