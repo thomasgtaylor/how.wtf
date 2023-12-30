@@ -24,7 +24,7 @@ params:
   generateSocialCard: false
   images:
   - images/8yRnin.png
-  latestPostsCount: 5
+  latestPostsCount: 7
   social:
     email: thomas@how.wtf
     twitter: iamthomastaylor
