@@ -32,6 +32,9 @@ params:
   - name: WEEKLY WTF
     url: https://weeklywtf.beehiiv.com/subscribe
     description: Subscribe for weekly tech news
+  - name: EMAIL
+    url: "mailto:thomas@how.wtf"
+    description: Send me an email
   - name: X
     url: https://x.com/iamthomastaylor
     description: Find me on X
