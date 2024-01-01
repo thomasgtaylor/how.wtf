@@ -5,7 +5,7 @@ categories:
 date: '2023-12-31T22:55:00-05:00'
 description: 
 images:
-- images/HJEK0h.png
+- images/HJEk0H.png
 tags:
 - analytics
 title: 'Goatcounter for blog analytics'
