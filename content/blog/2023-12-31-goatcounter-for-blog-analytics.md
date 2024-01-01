@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - blogging
 date: '2023-12-31T22:55:00-05:00'
-description: 
+description: How I use Goatcounter for blog analytics instead of Google Analytics
 images:
 - images/HJEk0H.png
 tags:
