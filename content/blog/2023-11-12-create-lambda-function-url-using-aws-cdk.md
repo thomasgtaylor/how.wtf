@@ -9,7 +9,6 @@ tags:
 - python
 - aws
 - aws-cdk
-- python
 - serverless
 title: Create Lambda Function URL using AWS CDK
 ---
