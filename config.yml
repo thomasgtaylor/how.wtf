@@ -17,8 +17,6 @@ markup:
     noClasses: false
 
 params:
-  beehiiv:
-    id: 4810f3b3-bb5d-406d-85cd-6b1ce2a877ec
   dateFormat: 2006-01-02
   description: Helpful posts on programming, cloud infrastructure, AI, and other software engineering topics to help with your "WTF?!" moments.
   favicon: images/favicon.ico
