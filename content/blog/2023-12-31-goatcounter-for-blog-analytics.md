@@ -5,7 +5,7 @@ categories:
 date: '2023-12-31T22:55:00-05:00'
 description: How I use Goatcounter for blog analytics instead of Google Analytics
 images:
-- images/HJEk0H.png
+- images/HJEk0H.webp
 tags:
 - analytics
 title: 'Goatcounter for blog analytics'
@@ -33,7 +33,7 @@ After careful consideration, I chose [Goatcounter][3]. It's a minimal, opensourc
 
 It provides a streamlined interface that gives exactly what I'm looking for:
 
-![image of goatcounter analytics for how.wtf](images/HJEk0H.png)
+![image of goatcounter analytics for how.wtf](images/HJEk0H.webp)
 
 ## Why I chose Goatcounter
 

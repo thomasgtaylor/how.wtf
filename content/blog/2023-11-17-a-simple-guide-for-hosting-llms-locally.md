@@ -6,14 +6,14 @@ categories:
 date: 2023-11-17T01:50:00-05:00
 description: How to host large language models (LLMs) locally
 images:
-- images/41N7Nm.png
+- images/41N7Nm.webp
 tags:
 - generative-ai
 - python
 title: A simple guide for hosting LLMs locally
 ---
 
-![Hosting llms locally guide](images/41N7Nm.png)
+![Hosting llms locally guide](images/41N7Nm.webp)
 
 Hosting large langage models (LLMs) locally is simple using `LocalAI`.
 

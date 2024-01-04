@@ -6,14 +6,14 @@ categories:
 date: 2023-11-19T23:00:00-05:00
 description: This article describes the difference between OpenAI Assistants and GPTs
 images:
-- images/qp822M.png
+- images/qp822M.webp
 tags:
 - generative-ai
 - python
 title: OpenAI Assistants vs GPTs
 ---
 
-![The difference between OpenAI Assistants and GPTs](images/qp822M.png)
+![The difference between OpenAI Assistants and GPTs](images/qp822M.webp)
 
 OpenAI has two products that are similar: Assistants and GPTs. In this article, we'll discuss the differences between the two.
 

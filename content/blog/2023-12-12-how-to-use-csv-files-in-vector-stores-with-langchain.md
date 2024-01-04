@@ -6,14 +6,14 @@ categories:
 date: 2023-12-12T01:55:00-05:00
 description: A guide for using CSV files in vector stores with langchain
 images:
-- images/yjbsz4.png
+- images/yjbsz4.webp
 tags:
 - generative-ai
 - python
 title: How to use CSV files in vector stores with Langchain
 ---
 
-![how to use csv files in vector stores with langchain step by step](images/yjbsz4.png)
+![how to use csv files in vector stores with langchain step by step](images/yjbsz4.webp)
 
 Retrieval-Augmented Generation (RAG) is a technique for improving an LLM's response by including contextual information from external sources. In other terms, it helps a large language model answer a question by providing facts and information for the prompt.
 

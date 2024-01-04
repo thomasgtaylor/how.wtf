@@ -6,13 +6,13 @@ categories:
 date: 2023-11-21T00:25:00-05:00
 description: This article describes how to prompt for the best DALL-E results
 images:
-- images/wTdq5f.png
+- images/wTdq5f.webp
 tags:
 - generative-ai
 title: How to prompt DALL-E effectively
 ---
 
-![Prompting DALL-E for the best results](images/wTdq5f.png)
+![Prompting DALL-E for the best results](images/wTdq5f.webp)
 
 DALL-E is an OpenAI model that generates images from textual descriptions. It combines elements of creativity and technology to produce unique imagery based on human prompts.
 
@@ -22,7 +22,7 @@ To kick things off, I recommend reviewing the DALL-E [prompt book released by th
 
 The mascot for [https://how.wtf](https://how.wtf) is a bald character, depicted frustratingly slamming his hands on a desk while shouting:
 
-![angry how.wtf mascot](images/8yRnin.png)
+![angry how.wtf mascot](images/8yRnin.webp)
 
 ## Tip 2 - Upload an image and prompt DALL-E
 
@@ -31,7 +31,7 @@ Seeking an image of the same character riding a llama, I:
 1. Uploaded the image
 2. Prompted DALL-E with a brief request: "Given the uploaded image, render an animated version riding a llama"
 
-![prompt mascot to ride llama joyfully](images/a2SaNO.png)
+![prompt mascot to ride llama joyfully](images/a2SaNO.webp)
 
 ## Tip 3 - Ask DALL-E to describe an image
 

@@ -5,13 +5,13 @@ categories:
 date: 2023-12-27T18:30:00-05:00
 description: How to get the top 10 used commands in linux using the history command
 images:
-- images/ZMV2NF.png
+- images/ZMV2NF.webp
 tags:
 - linux
 title: How to get top used Linux commands
 ---
 
-![how to use the history command to fetch the top used linux commands](images/ZMV2NF.png)
+![how to use the history command to fetch the top used linux commands](images/ZMV2NF.webp)
 
 Retrieving the top 10 used commands in Linux is simple using the `history` command.
 

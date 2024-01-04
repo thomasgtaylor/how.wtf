@@ -5,13 +5,13 @@ categories:
 date: 2023-11-29T01:45:00-05:00
 description: This article describes my method for structuring AWS Lambda projects with GO
 images:
-- images/yI9Hqu.png
+- images/yI9Hqu.webp
 tags:
 - go
 title: Golang AWS Lambda project structure
 ---
 
-![how to structure a Golang AWS Lambda project](images/yI9Hqu.png)
+![how to structure a Golang AWS Lambda project](images/yI9Hqu.webp)
 
 AWS Lambda is an easy-to-use serverless offering that enables developers to quickly deploy code without worrying about maintenance, orchestration, scaling, etc. It's simple to get started and its free tier is generous!
 

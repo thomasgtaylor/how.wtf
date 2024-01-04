@@ -5,13 +5,13 @@ categories:
 date: 2023-12-01T01:25:00-05:00
 description: This article describes how to install and use Docker without Docker Desktop for MacOS 
 images:
-- images/lLFsL5.png
+- images/lLFsL5.webp
 tags:
 - mac
 title: How to use Docker without Docker Desktop on MacOS
 ---
 
-![How to use Docker without Docker Desktop on MacOS](images/lLFsL5.png)
+![How to use Docker without Docker Desktop on MacOS](images/lLFsL5.webp)
 
 Docker Desktop was my de facto choice on MacOS due to its ease of installation and container management. This changed after Docker updated their [subscription service agreement][1].
 

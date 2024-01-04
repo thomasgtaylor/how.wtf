@@ -6,7 +6,7 @@ categories:
 date: '2024-01-02T11:25:00-05:00'
 description: 
 images:
-- images/4PS3Zk.png 
+- images/4PS3Zk.webp 
 tags:
 - aws
 - aws-cdk
@@ -16,7 +16,7 @@ tags:
 title: 'Lambda Bash custom runtime with AWS CDK'
 ---
 
-![A bald character looking at the Bash logo for deploying custom runtimes with AWS CDK](images/4PS3Zk.png)
+![A bald character looking at the Bash logo for deploying custom runtimes with AWS CDK](images/4PS3Zk.webp)
 
 For this post, I will extend the [AWS documentation for 'Building a custom runtime'][1] by additionally using the AWS CDK in Python to deploy the Bash custom runtime for AWS Lambda.
 

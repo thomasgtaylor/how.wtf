@@ -11,4 +11,4 @@ tags:
 title: '{{ replace (substr .File.ContentBaseName 11) "-" " " }}'
 ---
 
-![put image alt here](images/replace.png)
+![put image alt here](images/replace.webp)

@@ -6,13 +6,13 @@ categories:
 date: 2023-12-09T13:45:00-05:00
 description: A guide on how to open a Github pull request from the command line
 images:
-- images/usbOAk.png
+- images/usbOAk.webp
 tags:
 - github
 title: Open a GitHub pull request using the command line
 ---
 
-![How to create a github pull requesting from the command line](images/usbOAk.png)
+![How to create a github pull requesting from the command line](images/usbOAk.webp)
 
 After pushing changes to a remote repository, a common next step is creating a pull request for your team members to review. In this article, we'll discuss how to open a pull request from the command line using the GitHub CLI.
 

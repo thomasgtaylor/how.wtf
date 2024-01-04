@@ -6,20 +6,20 @@ categories:
 date: 2023-11-16T00:45:00-05:00
 description: How to use Chroma DB step-by-step Python guide
 images:
-- images/fZH6cy.png
+- images/fZH6cy.webp
 tags:
 - generative-ai
 - python
 title: How to use Chroma DB step-by-step guide
 ---
 
-![how to use chroma db step-by-step](images/fZH6cy.png)
+![how to use chroma db step-by-step](images/fZH6cy.webp)
 
 Vector databases have seen an increase in popularity due to the rise of Generative AI and Large Language Models (LLMs). Vector databases can be used in tandem with LLMs for Retrieval-augmented generation (RAG) - i.e. a framework for improving the quality of LLM responses by grounding prompts with context from external systems.
 
 ## What is Chroma DB?
 
-![Chroma DB embedding process](images/L9tqZZ.png)
+![Chroma DB embedding process](images/L9tqZZ.webp)
 
 Chroma is an open-source embedding database that enables retrieving relevant information for LLM prompting. It emphasizes developer productivity, speed, and ease-of-use.
 

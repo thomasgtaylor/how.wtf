@@ -42,7 +42,7 @@ aws s3 cp s3://bucket/ s3://bucket/ \
   --exclude "*" \
   --include "*.jpg" \
   --include "*.gif" \ 
-  --include "*.png" \
+  --include "*.webp" \
   --recursive 
 ```
 

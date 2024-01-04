@@ -6,14 +6,14 @@ categories:
 date: 2023-11-24T01:00:00-05:00
 description: How to track Amazon Bedrock Anthropic tokens with Langchain
 images:
-- images/bmY6Bu.png
+- images/bmY6Bu.webp
 tags:
 - generative-ai
 - python 
 title: How to count Amazon Bedrock Anthropic tokens with Langchain
 ---
 
-![Count Amazon Bedrock Anthropic tokens with Langchain](images/bmY6Bu.png)
+![Count Amazon Bedrock Anthropic tokens with Langchain](images/bmY6Bu.webp)
 
 Tracking Amazon Bedrock Claude token usage is simple using Langchain!
 

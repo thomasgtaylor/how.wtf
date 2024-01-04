@@ -5,13 +5,13 @@ categories:
 date: 2023-12-16T12:00:00-05:00
 description: This article describes the differences between ABC and Protocol and when to use them in Python
 images:
-- images/UlTKgH.png
+- images/UlTKgH.webp
 tags:
 - python
 title: ABC vs Protocol in Python
 ---
 
-![differences between ABC and Protocol](images/UlTKgH.png)
+![differences between ABC and Protocol](images/UlTKgH.webp)
 
 Before `typing` was [released][1] for Python, the `ABC` class reigned as champion for describing shape and behaviors of classes. After type annotations, `ABC` and `@abstractmethod` were still used to describe the behaviors: they felt 'interface-like'.
 

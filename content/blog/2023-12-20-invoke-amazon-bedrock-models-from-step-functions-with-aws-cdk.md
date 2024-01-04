@@ -7,7 +7,7 @@ categories:
 date: 2023-12-20T02:30:00-05:00
 description: How to invoke Amazon Bedrock models using Step Functions with the AWS CDK
 images:
-- images/nauk58.png
+- images/nauk58.webp
 tags:
 - aws
 - aws-cdk
@@ -17,7 +17,7 @@ tags:
 title: Invoke Amazon Bedrock models from Step Functions with AWS CDK
 ---
 
-![invoke Amazon bedrock models directly from Step Function statemachines](images/nauk58.png)
+![invoke Amazon bedrock models directly from Step Function statemachines](images/nauk58.webp)
 
 AWS released an [optimized integration][1] for Amazon Bedrock. It allows StepFunction statemachines to directly call the Amazon Bedrock API without needing to write a Lambda function.
 

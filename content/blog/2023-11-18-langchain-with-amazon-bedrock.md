@@ -6,14 +6,14 @@ categories:
 date: 2023-11-18T02:00:00-05:00
 description: How to use Amazon Bedrock with Langchain
 images:
-- images/X6TLBR.png
+- images/X6TLBR.webp
 tags:
 - generative-ai
 - python
 title: Langchain with Amazon Bedrock
 ---
 
-![How to use Langchain with Amazon Bedrock](images/X6TLBR.png)
+![How to use Langchain with Amazon Bedrock](images/X6TLBR.webp)
 
 In this article, we'll cover how to easily leverage Amazon Bedrock in Langchain.
 

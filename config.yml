@@ -25,7 +25,7 @@ params:
   goatcounter: "https://stats.how.wtf/count"
   generateSocialCard: false
   images:
-  - images/8yRnin.png
+  - images/8yRnin.webp
   latestPostsCount: 8
   social:
     email: thomas@how.wtf

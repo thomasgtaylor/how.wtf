@@ -7,7 +7,7 @@ categories:
 date: 2023-12-08T01:50:00-05:00
 description: Learn how to setup time-to-live (TTL) attributes for DynamoDB
 images:
-- images/c6ETc4.png
+- images/c6ETc4.webp
 tags:
 - python
 - aws
@@ -16,7 +16,7 @@ tags:
 title: Set up time-to-live (TTL) attribute in DynamoDB
 ---
 
-![How to set up time-to-live ttl attribute in Dynamodb](images/c6ETc4.png)
+![How to set up time-to-live ttl attribute in Dynamodb](images/c6ETc4.webp)
 
 Amazon DynamoDB's Time to Live (TTL) feature allows for automatic item deletion after a specified timestamp. It comes at no extra cost and is useful for removing outdated data.
 

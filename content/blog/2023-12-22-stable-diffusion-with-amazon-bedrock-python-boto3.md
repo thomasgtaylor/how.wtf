@@ -7,7 +7,7 @@ categories:
 date: 2023-12-22T02:00:00-05:00
 description: How to call use the Amazon Bedrock Runtime boto3 SDK to invoke the Stable Diffusion model
 images:
-- images/MGTrlU.png
+- images/MGTrlU.webp
 tags:
 - aws
 - aws-cdk
@@ -17,7 +17,7 @@ tags:
 title: Stable Diffusion with Amazon Bedrock Python boto3
 ---
 
-![invoking amazon bedrock runtime stable diffusion model](images/MGTrlU.png)
+![invoking amazon bedrock runtime stable diffusion model](images/MGTrlU.webp)
 
 Amazon Bedrock is a managed service provided by AWS that allows users to invoke models. For more information about the service, please refer to their [user guide here][1].
 
@@ -117,7 +117,7 @@ Here is the line-by-line breakdown of the code above:
 
 Output:
 
-![stable diffusion output using Amazon Bedrock](images/t1MP6o.png)
+![stable diffusion output using Amazon Bedrock](images/t1MP6o.webp)
 
 
 [1]: https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html

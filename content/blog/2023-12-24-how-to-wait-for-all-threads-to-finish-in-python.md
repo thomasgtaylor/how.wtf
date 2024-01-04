@@ -5,13 +5,13 @@ categories:
 date: 2023-12-24T23:00:00-05:00
 description: This article showcases how to wait for multiple threads to complete in Python
 images:
-- images/X9qZVG.png
+- images/X9qZVG.webp
 tags:
 - python
 title: How to wait for all threads to finish in Python
 ---
 
-![waiting for threads to finish using concurrent futures in Python](images/X9qZVG.png)
+![waiting for threads to finish using concurrent futures in Python](images/X9qZVG.webp)
 
 For a side project, I needed to wait for multiple threads to complete before proceeding with the next step. In other words, I needed threads to behave like the `Promise.all()` functionality of JavaScript.
 

@@ -6,14 +6,14 @@ categories:
 date: 2023-12-17T00:55:00-05:00
 description: This article showcases how to use Amazon "bedrock-runtime" with boto3 in Python.
 images:
-- images/xmzH72.png
+- images/xmzH72.webp
 tags:
 - aws
 - python
 title: Amazon Bedrock Runtime examples using boto3
 ---
 
-![how to invoke amazon bedrock runtime using boto3](images/xmzH72.png)
+![how to invoke amazon bedrock runtime using boto3](images/xmzH72.webp)
 
 Amazon Bedrock is a managed service provided by AWS that provides foundational models at your fingertips through a unified API. The service offers a range of features including foundational model invocations, fine-tuning, agents, guardrails, knowledge base searching, and more!
 

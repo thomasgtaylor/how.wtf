@@ -5,13 +5,13 @@ categories:
 date: 2023-12-06T02:20:00-05:00
 description: A step-by-step guide for using the NordVPN CLI client on Linux
 images:
-- images/G6rw3h.png
+- images/G6rw3h.webp
 tags:
 - linux
 title: How to use NordVPN on Linux step-by-step guide
 ---
 
-![how to use NordVPN on linux step-by-step](images/G6rw3h.png)
+![how to use NordVPN on linux step-by-step](images/G6rw3h.webp)
 
 In this article, we'll discuss how to use NordVPN on Linux. This includes installation, authentication, and general usage of the CLI in Linux.
 
@@ -181,6 +181,6 @@ nordvpn settings
 
 This article provides a step-by-step guide on installing and using NordVPN on Linux. It covers installation, logging in, connecting to different servers, and setting up features like auto-connect and killswitch. I hope you enjoyed the content!
 
-[![get the nord vpn deal now](images/M5CQOY.png)](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=97262&source=how-to-use-nordvpn-on-ubuntu-step-by-step-guide)
+[![get the nord vpn deal now](images/M5CQOY.webp)](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=97262&source=how-to-use-nordvpn-on-ubuntu-step-by-step-guide)
 
 [1]: https://go.nordvpn.net/aff_c?offer_id=15&aff_id=97262&source=how-to-use-nordvpn-on-ubuntu-step-by-step-guide 
