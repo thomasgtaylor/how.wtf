@@ -28,7 +28,7 @@ jobs:
               - 'content/**'
               - 'static/**'
               - 'themes/**'
-              - 'config.yaml'
+              - 'config.yml'
   infrastructure:
     needs: changes
     if: ${{ needs.changes.outputs.infrastructure == 'true' }}
