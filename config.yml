@@ -1,5 +1,5 @@
 baseURL: "https://how.wtf/"
-copyright: "© 2021-2023 how.wtf"
+copyright: "© 2021-2024 how.wtf"
 enableRobotsTXT: true
 languageCode: en-us
 relativeURLs: true
@@ -37,9 +37,6 @@ params:
   - name: EMAIL
     url: "mailto:thomas@how.wtf"
     description: Send me an email
-  - name: X
-    url: https://x.com/iamthomastaylor
-    description: Find me on X
   title: how.wtf
 
 menus:
