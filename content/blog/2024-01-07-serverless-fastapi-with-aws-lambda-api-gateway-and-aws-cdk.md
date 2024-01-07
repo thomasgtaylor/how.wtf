@@ -82,7 +82,7 @@ ensure that there's a `main.py` at the root of the `app` folder.
 
 For the purposes of this tutorial, we'll use a `app/main.py` file to keep it simple for a small todo app:
 
-```
+```python
 from fastapi import FastAPI
 from mangum import Mangum
 
@@ -142,7 +142,7 @@ This seems small, but we are leveraging the power of the AWS CDK and [their L3 c
 
 #### What is an API Gateway proxy integration?
 
-For the FastAPI logic to work appropriately, we need to configure the API Gateway to forward **full** API requests to the lambda function. With this setting, the lambda function's responsibility increases as it must fulfil the requirements of the API Gateway service.
+For the FastAPI logic to work appropriately, we need to configure the API Gateway to forward **full** API requests to the lambda function. With this setting, the lambda function's responsibility increases as it must fulfill the requirements of the API Gateway service.
 
 Fortunately, `mangum` takes care of this.
 
@@ -195,7 +195,7 @@ project/
 
 ### Deploy the stack
 
-Before deploying, ensure that Docker is running.
+Before deploying, ensure that _Docker is running_.
 
 ```shell
 cdk deploy
@@ -256,7 +256,7 @@ Output:
 
 ### Cleaning up
 
-If you wish to destroy your CDK app, feel free to run the following command:
+If you wish to destroy your CDK app, run the following command:
 
 ```shell
 cdk destroy
