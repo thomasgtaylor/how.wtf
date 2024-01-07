@@ -32,7 +32,7 @@ params:
     twitter: iamthomastaylor
   links:
   - name: WEEKLY WTF
-    url: https://weeklywtf.beehiiv.com/subscribe
+    url: https://weeklywtf.beehiiv.com/subscribe?utm_source=howwtf&utm_medium=organic
     description: Subscribe for weekly tech news
   - name: EMAIL
     url: "mailto:thomas@how.wtf"
@@ -43,7 +43,7 @@ menus:
   main:
   - name: Newsletter 
     weight: 3
-    url: https://weeklywtf.beehiiv.com/subscribe
+    url: https://weeklywtf.beehiiv.com/subscribe?utm_source=howwtf&utm_medium=organic
   - name: RSS
     weight: 4
     url: /index.xml
