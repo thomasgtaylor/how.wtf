@@ -4,7 +4,7 @@ categories:
 - cloud
 - programming
 date: '2024-01-07T16:40:00-05:00'
-description: 
+description: Creating a serverless API with FastAPI, AWS Lambda, Amazon API Gateway, and AWS CDK is easier than ever! Follow this guide to learn more!
 images:
 - images/XGSAmg.webp
 tags:

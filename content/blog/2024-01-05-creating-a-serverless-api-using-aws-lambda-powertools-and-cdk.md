@@ -4,7 +4,7 @@ categories:
 - cloud
 - programming
 date: '2024-01-05T03:05:00-05:00'
-description: 
+description: This article explains how to create a serverless API using Powertools for AWS Lambda and the AWS CDK
 images:
 - images/hwruz7.webp 
 tags:
