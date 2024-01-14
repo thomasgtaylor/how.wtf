@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - cloud
 date: 2023-02-18 02:30:00-04:00
-description: What is the difference between CloudFormation create stack and deployand when to use them?
+description: What is the difference between CloudFormation create stack and deploy and when to use them?
 tags:
 - aws
 - aws-cli
