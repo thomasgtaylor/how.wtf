@@ -12,16 +12,16 @@ title: 'A guide for deploying CloudFormation with CLI using Rain'
 
 Last year, I [wrote a post][1] describing the difference between `aws cloudformation deploy` and `aws cloudformation create-stack`. I concluded that the easiest method for deploying CloudFormation templates was `cloudformation deploy` since it handled change sets on your behalf.
 
-My opinion has changed; I discovered a [new tool named Rain][2] that is maintained by AWS
+My opinion has changed; I discovered a [new tool named Rain][2] that is maintained by AWS.
 
 ## What is Rain
 
-For folks needing to deploy raw CloudFormation templates, rain is your hero. The tool bring you a lot of power:
+For folks needing to deploy raw CloudFormation templates, rain is your hero. The tool brings you a lot of power:
 
 1. Allows input parameters
 2. Showcases real-time updates for stack deployments
 3. Filters deployment logs sensibly
-4. Provides the ability to generate CloudFormation templates via AI (using Amazon Bedrock)
+4. Provides the ability to generate CloudFormation templates via AI
 5. Manipulates stack sets
 6. Formats template files
 
@@ -143,7 +143,9 @@ Output:
 Rain needs to create an S3 bucket called 'rain-artifacts-012345678901-us-east-1'. Continue? (Y/n)
 ```
 
-This command creates an artifacts bucket that `rain` references when deploying stacks. It has the following naming convention:
+This command creates an artifacts bucket that `rain` references when deploying stacks.
+
+It has the following naming convention:
 
 ```text
 rain-artifacts-{accountId}-{regionName}
@@ -325,7 +327,7 @@ Here is the resulting `response.txt`:
 
 ## View logs of deployments
 
-Another powerful feature of `rain` is that is can display _sensible_ logs for stack deployments. 
+Another powerful feature of `rain` is that it can display _sensible_ logs for stack deployments. 
 
 ### Using log command
 
