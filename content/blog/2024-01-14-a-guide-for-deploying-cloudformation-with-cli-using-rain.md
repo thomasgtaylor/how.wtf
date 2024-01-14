@@ -375,6 +375,34 @@ Here is the resulting html page:
 
 ![Gantt chart displaying deployment times for various resources using Rain](images/ubJUKT.webp)
 
+## Destroying stacks using Rain
+
+Using the prior sections' stacks, let's use the `rm` command to showcase the stack deletion process:
+
+```shell
+rain rm lambda-function-stack
+```
+
+Output:
+
+```text
+Stack lambda-function-stack: CREATE_COMPLETE
+Are you sure you want to delete this stack? (y/N) y
+Successfully deleted stack 'lambda-function-stack'
+```
+
+and the S3 bucket stack with the `-y` so that we don't have to confirm again:
+
+```shell
+rain rm s3-bucket-stack -y
+```
+
+Output:
+
+```text
+Successfully deleted stack 's3-bucket-stack'
+```
+
 ## Other features
 
 There are other features not covered in this guide:
