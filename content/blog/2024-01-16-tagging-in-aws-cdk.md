@@ -14,13 +14,13 @@ title: Tagging in AWS CDK
 
 Tags are [key/value metadata][1] that enable users to categorize their AWS infrastructure. This is useful for identifying groups of resources, monitoring cloud spending, creating reports, etc.
 
-In this post, we'll explore different methods for tagging infrastructure using the AWS CDK.
+In this post, we'll explore different methods for tagging infrastructure using the AWS CDK. The code samples are in Python, but the techniques are applicable to all languages.
 
 ## Tagging constructs
 
 Constructs are the [basic "building blocks" of the AWS CDK][2]. They act as components and encapsulate necessary information for CloudFormation. Fortunately, the AWS CDK provides an easy-to-use API.
 
-The standard method for tagging resources are:
+The standard method for tagging resources is:
 
 ```python
 Tags.of(construct).add("key", "value")
@@ -29,8 +29,6 @@ Tags.of(construct).add("key", "value")
 ### Tag resources in AWS CDK
 
 As shown above, tagging an individual resource is easy. 
-
-The example below is in Python, but the same technique can be applied to other languages:
 
 ```python
 from aws_cdk import App, Stack, Tags
