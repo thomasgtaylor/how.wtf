@@ -42,7 +42,6 @@ brew install bruno
 It's also supported in many other popular package managers:
 
 ```shell
-
 # On Windows via Chocolatey
 choco install bruno
 
