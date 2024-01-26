@@ -13,6 +13,34 @@ Historically in Python, adding explicit typing for `kwargs` was not directly sup
 
 In this post, we'll go over methods for adding types to the `kwargs` argument.
 
+## Adding type annotations to kwargs
+
+Python 3.12 [released a new method][2] for explicitly typing `kwargs`: using a `TypedDict` + `Unpack`.
+
+```python
+from typing import NotRequired, TypedDict, Unpack
+
+
+class Parameters(TypedDict):
+    foo: int
+    bar: str
+    baz: NotRequired[str]
+
+
+def some_function(**kwargs: Unpack[Parameters]) -> None:
+    ...
+
+
+some_function(foo=1, bar="qux")
+```
+
+Here's what happened:
+- `Parameters` inherits from `TypedDict`
+- `NotRequired` represents an optional argument
+- `kwargs` is typed using the `Unpack[Parameters]` type
+
+`mypy` respects the typing.
+
 ## Adding type annotations before Python 3.12
 
 Before Python 3.12, there was not a clear way to explicitly declare typing for `kwargs`. The closest solutions are covered below.
@@ -70,34 +98,6 @@ some_function(foo="bar", bar="qux")
 ```
 
 Unfortunately, this locks you into having the same type supplied per each argument.
-
-## The correct way to add type annotations
-
-Python 3.12 [released a new method][2] for explicitly typing `kwargs`: using a `TypedDict` + `Unpack`.
-
-```python
-from typing import NotRequired, TypedDict, Unpack
-
-
-class Parameters(TypedDict):
-    foo: int
-    bar: str
-    baz: NotRequired[str]
-
-
-def some_function(**kwargs: Unpack[Parameters]) -> None:
-    ...
-
-
-some_function(foo=1, bar="qux")
-```
-
-Here's what happened:
-- `Parameters` inherits from `TypedDict`
-- `NotRequired` represents an optional argument
-- `kwargs` is typed using the `Unpack[Parameters]` type
-
-`mypy` respects the typing.
 
 [1]: https://peps.python.org/pep-0589/
 [2]: https://peps.python.org/pep-0692/
