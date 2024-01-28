@@ -125,12 +125,12 @@ print(documents)
 **Steps**:
 1. Use the `SentenceTransformerEmbeddings` to create an embedding function using the open source model of `all-MiniLM-L6-v2` from huggingface.
 2. Instantiate the loader for the JSON file using the `./prize.json` path.
-  1. Use the `?` jq syntax to ignore nullables if `laureates` does not exist on the entry 
-  2. Use a `metadata_func` to grab the fields of the JSON to put in the document's metadata
-  3. Use the `content_key` to specify which field is used for the vector text
-3. Load the files
-4. Instantiate a Chroma DB instance from the documents & the embedding model
-6. Print out the loaded documents
+3. Use the `?` jq syntax to ignore nullables if `laureates` does not exist on the entry 
+4. Use a `metadata_func` to grab the fields of the JSON to put in the document's metadata
+5. Use the `content_key` to specify which field is used for the vector text
+6. Load the files
+7. Instantiate a Chroma DB instance from the documents & the embedding model
+8. Print out the loaded documents
 
 Output:
 
