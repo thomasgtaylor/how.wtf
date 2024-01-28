@@ -8,6 +8,7 @@ description: A guide for using CSV files in vector stores with langchain
 images:
 - images/yjbsz4.webp
 tags:
+- chroma-db
 - generative-ai
 - python
 title: How to use CSV files in vector stores with Langchain
@@ -118,4 +119,7 @@ Output:
 The bank that failed in North Carolina is Blue Ridge Savings Bank, Inc.
 ```
 
+This tutorial only includes the basic functionality for Chroma DB. Please visit my [Chroma DB guide][2] where I walk step-by-step on how to use it for a more in-depth tutorial.
+
 [1]: https://catalog.data.gov/dataset/fdic-failed-bank-list/resource/a8cfc40d-bf6d-4716-bba6-04fdbdf5f9c1
+[2]: https://how.wtf/how-to-use-chroma-db-step-by-step-guide.html

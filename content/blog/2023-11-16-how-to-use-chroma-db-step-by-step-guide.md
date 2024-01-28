@@ -8,6 +8,7 @@ description: How to use Chroma DB step-by-step Python guide
 images:
 - images/fZH6cy.webp
 tags:
+- chroma-db
 - generative-ai
 - python
 title: How to use Chroma DB step-by-step guide
