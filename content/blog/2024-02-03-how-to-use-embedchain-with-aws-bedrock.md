@@ -4,7 +4,7 @@ categories:
 - ai
 - database
 - programming
-date: '2024-03-03T11:50:00-05:00'
+date: '2024-02-03T11:50:00-05:00'
 description: 
 tags:
 - chroma-db
