@@ -4,8 +4,13 @@ categories:
 - ai
 - database
 - programming
+<<<<<<< Updated upstream
 date: '2024-02-03T11:50:00-05:00'
 description: 
+=======
+date: '2024-03-03T11:50:00-05:00'
+description: This post explains how to use use Embedchain with AWS Bedrock and Anthropic's LLM Claude.
+>>>>>>> Stashed changes
 tags:
 - chroma-db
 - generative-ai
