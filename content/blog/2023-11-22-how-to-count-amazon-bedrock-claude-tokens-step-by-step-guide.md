@@ -4,7 +4,7 @@ categories:
 - ai
 - programming
 date: 2023-11-22T11:50:00-05:00
-description: This article describes how to track Amazong Bedrock Claude token usage
+description: This article describes how to track Amazon Bedrock Claude token usage
 images:
 - images/s6Kev8.webp
 tags:
