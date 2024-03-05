@@ -10,6 +10,7 @@ images:
 tags:
 - aws
 - python
+- generative-ai
 title: Amazon Bedrock Runtime examples using boto3
 ---
 
