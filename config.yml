@@ -20,7 +20,10 @@ params:
   beehiiv:
     id: 4810f3b3-bb5d-406d-85cd-6b1ce2a877ec
   dateFormat: 2006-01-02
-  description: Helpful posts on programming, cloud infrastructure, AI, and other software engineering topics to help with your "WTF?!" moments.
+  description: |
+    Helpful posts on programming, cloud infrastructure, AI, and other software engineering topics to help with your "WTF?!" moments.
+
+    Written by Thomas Taylor, an AWS Community Builder.
   favicon: images/favicon.ico
   goatcounter: "https://stats.how.wtf/count"
   googleSiteVerification: "ZugdoUg37QGKjGLpsGOxAdNXmNot5mL5osXhvnAeWqA"
@@ -30,11 +33,14 @@ params:
   latestPostsCount: 8
   social:
     email: thomas@how.wtf
-    twitter: iamthomastaylor
+    twitter: imthomastaylor
   links:
   - name: WEEKLY WTF
     url: https://weeklywtf.beehiiv.com/subscribe?utm_source=howwtf&utm_medium=organic
     description: Subscribe for weekly tech news
+  - name: PERSONAL
+    url: "https://thomasgtaylor.com"
+    description: Visit my personal website
   - name: EMAIL
     url: "mailto:thomas@how.wtf"
     description: Send me an email
