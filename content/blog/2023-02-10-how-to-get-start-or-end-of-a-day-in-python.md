@@ -3,6 +3,7 @@ author: Thomas Taylor
 categories:
 - programming
 date: 2023-02-10 00:00:00-04:00
+lastmod: 2024-03-06T23:05:00-5:00
 description: How to get earliest or latest moment from a day in Python
 tags:
 - python
@@ -26,5 +27,5 @@ print(start_of_day) # 2023-02-10 00:00:00
 from datetime import datetime, time
 
 end_of_day = datetime.combine(datetime.now(), time.max)
-print(start_of_day) # 2023-02-10 23:59:59.999999
+print(end_of_day) # 2023-02-10 23:59:59.999999
 ```
