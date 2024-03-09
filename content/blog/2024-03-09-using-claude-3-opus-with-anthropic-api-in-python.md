@@ -13,7 +13,7 @@ title: Using Claude 3 Opus with Anthropic API in Python
 
 With the [recent release of the Claude 3 family][1], this was the perfect opportunity to use the Claude API access that I was recently granted.
 
-The Claude 3 family boasts a *huge* improvement from the prior family, Claude 2. The introductory post goes into greater detail.
+The Claude 3 family boasts a *huge* improvement from the prior family, Claude 2. The [introductory post][1] goes into greater detail.
 
 In this post, we'll explore how to invoke Claude 3 Opus using the Anthropic SDK.
 
@@ -35,7 +35,7 @@ export ANTHROPIC_API_KEY="sk..."
 
 The API for invoking Anthropic models is simple. 
 
-The model we'll use is for Opus: `claude-3-opus-20240229`.
+The model id we'll use is the Opus release from Feb. 29th, 2024: `claude-3-opus-20240229`.
 
 If you wish to target other models, please refer to [Anthropic's model page for more information][2].
 
@@ -120,7 +120,7 @@ Input tokens: 13
 Output tokens: 35
 ```
 
-For the sake of the example, I concatenated the "text"-based events together for demonstration purposes.
+For the sake of the example, I concatenated the "text"-based events together to showcase the full output.
 
 For asynchronous eventing, please [refer to the Anthropic SDK documentation][4].
 
