@@ -15,7 +15,7 @@ title: 'Applying event filters to AWS Lambda Functions with the AWS CDK'
 
 The primary motive for writing this article is to address the common error I repeatedly received while troubleshooting event filters:
 
-> Invalid filter pattern definition. (Service: AWSLambda; Status Code: 400; Error Code: InvalidParameterValueException"
+> Invalid filter pattern definition. (Service: AWSLambda; Status Code: 400; Error Code: InvalidParameterValueException
 
 For my case, the goal was to invoke an AWS Lambda function via a DynamoDB stream.
 
