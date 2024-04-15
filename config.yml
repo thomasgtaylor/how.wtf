@@ -43,9 +43,6 @@ params:
 
 menus:
   main:
-  - name: Newsletter 
-    weight: 3
-    url: https://weeklywtf.beehiiv.com/subscribe?utm_source=howwtf&utm_medium=organic
   - name: RSS
     weight: 4
     url: /index.xml
