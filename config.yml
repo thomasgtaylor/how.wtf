@@ -33,9 +33,6 @@ params:
     email: thomas@how.wtf
     twitter: imthomastaylor
   links:
-  - name: WEEKLY WTF
-    url: https://weeklywtf.beehiiv.com/subscribe?utm_source=howwtf&utm_medium=organic
-    description: Subscribe for weekly tech news
   - name: PERSONAL
     url: "https://thomasgtaylor.com"
     description: Visit my personal website
