@@ -25,6 +25,7 @@ params:
   favicon: images/favicon.ico
   goatcounter: "https://stats.how.wtf/count"
   googleSiteVerification: "ZugdoUg37QGKjGLpsGOxAdNXmNot5mL5osXhvnAeWqA"
+  ethicalAdsPublisher: "howwtf"
   generateSocialCard: false
   images:
   - images/8yRnin.webp
