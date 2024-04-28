@@ -186,7 +186,7 @@ Output:
 }
 ```
 
-It's important to not that because the `ADD` operation will continue incrementing and the `SET` data structure doesn't allow duplicates, we can rerun the same operation and `checkout_total` will increase by `1`.
+It's important to note that because the `ADD` operation will continue incrementing and the `SET` data structure doesn't allow duplicates, we can rerun the same operation and `checkout_total` will increase by `1`.
 
 For readability, let's substitute the `expression-attribute-names` and `expression-attribute-values` back into the `update-expression`:
 
