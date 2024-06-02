@@ -3,7 +3,7 @@ author: Thomas Taylor
 categories:
 - ai
 - database
-date: '2024-06-02T13:25:00:00-04:00'
+date: '2024-06-02T13:25:00-04:00'
 description: A step-by-step guide for using the Amazon Bedrock Converse API in Python
 tags:
 - generative-ai
