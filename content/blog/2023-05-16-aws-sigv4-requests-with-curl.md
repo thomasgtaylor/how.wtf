@@ -27,6 +27,17 @@ The [`--user` argument](https://curl.se/docs/manpage.html#-u) is given the `$AWS
 
 The AWS service for invoking an API Gateway is `execute-api`. For `curl`, the full provider string is required:
 
-```
+```shell
 --aws-sigv4 "aws:amz:region:service"
+```
+
+## How to use session token with AWS SigV4 curl
+
+In addition to using IAM user credentials, you can optionally specify a session token using the header of `x-amz-security-token`. This is useful for temporary access through role assumptions.
+
+```shell
+curl "$url" \
+	--user "$AWS_ACCESS_KEY_ID":"$AWS_SECRET_ACCESS_KEY" \
+	-H "x-amz-security-token: $AWS_SESSION_TOKEN" \
+	--aws-sigv4 "aws:amz:us-east-1:execute-api"
 ```
